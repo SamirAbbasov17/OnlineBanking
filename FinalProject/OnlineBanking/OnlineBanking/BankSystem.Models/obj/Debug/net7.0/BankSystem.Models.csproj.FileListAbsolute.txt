@@ -1,0 +1,12 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\bin\Debug\net7.0\BankSystem.Models.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\bin\Debug\net7.0\BankSystem.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\bin\Debug\net7.0\BankSystem.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\refint\BankSystem.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\BankSystem.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Models\obj\Debug\net7.0\ref\BankSystem.Models.dll

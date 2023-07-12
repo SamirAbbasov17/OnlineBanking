@@ -1,0 +1,17 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\MainApi.Services.Models.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\MainApi.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\MainApi.Services.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\MainApi.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\BankSystem.Common.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\bin\Debug\net7.0\MainApi.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.csproj.CopyComplete
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\refint\MainApi.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\MainApi.Services.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Services.Models\obj\Debug\net7.0\ref\MainApi.Services.Models.dll

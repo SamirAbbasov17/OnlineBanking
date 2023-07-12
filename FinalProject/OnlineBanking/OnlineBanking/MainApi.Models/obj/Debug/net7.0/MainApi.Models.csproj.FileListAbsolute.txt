@@ -1,0 +1,12 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\bin\Debug\net7.0\MainApi.Models.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\bin\Debug\net7.0\MainApi.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\bin\Debug\net7.0\MainApi.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\refint\MainApi.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\MainApi.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi.Models\obj\Debug\net7.0\ref\MainApi.Models.dll

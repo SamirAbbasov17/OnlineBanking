@@ -1,0 +1,12 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\bin\Debug\net7.0\BankSystem.Common.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\bin\Debug\net7.0\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\bin\Debug\net7.0\BankSystem.Common.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\refint\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\BankSystem.Common.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Common\obj\Debug\net7.0\ref\BankSystem.Common.dll
