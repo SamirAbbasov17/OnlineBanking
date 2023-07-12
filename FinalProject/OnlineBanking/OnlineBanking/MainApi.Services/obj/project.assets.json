@@ -1111,19 +1111,34 @@
           "bin/placeholder/BankSystem.Common.dll": {}
         }
       },
-      "MainApi.Data/1.0.0": {
+      "BankSystem.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MainApi.Models": "1.0.0",
+          "BankSystem.Services": "1.0.0",
+          "BankSystem.Services.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
         },
         "compile": {
-          "bin/placeholder/MainApi.Data.dll": {}
+          "bin/placeholder/BankSystem.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MainApi.Data.dll": {}
+          "bin/placeholder/BankSystem.Services.dll": {}
+        }
+      },
+      "BankSystem.Services.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BankSystem.Common": "1.0.0",
+          "BankSystem.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankSystem.Services.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankSystem.Services.Models.dll": {}
         }
       },
       "MainApi.Models/1.0.0": {
@@ -3395,10 +3410,15 @@
       "path": "../BankSystem.Common/BankSystem.Common.csproj",
       "msbuildProject": "../BankSystem.Common/BankSystem.Common.csproj"
     },
-    "MainApi.Data/1.0.0": {
+    "BankSystem.Services/1.0.0": {
       "type": "project",
       "path": "../MainApi.Data/MainApi.Data.csproj",
       "msbuildProject": "../MainApi.Data/MainApi.Data.csproj"
+    },
+    "BankSystem.Services.Models/1.0.0": {
+      "type": "project",
+      "path": "../BankSystem.Services.Models/BankSystem.Services.Models.csproj",
+      "msbuildProject": "../BankSystem.Services.Models/BankSystem.Services.Models.csproj"
     },
     "MainApi.Models/1.0.0": {
       "type": "project",
@@ -3413,7 +3433,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MainApi.Data >= 1.0.0",
+      "BankSystem.Services >= 1.0.0",
       "MainApi.Services.Models >= 1.0.0"
     ]
   },
@@ -3488,5 +3508,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  MainApi.Services -> BankSystem.Services -> BankSystem.Services.",
+      "libraryId": "BankSystem.Services",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

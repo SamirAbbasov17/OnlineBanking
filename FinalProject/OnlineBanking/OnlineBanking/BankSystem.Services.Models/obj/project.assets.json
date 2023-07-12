@@ -408,18 +408,19 @@
           "bin/placeholder/BankSystem.Common.dll": {}
         }
       },
-      "BankSystem.Models/1.0.0": {
+      "BankSystem.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BankSystem.Common": "1.0.0",
+          "BankSystem.Services": "1.0.0",
+          "BankSystem.Services.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.9"
         },
         "compile": {
-          "bin/placeholder/BankSystem.Models.dll": {}
+          "bin/placeholder/BankSystem.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BankSystem.Models.dll": {}
+          "bin/placeholder/BankSystem.Services.dll": {}
         }
       }
     }
@@ -1036,7 +1037,7 @@
       "path": "../BankSystem.Common/BankSystem.Common.csproj",
       "msbuildProject": "../BankSystem.Common/BankSystem.Common.csproj"
     },
-    "BankSystem.Models/1.0.0": {
+    "BankSystem.Services/1.0.0": {
       "type": "project",
       "path": "../BankSystem.Models/BankSystem.Models.csproj",
       "msbuildProject": "../BankSystem.Models/BankSystem.Models.csproj"
@@ -1045,7 +1046,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BankSystem.Common >= 1.0.0",
-      "BankSystem.Models >= 1.0.0"
+      "BankSystem.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1119,5 +1120,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  BankSystem.Services.Models -> BankSystem.Services -> BankSystem.Services.",
+      "libraryId": "BankSystem.Services",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
