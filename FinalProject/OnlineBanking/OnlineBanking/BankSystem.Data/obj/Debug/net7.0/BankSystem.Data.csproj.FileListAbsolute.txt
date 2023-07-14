@@ -15,3 +15,5 @@ F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\obj\Debug\net7.0\ref
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\obj\Debug\net7.0\BankSystem.Data.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\obj\Debug\net7.0\BankSystem.Data.genruntimeconfig.cache
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\obj\Debug\net7.0\ref\BankSystem.Data.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\bin\Debug\net7.0\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Data\bin\Debug\net7.0\BankSystem.Common.pdb

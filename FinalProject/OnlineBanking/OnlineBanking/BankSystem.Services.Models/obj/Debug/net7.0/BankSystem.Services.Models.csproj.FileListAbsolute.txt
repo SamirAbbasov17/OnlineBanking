@@ -1,0 +1,17 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Services.Models.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Services.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Common.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Common.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\bin\Debug\net7.0\BankSystem.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.csproj.CopyComplete
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\refint\BankSystem.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\BankSystem.Services.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Services.Models\obj\Debug\net7.0\ref\BankSystem.Services.Models.dll

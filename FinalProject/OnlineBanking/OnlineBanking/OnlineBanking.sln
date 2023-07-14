@@ -45,19 +45,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{B2588001-CB4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoShop", "DemoShop", "{8905F7B6-53A6-42F5-B320-6328EAEC92C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Data", "DemoShop.Data\DemoShop.Data.csproj", "{9E929B19-7810-4DE6-83FA-F7B93BD623B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Data", "DemoShop.Data\DemoShop.Data.csproj", "{9E929B19-7810-4DE6-83FA-F7B93BD623B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Models", "DemoShop.Models\DemoShop.Models.csproj", "{E729BDD5-CE54-4EBD-AC54-2A83B53B3665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Models", "DemoShop.Models\DemoShop.Models.csproj", "{E729BDD5-CE54-4EBD-AC54-2A83B53B3665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Services", "DemoShop.Services\DemoShop.Services.csproj", "{CCA05EDF-EBBA-498E-B6B6-6491579CD81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Services", "DemoShop.Services\DemoShop.Services.csproj", "{CCA05EDF-EBBA-498E-B6B6-6491579CD81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Services.Models", "DemoShop.Services.Models\DemoShop.Services.Models.csproj", "{87289119-8622-42A1-B016-FB4D506447A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Services.Models", "DemoShop.Services.Models\DemoShop.Services.Models.csproj", "{87289119-8622-42A1-B016-FB4D506447A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Web", "DemoShop.Web\DemoShop.Web.csproj", "{D19E2BE9-B768-4297-9707-37DFA64D7F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Web", "DemoShop.Web\DemoShop.Web.csproj", "{D19E2BE9-B768-4297-9707-37DFA64D7F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Web", "BankSystem.Web\BankSystem.Web.csproj", "{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Web", "BankSystem.Web\BankSystem.Web.csproj", "{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApi", "MainApi\MainApi.csproj", "{33B6676B-8544-47BC-8A5E-6C7DED46B4F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApi", "MainApi\MainApi.csproj", "{DC80443A-3CB1-4260-8D28-7E0923883A71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,10 +129,10 @@ Global
 		{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33B6676B-8544-47BC-8A5E-6C7DED46B4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33B6676B-8544-47BC-8A5E-6C7DED46B4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33B6676B-8544-47BC-8A5E-6C7DED46B4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33B6676B-8544-47BC-8A5E-6C7DED46B4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC80443A-3CB1-4260-8D28-7E0923883A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC80443A-3CB1-4260-8D28-7E0923883A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC80443A-3CB1-4260-8D28-7E0923883A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC80443A-3CB1-4260-8D28-7E0923883A71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,7 +159,7 @@ Global
 		{87289119-8622-42A1-B016-FB4D506447A9} = {8905F7B6-53A6-42F5-B320-6328EAEC92C8}
 		{D19E2BE9-B768-4297-9707-37DFA64D7F1C} = {8905F7B6-53A6-42F5-B320-6328EAEC92C8}
 		{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF} = {24E9D6C5-1CE7-44AB-901B-BAEAFFCC83A0}
-		{33B6676B-8544-47BC-8A5E-6C7DED46B4F3} = {B2588001-CB48-41F1-B873-806AE323B541}
+		{DC80443A-3CB1-4260-8D28-7E0923883A71} = {B2588001-CB48-41F1-B873-806AE323B541}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25E65369-7610-4F92-BB7D-640F455DEC26}

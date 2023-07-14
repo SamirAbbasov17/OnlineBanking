@@ -1,0 +1,12 @@
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Services.deps.json
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Services.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Services.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.csproj.AssemblyReference.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.AssemblyInfoInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.AssemblyInfo.cs
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.csproj.CoreCompileInputs.cache
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\refint\DemoShop.Services.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\ref\DemoShop.Services.dll
