@@ -10,3 +10,10 @@ F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\D
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\refint\DemoShop.Services.dll
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\ref\DemoShop.Services.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Data.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Services.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Data.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Services.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\bin\Debug\net7.0\DemoShop.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Services\obj\Debug\net7.0\DemoShop.Services.csproj.CopyComplete

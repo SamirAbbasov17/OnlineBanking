@@ -1,32 +1,60 @@
-﻿using BankSystem.Web.Models;
+﻿using AutoMapper;
+using BankSystem.Services.BankAccount;
+using BankSystem.Services.BankMoneyTransfer;
+using BankSystem.Services.Models.BankAccount;
+using BankSystem.Services.Models.BankMoneyTransfer;
+using BankSystem.Web.Areas.MoneyTransfers.Models;
+using BankSystem.Web.Models;
+using BankSystem.Web.Models.Account;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace BankSystem.Web.Controllers
 {
-    public class HomeController : Controller
+    [AllowAnonymous]
+    public class HomeController : BaseController
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IAccountService bankAccountService;
+        private readonly IMoneyTransferService moneyTransferService;
+        private readonly IMapper mapper;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            IAccountService bankAccountService,
+            IMoneyTransferService moneyTransferService,
+            IMapper mapper)
         {
-            _logger = logger;
+            this.bankAccountService = bankAccountService;
+            this.moneyTransferService = moneyTransferService;
+            this.mapper = mapper;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
 
-        public IActionResult Privacy()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            if (!this.User.Identity.IsAuthenticated)
+            {
+                return this.View("IndexGuest");
+            }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var userId = this.GetCurrentUserId();
+
+            var bankAccounts =
+                (await this.bankAccountService.GetAllAccountsByUserIdAsync<AccountIndexServiceModel>(userId))
+                .Select(this.mapper.Map<AccountIndexViewModel>)
+                .ToArray();
+            var moneyTransfers = (await this.moneyTransferService
+                    .GetLast10MoneyTransfersForUserAsync<MoneyTransferListingServiceModel>(userId))
+                .Select(this.mapper.Map<MoneyTransferListingDto>)
+                .ToArray();
+
+            var viewModel = new HomeViewModel
+            {
+                UserBankAccounts = bankAccounts,
+                MoneyTransfers = moneyTransfers
+            };
+
+            return this.View(viewModel);
         }
     }
 }

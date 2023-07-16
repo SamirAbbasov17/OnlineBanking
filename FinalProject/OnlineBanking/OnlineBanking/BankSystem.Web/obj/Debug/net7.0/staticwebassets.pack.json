@@ -1,248 +1,108 @@
 {
   "Files": [
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BankSystem.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BankSystem.Web.bundle.scp.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\home-guest.min.css",
+      "PackagePath": "staticwebassets\\bundle\\home-guest.min.css"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\main.min.css",
+      "PackagePath": "staticwebassets\\bundle\\main.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\main.min.js",
+      "PackagePath": "staticwebassets\\bundle\\main.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\payments.min.js",
+      "PackagePath": "staticwebassets\\bundle\\payments.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\bundle\\qrcode.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\vendor.min.css",
+      "PackagePath": "staticwebassets\\bundle\\vendor.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\vendor.min.js",
+      "PackagePath": "staticwebassets\\bundle\\vendor.min.js"
     },
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\img\\home-1.jpg",
+      "PackagePath": "staticwebassets\\img\\home-1.jpg"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\img\\home-2.jpg",
+      "PackagePath": "staticwebassets\\img\\home-2.jpg"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\img\\home-3.jpg",
+      "PackagePath": "staticwebassets\\img\\home-3.jpg"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\home-guest\\css\\home-guest.css",
+      "PackagePath": "staticwebassets\\source\\home-guest\\css\\home-guest.css"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\main\\css\\site.css",
+      "PackagePath": "staticwebassets\\source\\main\\css\\site.css"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\main\\js\\auto-datatable.js",
+      "PackagePath": "staticwebassets\\source\\main\\js\\auto-datatable.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\main\\js\\auto-dropdown.js",
+      "PackagePath": "staticwebassets\\source\\main\\js\\auto-dropdown.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\main\\js\\moment-helper.js",
+      "PackagePath": "staticwebassets\\source\\main\\js\\moment-helper.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\payments\\js\\payments.js",
+      "PackagePath": "staticwebassets\\source\\payments\\js\\payments.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\qrcode\\js\\qrcode.js",
+      "PackagePath": "staticwebassets\\source\\qrcode\\js\\qrcode.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\source\\vendor\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\css\\datatables.css",
+      "PackagePath": "staticwebassets\\source\\vendor\\css\\datatables.css"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\datatables.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\datatables.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\jquery.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\jquery.validate.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\moment.js",
+      "PackagePath": "staticwebassets\\source\\vendor\\js\\moment.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BankSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props",

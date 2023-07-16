@@ -16,20 +16,156 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Administration/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Administration/Views/Transactions/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcVHJhbnNhY3Rpb25zXFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Administration/Views/Transactions/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcVHJhbnNhY3Rpb25zXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Administration/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Administration/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Cards/Views/Cards/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FyZHNcVmlld3NcQ2FyZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Cards/Views/Cards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FyZHNcVmlld3NcQ2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Cards/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FyZHNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/Cards/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FyZHNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/MoneyTransfers/Views/Global/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9uZXlUcmFuc2ZlcnNcVmlld3NcR2xvYmFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/MoneyTransfers/Views/Home/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9uZXlUcmFuc2ZlcnNcVmlld3NcSG9tZVxBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/MoneyTransfers/Views/Internal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9uZXlUcmFuc2ZlcnNcVmlld3NcSW50ZXJuYWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/MoneyTransfers/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9uZXlUcmFuc2ZlcnNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Areas/MoneyTransfers/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9uZXlUcmFuc2ZlcnNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/SendEmailVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZW5kRW1haWxWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Settings/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXR0aW5nc1xDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Settings/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXR0aW5nc1xEaXNhYmxlMmZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Settings/Enable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXR0aW5nc1xFbmFibGUyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/Account/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXR0aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/MoneyTransfers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9uZXlUcmFuc2ZlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Errors/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Errors/Error403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEVycm9yNDAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Errors/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEVycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Home/IndexGuest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleEd1ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Payments/Process.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcUHJvY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_PaginationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/_ViewImports.cshtml]
@@ -39,7 +175,3 @@ build_metadata.AdditionalFiles.CssScope =
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-fyavlq1b1z

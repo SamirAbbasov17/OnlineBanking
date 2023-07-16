@@ -10,3 +10,8 @@ F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\DemoS
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\refint\DemoShop.Data.dll
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\DemoShop.Data.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\ref\DemoShop.Data.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\bin\Debug\net7.0\DemoShop.Data.runtimeconfig.json
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\bin\Debug\net7.0\DemoShop.Models.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\bin\Debug\net7.0\DemoShop.Models.pdb
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\DemoShop.Data.csproj.CopyComplete
+F:\FinalProject\OnlineBanking\OnlineBanking\DemoShop.Data\obj\Debug\net7.0\DemoShop.Data.genruntimeconfig.cache
