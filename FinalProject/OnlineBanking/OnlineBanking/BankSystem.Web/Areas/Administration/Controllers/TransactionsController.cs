@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BankSystem.Web.Areas.Administration.Controllers
 {
+
     public class TransactionsController : BaseAdministrationController
     {
         private readonly IMoneyTransferService moneyTransfer;

@@ -102,6 +102,8 @@ namespace BankSystem.Web
 
             builder.Services
                 .AddControllers(options => options.Filters.Add<AutoValidateAntiforgeryTokenAttribute>());
+            
+            builder.Services.AddControllers();
 
             var app = builder.Build();
 
@@ -154,6 +156,7 @@ namespace BankSystem.Web
             });
 
             app.InitializeDatabase();
+            app.Run();
         }
     }
 }

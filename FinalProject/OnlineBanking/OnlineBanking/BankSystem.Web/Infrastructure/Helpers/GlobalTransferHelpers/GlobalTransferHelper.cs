@@ -90,7 +90,7 @@ namespace BankSystem.Web.Infrastructure.Helpers.GlobalTransferHelpers
 
             var client = new HttpClient();
             var response = await client.PostAsJsonAsync(
-                string.Format(CentralApiTransferSubmitUrlFormat, this.bankConfiguration.CentralApiAddress),
+                string.Format(CentralApiTransferSubmitUrlFormat, this.bankConfiguration.MainApiAddress),
                 encryptedData);
 
             return response != null && response.IsSuccessStatusCode;

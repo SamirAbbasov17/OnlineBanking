@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using Newtonsoft.Json.Linq;
+using sib_api_v3_sdk.Api;
+using sib_api_v3_sdk.Client;
+using sib_api_v3_sdk.Model;
 using System.Diagnostics;
 
 namespace BankSystem.Common.EmailSender.Implementation
@@ -34,21 +37,39 @@ namespace BankSystem.Common.EmailSender.Implementation
 
         public async Task<bool> SendEmailAsync(string sender, string receiver, string subject, string htmlMessage)
         {
+            //try
+            //{
+            //    var smtpClient = new SmtpClient("smtp-relay.sendinblue.com", 587);
+            //    smtpClient.Credentials = new System.Net.NetworkCredential("apikey", this.options.ApiKey);
+
+            //    var mailMessage = new MailMessage(sender, receiver, subject, htmlMessage);
+            //    mailMessage.IsBodyHtml = true;
+
+            //    smtpClient.Send(mailMessage);
+
+            //    return true;
+            //} 
+            //catch (Exception ex)
+            //{
+            //    Debug.WriteLine(ex.Message);
+            //    return false;
+            //}
+            sib_api_v3_sdk.Client.Configuration.Default.ApiKey.Add("api-key", this.options.ApiKey);
+
+            var apiInstance = new TransactionalEmailsApi();
+            SendSmtpEmailSender Email = new SendSmtpEmailSender(sender, sender);
+            SendSmtpEmailTo smtpEmailTo = new SendSmtpEmailTo(receiver, receiver);
+            List<SendSmtpEmailTo> To = new List<SendSmtpEmailTo>();
+            To.Add(smtpEmailTo);
             try
             {
-                var smtpClient = new SmtpClient("smtp-relay.sendinblue.com", 587);
-                smtpClient.Credentials = new System.Net.NetworkCredential("apikey", this.options.ApiKey);
-
-                var mailMessage = new MailMessage(sender, receiver, subject, htmlMessage);
-                mailMessage.IsBodyHtml = true;
-
-                smtpClient.Send(mailMessage);
-
+                var sendSmtpEmail = new SendSmtpEmail(Email, To, htmlContent: htmlMessage, subject:  subject);
+                CreateSmtpEmail result = apiInstance.SendTransacEmail(sendSmtpEmail);
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Debug.WriteLine(ex.Message);
+                Console.WriteLine(e.Message);
                 return false;
             }
         }

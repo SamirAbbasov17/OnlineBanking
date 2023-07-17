@@ -27,7 +27,7 @@ namespace BankSystem.Common.Configuration
         public string BankName { get; set; }
 
         [Required]
-        public string CentralApiAddress { get; set; }
+        public string MainApiAddress { get; set; }
 
         [Required]
         public string Country { get; set; }

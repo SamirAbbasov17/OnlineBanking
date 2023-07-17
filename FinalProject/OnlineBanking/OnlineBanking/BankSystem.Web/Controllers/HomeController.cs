@@ -56,5 +56,10 @@ namespace BankSystem.Web.Controllers
 
             return this.View(viewModel);
         }
+
+        //public async Task<IActionResult> IndexGuest()
+        //{
+        //    return View();
+        //}
     }
 }

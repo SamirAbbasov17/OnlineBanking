@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Web", "DemoShop.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Web", "BankSystem.Web\BankSystem.Web.csproj", "{E3EE2DDE-E06A-4B7A-990F-4DC1AFB6D9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApi", "MainApi\MainApi.csproj", "{DC80443A-3CB1-4260-8D28-7E0923883A71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApi", "MainApi\MainApi.csproj", "{DC80443A-3CB1-4260-8D28-7E0923883A71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

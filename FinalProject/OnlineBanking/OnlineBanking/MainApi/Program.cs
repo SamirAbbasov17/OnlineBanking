@@ -84,6 +84,7 @@ namespace MainApi
             app.UseEndpoints(endpoints => { endpoints.MapControllers();});
 
             app.SeedData();
+            app.Run();
         }
     }
 }

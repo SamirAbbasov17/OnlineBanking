@@ -100,10 +100,10 @@
 </div>
 
 @section Scripts
-{
+    {
     <script>
         $('#editModal').on('show.bs.modal',
-            function(event) {
+            function (event) {
                 let button = $(event.relatedTarget);
                 let id = button.data('id');
                 let modal = $(this);
@@ -115,11 +115,11 @@
             });
 
         $('#editModal').on('shown.bs.modal',
-            function() {
+            function () {
                 $(this).find('.modal-body input[name=name]').trigger('focus');
             });
 
-        $('#editModal form').submit(function(event) {
+        $('#editModal form').submit(function (event) {
             event.preventDefault();
 
             $.ajax({
@@ -127,9 +127,9 @@
                 type: 'post',
                 data: $(event.target).serialize()
 
-            }).always(function() {
+            }).always(function () {
                 $('#editModal').modal('hide');
-            }).done(function(response) {
+            }).done(function (response) {
                 if (!response.success) {
                     return;
                 }

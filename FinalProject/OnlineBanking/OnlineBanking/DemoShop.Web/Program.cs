@@ -86,6 +86,7 @@ namespace DemoShop.Web
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
             });
+            app.Run();
         }
     }
 }

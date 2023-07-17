@@ -90,3 +90,7 @@ F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\obj\Debug\net7.0\refint\Main
 F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\obj\Debug\net7.0\MainApi.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\obj\Debug\net7.0\MainApi.genruntimeconfig.cache
 F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\obj\Debug\net7.0\ref\MainApi.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\bin\Debug\net7.0\FubarCoder.RestSharp.Portable.Core.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\bin\Debug\net7.0\FubarCoder.RestSharp.Portable.HttpClient.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\bin\Debug\net7.0\JsonSubTypes.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\MainApi\bin\Debug\net7.0\sib_api_v3_sdk.dll
