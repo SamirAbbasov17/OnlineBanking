@@ -1,32 +1,36 @@
-﻿using DemoShop.Web.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace DemoShop.Web.Controllers
+﻿namespace DemoShop.Web.Controllers
 {
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;
+    using Models;
+    using Services.Interfaces;
+
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IProductsService productsService;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        public HomeController(IProductsService productsService)
+            => this.productsService = productsService;
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            var serviceProducts = await this.productsService.GetAllAsync();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            var viewProducts = serviceProducts.Select(p => new ProductDetailsViewModel
+            {
+                Id = p.Id,
+                Name = p.Name,
+                Price = p.Price,
+                ImageUrl = p.ImageUrl
+            }).ToArray();
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var homeViewModel = new HomeViewModel
+            {
+                Products = viewProducts
+            };
+
+            return this.View(homeViewModel);
         }
     }
 }

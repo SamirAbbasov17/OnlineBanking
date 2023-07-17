@@ -16,13 +16,17 @@ namespace BankSystem.Common.EmailSender.Implementation
 {
     public class EmailSender : IEmailSender
     {
-        private readonly string apiKey;
+        //private readonly string apiKey;
 
-        public EmailSender(string apiKey)
-        {
-            this.apiKey = apiKey;
-        }
+        //public EmailSender(string apiKey)
+        //{
+        //    this.apiKey = apiKey;
+        //}
 
+        private readonly SendGridConfiguration options;
+
+        public EmailSender(IOptions<SendGridConfiguration> options)
+            => this.options = options.Value;
 
         public async Task<bool> SendEmailAsync(string receiver, string subject, string htmlMessage)
             => await this.SendEmailAsync(GlobalConstants.BankSystemEmail, receiver, subject, htmlMessage);
@@ -33,7 +37,7 @@ namespace BankSystem.Common.EmailSender.Implementation
             try
             {
                 var smtpClient = new SmtpClient("smtp-relay.sendinblue.com", 587);
-                smtpClient.Credentials = new System.Net.NetworkCredential("apikey", this.apiKey);
+                smtpClient.Credentials = new System.Net.NetworkCredential("apikey", this.options.ApiKey);
 
                 var mailMessage = new MailMessage(sender, receiver, subject, htmlMessage);
                 mailMessage.IsBodyHtml = true;

@@ -273,3 +273,5 @@ F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\bin\Debug\net7.0\Bank
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\bin\Debug\net7.0\BankSystem.Services.Models.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\bin\Debug\net7.0\BankSystem.Services.pdb
 F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\obj\Debug\net7.0\BankSystem.Web.csproj.CopyComplete
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+F:\FinalProject\OnlineBanking\OnlineBanking\BankSystem.Web\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
