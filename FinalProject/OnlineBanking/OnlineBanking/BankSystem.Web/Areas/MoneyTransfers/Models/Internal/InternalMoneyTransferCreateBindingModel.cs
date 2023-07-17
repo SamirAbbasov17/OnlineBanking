@@ -26,7 +26,7 @@ namespace BankSystem.Web.Areas.MoneyTransfers.Models.Internal
         [RegularExpression(@"^[A-Z]{4}\d{8}$", ErrorMessage = DestinationAccountIncorrectError)]
         public string DestinationAccountUniqueId { get; set; }
 
-        public IEnumerable<OwnAccountListingViewModel> OwnAccounts { get; set; }
+        public IEnumerable<OwnAccountListingViewModel>? OwnAccounts { get; set; }
 
         [Required]
         [Display(Name = "Source account")]

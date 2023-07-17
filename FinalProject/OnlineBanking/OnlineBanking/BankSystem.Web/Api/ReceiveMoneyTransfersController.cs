@@ -51,7 +51,7 @@ namespace BankSystem.Web.Api
                 AccountId = account.Id,
                 Amount = model.Amount,
                 Description = model.Description,
-                DestinationBankAccountUniqueId = model.DestinationBankAccountUniqueId,
+                DestinationAccountUniqueId = model.DestinationBankAccountUniqueId,
                 Source = model.SenderAccountUniqueId,
                 SenderName = model.SenderName,
                 RecipientName = model.RecipientName,

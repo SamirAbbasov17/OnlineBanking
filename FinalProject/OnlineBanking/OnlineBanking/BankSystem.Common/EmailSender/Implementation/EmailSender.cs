@@ -54,6 +54,8 @@ namespace BankSystem.Common.EmailSender.Implementation
             //    Debug.WriteLine(ex.Message);
             //    return false;
             //}
+
+            sib_api_v3_sdk.Client.Configuration.Default.ApiKey.Remove("api-key");
             sib_api_v3_sdk.Client.Configuration.Default.ApiKey.Add("api-key", this.options.ApiKey);
 
             var apiInstance = new TransactionalEmailsApi();

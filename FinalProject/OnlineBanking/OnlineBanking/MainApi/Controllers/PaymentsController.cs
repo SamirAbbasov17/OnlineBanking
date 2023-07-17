@@ -102,6 +102,56 @@ namespace MainApi.Controllers
         [Route("/pay/continue")]
         public async Task<IActionResult> Continue([FromForm] string bankId)
         {
+            //bool cookieExists = this.Request.Cookies.TryGetValue(PaymentDataCookie, out var data);
+
+            //if (!cookieExists)
+            //{
+            //    return this.BadRequest();
+            //}
+
+            //try
+            //{
+            //    var request = DirectPaymentsHelper.ParsePaymentRequest(data);
+
+            //    if (request == null)
+            //    {
+            //        return this.BadRequest();
+            //    }
+
+            //    var bank = await this.banksService.GetBankByIdAsync<BankPaymentServiceModel>(bankId);
+            //    if (bank?.PaymentUrl == null)
+            //    {
+            //        return this.BadRequest();
+            //    }
+
+            //    // generate PaymentProof containing the bank's public key
+            //    // and merchant's original PaymentInfo signature
+            //    string proofRequest = DirectPaymentsHelper.GeneratePaymentRequestWithProof(request,
+            //        bank.ApiKey, this.configuration.Key);
+
+            //    // redirect the user to their bank for payment completion
+            //    var paymentPostRedirectModel = new PaymentPostRedirectModel
+            //    {
+            //        Url = bank.PaymentUrl,
+            //        PaymentDataFormKey = PaymentDataFormKey,
+            //        PaymentData = proofRequest
+            //    };
+
+            //    return this.View("PaymentPostRedirect", paymentPostRedirectModel);
+            //}
+            //catch
+            //{
+            //    return this.BadRequest();
+            //}
+
+
+
+
+
+
+
+
+
             bool cookieExists = this.Request.Cookies.TryGetValue(PaymentDataCookie, out var data);
 
             if (!cookieExists)
@@ -119,7 +169,8 @@ namespace MainApi.Controllers
                 }
 
                 var bank = await this.banksService.GetBankByIdAsync<BankPaymentServiceModel>(bankId);
-                if (bank?.PaymentUrl == null)
+
+                if (bank == null || bank.PaymentUrl == null)
                 {
                     return this.BadRequest();
                 }
@@ -128,6 +179,11 @@ namespace MainApi.Controllers
                 // and merchant's original PaymentInfo signature
                 string proofRequest = DirectPaymentsHelper.GeneratePaymentRequestWithProof(request,
                     bank.ApiKey, this.configuration.Key);
+
+                if (proofRequest == null)
+                {
+                    return this.BadRequest();
+                }
 
                 // redirect the user to their bank for payment completion
                 var paymentPostRedirectModel = new PaymentPostRedirectModel

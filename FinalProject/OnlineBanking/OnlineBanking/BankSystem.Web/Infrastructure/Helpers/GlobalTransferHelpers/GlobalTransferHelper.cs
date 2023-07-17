@@ -74,7 +74,7 @@ namespace BankSystem.Web.Infrastructure.Helpers.GlobalTransferHelpers
                 Source = account.UniqueId,
                 Description = model.Description,
                 AccountId = account.Id,
-                DestinationBankAccountUniqueId = model.DestinationBankAccountUniqueId,
+                DestinationAccountUniqueId = model.DestinationBankAccountUniqueId,
                 SenderName = account.UserFullName,
                 RecipientName = model.RecipientName,
                 ReferenceNumber = submitDto.ReferenceNumber

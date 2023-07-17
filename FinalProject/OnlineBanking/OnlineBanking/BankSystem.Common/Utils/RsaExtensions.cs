@@ -12,58 +12,61 @@ namespace BankSystem.Common.Utils
     {
         public static void FromXmlString(this RSA rsa, string xmlString)
         {
-            var parameters = new RSAParameters();
-
-            var xmlDoc = new XmlDocument();
-            xmlDoc.LoadXml(xmlString);
-
-            if (xmlDoc.DocumentElement.Name.Equals("RSAKeyValue"))
+            if (xmlString != null)
             {
-                foreach (XmlNode node in xmlDoc.DocumentElement.ChildNodes)
+                var parameters = new RSAParameters();
+
+                var xmlDoc = new XmlDocument();
+                xmlDoc.LoadXml(xmlString);
+
+                if (xmlDoc.DocumentElement != null && xmlDoc.DocumentElement.Name.Equals("RSAKeyValue"))
                 {
-                    switch (node.Name)
+                    foreach (XmlNode node in xmlDoc.DocumentElement.ChildNodes)
                     {
-                        case "Modulus":
-                            parameters.Modulus = Convert.FromBase64String(node.InnerText);
+                        switch (node.Name)
+                        {
+                            case "Modulus":
+                                parameters.Modulus = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "Exponent":
-                            parameters.Exponent = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "Exponent":
+                                parameters.Exponent = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "P":
-                            parameters.P = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "P":
+                                parameters.P = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "Q":
-                            parameters.Q = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "Q":
+                                parameters.Q = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "DP":
-                            parameters.DP = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "DP":
+                                parameters.DP = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "DQ":
-                            parameters.DQ = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "DQ":
+                                parameters.DQ = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "InverseQ":
-                            parameters.InverseQ = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "InverseQ":
+                                parameters.InverseQ = Convert.FromBase64String(node.InnerText);
 
-                            break;
-                        case "D":
-                            parameters.D = Convert.FromBase64String(node.InnerText);
+                                break;
+                            case "D":
+                                parameters.D = Convert.FromBase64String(node.InnerText);
 
-                            break;
+                                break;
+                        }
                     }
                 }
-            }
-            else
-            {
-                throw new Exception("Invalid XML RSA key.");
-            }
+                else
+                {
+                    throw new Exception("Invalid XML RSA key.");
+                }
 
-            rsa.ImportParameters(parameters);
+                rsa.ImportParameters(parameters);
+            }
         }
 
         public static string ToXmlString(this RSA rsa, bool includePrivateParameters)

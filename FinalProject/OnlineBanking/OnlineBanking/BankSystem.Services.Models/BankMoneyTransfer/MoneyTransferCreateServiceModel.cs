@@ -39,7 +39,7 @@ namespace BankSystem.Services.Models.BankMoneyTransfer
 
         [Required]
         [MaxLength(ModelConstants.Account.UniqueIdMaxLength)]
-        public string DestinationBankAccountUniqueId { get; set; }
+        public string? DestinationAccountUniqueId { get; set; }
 
         [Required]
         public string ReferenceNumber { get; set; }
@@ -47,7 +47,7 @@ namespace BankSystem.Services.Models.BankMoneyTransfer
         public void ConfigureMapping(Profile mapper)
         {
             mapper.CreateMap<MoneyTransferCreateServiceModel, MoneyTransfer>()
-                .ForMember(dest => dest.Destination, opt => opt.MapFrom(src => src.DestinationBankAccountUniqueId));
+                .ForMember(dest => dest.Destination, opt => opt.MapFrom(src => src.DestinationAccountUniqueId));
         }
     }
 }

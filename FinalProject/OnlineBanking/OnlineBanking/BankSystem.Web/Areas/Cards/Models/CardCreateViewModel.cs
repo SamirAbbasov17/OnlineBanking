@@ -7,7 +7,7 @@ namespace BankSystem.Web.Areas.Cards.Models
 {
     public class CardCreateViewModel : IMapWith<CardCreateServiceModel>
     {
-        public IEnumerable<SelectListItem> BankAccounts { get; set; }
+        public IEnumerable<SelectListItem>? BankAccounts { get; set; } 
 
         [Required]
         [Display(Name = "Choose account")]
