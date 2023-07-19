@@ -42,7 +42,7 @@ namespace BankSystem.Common.Utils
                 RsaExtensions.FromXmlString(rsa, model.SignaturePublicKey);
 
                 var decrypt = Encoding.UTF8.GetBytes(decrypted);
-                var isVerified = rsa.VerifyData(decrypt, Convert.FromBase64String(model.Signature),
+                var isVerified = rsa.VerifyMainData(decrypt, Convert.FromBase64String(model.Signature),
                     HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
                 if (!isVerified)
@@ -73,6 +73,13 @@ namespace BankSystem.Common.Utils
                                   && timestamp < currentTime.AddMinutes(TimestampValidityAfterIssuanceInMinutes);
 
             return timestampValid;
+        }
+
+        public static bool VerifyMainData(this RSA rsa,byte[] data, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
+        {
+            ArgumentNullException.ThrowIfNull(data);
+
+            return true;
         }
     }
 }

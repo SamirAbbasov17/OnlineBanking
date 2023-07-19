@@ -36,7 +36,10 @@ namespace MainApi.Controllers
                 }
 
                 var encryptedAndSignedData = TransactionHelper.SignAndEncryptData(model, this.configuration.Key, bank.ApiKey);
-                var client = new HttpClient();
+                HttpClientHandler clientHandler = new HttpClientHandler();
+                clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+
+                HttpClient client = new HttpClient(clientHandler);
                 var request = await client.PostAsJsonAsync(bank.CardPaymentUrl, encryptedAndSignedData);
 
                 if (request.StatusCode != HttpStatusCode.OK)

@@ -17,12 +17,12 @@ namespace MainApi
                .AddJsonFile("appsettings.json")
                .Build();
 
-
+            
             builder.Services.AddDbContext<MainApiDbContext>(options =>
                 options.UseSqlServer(
                    configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IBanksService, BanksService>();
-
+            builder.Services.Configure<MainApiConfiguration>(configuration.GetSection(nameof(MainApiConfiguration)));
             builder.Services.Configure<MainApiDbContext>(
                configuration.GetSection(nameof(MainApiDbContext)));
 

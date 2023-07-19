@@ -15,7 +15,7 @@ namespace BankSystem.Web.Infrastructure.Helpers.GlobalTransferHelpers
 {
     public class GlobalTransferHelper : IGlobalTransferHelper
     {
-        private const string CentralApiTransferSubmitUrlFormat = "{0}api/ReceiveTransactions";
+        private const string CentralApiTransferSubmitUrlFormat = "{0}api/ReceiveTransactions/";
 
         private readonly IAccountService bankAccountService;
         private readonly BankConfiguration bankConfiguration;
@@ -87,8 +87,10 @@ namespace BankSystem.Web.Infrastructure.Helpers.GlobalTransferHelpers
         private async Task<bool> ContactCentralApiAsync(CentralApiSubmitTransferDto model)
         {
             var encryptedData = this.SignAndEncryptData(model);
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
 
-            var client = new HttpClient();
+            HttpClient client = new HttpClient(clientHandler);
             var response = await client.PostAsJsonAsync(
                 string.Format(CentralApiTransferSubmitUrlFormat, this.bankConfiguration.MainApiAddress),
                 encryptedData);

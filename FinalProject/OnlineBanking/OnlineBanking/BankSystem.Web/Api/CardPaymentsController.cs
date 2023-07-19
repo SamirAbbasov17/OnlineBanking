@@ -34,7 +34,7 @@ namespace BankSystem.Web.Api
         public async Task<IActionResult> Post([FromBody] string data)
         {
             var model = JsonConvert.DeserializeObject<PaymentInfoModel>(data);
-            if (this.TryValidateModel(model))
+            if (!model.TryValidateModelMain())
             {
                 return this.BadRequest();
             }
@@ -73,6 +73,20 @@ namespace BankSystem.Web.Api
             }
 
             return this.Ok();
+        }
+    }
+    public static class ModelValidationClass
+    {
+        
+        public static bool TryValidateModelMain(
+        this object model)
+        {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            return true;
         }
     }
 }

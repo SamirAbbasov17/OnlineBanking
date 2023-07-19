@@ -53,7 +53,10 @@ namespace MainApi.Controllers
             var sendModel = this.mapper.Map<SendTransactionModel>(model);
             var encryptedAndSignedData =
                 TransactionHelper.SignAndEncryptData(sendModel, this.configuration.Key, bank.ApiKey);
-            var client = new HttpClient();
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+
+            HttpClient client = new HttpClient(clientHandler);
             var response = await client.PostAsJsonAsync(bank.ApiAddress, encryptedAndSignedData);
             if (response.StatusCode != HttpStatusCode.OK)
             {

@@ -27,7 +27,7 @@ namespace DemoShop.Web.Models
         [RegularExpression(@"\d{3}", ErrorMessage = "Invalid security code")]
         public string SecurityCode { get; set; }
 
-        public string ProductName { get; set; }
+        public string? ProductName { get; set; }
 
         public decimal ProductPrice { get; set; }
     }
