@@ -111,6 +111,8 @@ namespace BankSystem.Web.Controllers
             }
 
             [HttpPost]
+            [IgnoreAntiforgeryToken]
+            [Route("/Payments/PayAsync")]
             public async Task<IActionResult> PayAsync(PaymentConfirmBindingModel model)
             {
                 bool cookieExists = this.Request.Cookies.TryGetValue(PaymentDataCookie, out var data);

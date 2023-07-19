@@ -37,8 +37,9 @@
 
     <div class="form-group row flex-md-row-reverse">
         <div class="col-12 col-md-6 px-3 py-2">
-            <button id="payBtn" class="btn btn-primary w-100" disabled="disabled">
+            <button id="payBtn" class="btn btn-primary w-100">
                 <i class="fas fa-circle-notch fa-spin"></i>
+                Pay
             </button>
         </div>
         <div class="col-12 col-md-6 px-3 py-2">
@@ -49,10 +50,28 @@
 </div>
 
 @section Scripts
-{
+{@*
     <script>
         const payBtnText = 'Pay €@Model.Amount.ToString("f2")';
     </script>
 
     <script src="~/bundle/payments.min.js" asp-append-version="true"></script>
+*@
+    <script>
+        $(document).ready(function () {
+            $("#payBtn").click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Payments/PayAsync',
+                    data: $("#paymentForm").serialize(),
+                    success: function (msg) {
+                        console.log(msg);
+                    },
+                    error: function (msg) {
+                        console.log(msg);
+                    }
+                });
+            });
+        });
+    </script>
 }

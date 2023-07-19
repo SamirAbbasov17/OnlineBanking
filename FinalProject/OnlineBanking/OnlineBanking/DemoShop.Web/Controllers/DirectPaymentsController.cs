@@ -13,7 +13,7 @@ namespace DemoShop.Web.Controllers
     [Authorize]
     public class DirectPaymentsController : Controller
     {
-        private const string ReturnPath = "DirectPayments/ReceiveConfirmation";
+        private const string ReturnPath = "DirectPayments/ReceiveConfirmation/";
         private const string PaymentDataFormKey = "data";
         private readonly DestinationAccountConfiguration destinationBankAccountConfiguration;
 
