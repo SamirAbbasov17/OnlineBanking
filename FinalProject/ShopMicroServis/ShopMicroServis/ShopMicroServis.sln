@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Shop", "Play.Shop", "{BEC635CE-984D-4413-8736-186AE3A14E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Cart", "Play.Cart", "{2B94E120-D284-48C5-ABB2-7B04B89029E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Common", "Play.Common", "{8F71D63A-1860-4D3F-B922-64D46518D400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\Play.Common.csproj", "{DDF6287E-B806-4447-83F8-5806DEF1F4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Shop.Service", "Play.Shop.Service\Play.Shop.Service.csproj", "{423D4D5E-62CB-45E3-A263-E832F0AB9A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Shop.Contracts", "Play.Shop.Contracts\Play.Shop.Contracts.csproj", "{F8FB43BA-C251-40FB-A565-03FC11643A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Cart.Service", "Play.Cart.Service\Play.Cart.Service.csproj", "{C1A63782-F9C9-4960-B0B7-483F5C0781D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF6287E-B806-4447-83F8-5806DEF1F4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF6287E-B806-4447-83F8-5806DEF1F4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF6287E-B806-4447-83F8-5806DEF1F4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF6287E-B806-4447-83F8-5806DEF1F4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423D4D5E-62CB-45E3-A263-E832F0AB9A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423D4D5E-62CB-45E3-A263-E832F0AB9A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423D4D5E-62CB-45E3-A263-E832F0AB9A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423D4D5E-62CB-45E3-A263-E832F0AB9A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FB43BA-C251-40FB-A565-03FC11643A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FB43BA-C251-40FB-A565-03FC11643A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FB43BA-C251-40FB-A565-03FC11643A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FB43BA-C251-40FB-A565-03FC11643A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A63782-F9C9-4960-B0B7-483F5C0781D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A63782-F9C9-4960-B0B7-483F5C0781D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A63782-F9C9-4960-B0B7-483F5C0781D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A63782-F9C9-4960-B0B7-483F5C0781D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDF6287E-B806-4447-83F8-5806DEF1F4DF} = {8F71D63A-1860-4D3F-B922-64D46518D400}
+		{423D4D5E-62CB-45E3-A263-E832F0AB9A72} = {BEC635CE-984D-4413-8736-186AE3A14E86}
+		{F8FB43BA-C251-40FB-A565-03FC11643A41} = {BEC635CE-984D-4413-8736-186AE3A14E86}
+		{C1A63782-F9C9-4960-B0B7-483F5C0781D4} = {2B94E120-D284-48C5-ABB2-7B04B89029E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA00930-60B5-4C7E-B0DF-F6D939946FC9}
+	EndGlobalSection
+EndGlobal

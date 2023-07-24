@@ -1,0 +1,12 @@
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\bin\Debug\net7.0\Play.Shop.Contracts.deps.json
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\bin\Debug\net7.0\Play.Shop.Contracts.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\bin\Debug\net7.0\Play.Shop.Contracts.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.csproj.AssemblyReference.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.AssemblyInfoInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.AssemblyInfo.cs
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.csproj.CoreCompileInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\refint\Play.Shop.Contracts.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\Play.Shop.Contracts.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\Play.Shop.Contracts\obj\Debug\net7.0\ref\Play.Shop.Contracts.dll
