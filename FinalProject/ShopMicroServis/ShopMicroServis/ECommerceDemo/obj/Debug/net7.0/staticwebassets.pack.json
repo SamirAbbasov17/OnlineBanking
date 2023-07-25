@@ -1,0 +1,1805 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ECommerceDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ECommerceDemo.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\nice-select.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\photoswipe-default-skin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\photoswipe-default-skin.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\photoswipe.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\photoswipe.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select2.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\plugins\\swiper.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\swiper.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\vendor\\font-awesome-pro.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\font-awesome-pro.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\css\\vendor\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\themify-icons.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-duotone-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-duotone-900d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-light-300d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-light-300d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\fontAwesomePro\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontAwesomePro\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\themify\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify\\themify9f24.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\themify\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify\\themify9f24.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\themify\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify\\themify9f24.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\themify\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify\\themify9f24.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\fonts\\themify\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify\\themifyd41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\about\\about-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s1-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s1-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s1-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s1-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s1-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s1-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s1-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s1-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s1-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s1-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s2-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s2-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s4-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s4-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s4-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s4-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s4-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s4-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s4-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s4-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s5-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s5-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s5-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s5-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s5-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s5-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s5-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s5-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\category\\banner-s5-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\category\\banner-s5-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\instagram-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\instagram-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\menu-banner-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\menu-banner-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\menu-banner-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\menu-banner-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-2-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-2-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-3-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-3-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\parallax\\parallax-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\parallax\\parallax-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner1-1.1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner1-1.1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner10-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner10-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner11-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner11-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner11-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner11-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner2-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner2-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner3-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner3-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner4-1.1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner4-1.1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner4-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner4-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner5-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner5-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner6-1.1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner6-1.1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner6-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner6-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner7-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner7-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner8-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner8-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner8-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner8-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner9-1.1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner9-1.1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner9-1.2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner9-1.2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner9-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner9-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\sale\\sale-banner9-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\sale\\sale-banner9-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\banner\\widget-banner.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\widget-banner.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\bg\\bg-404.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg-404.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\bg\\page-title-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\page-title-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s1170\\blog-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s1170\\blog-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s345\\blog-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s345\\blog-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s370\\blog-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s370\\blog-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s420\\blog-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s420\\blog-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\s870\\blog-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\s870\\blog-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\widget\\widget-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\widget\\widget-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\widget\\widget-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\widget\\widget-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\blog\\widget\\widget-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\widget\\widget-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\brands\\brand-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\comment\\comment-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\comment-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\comment\\comment-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\comment-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\comment\\comment-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\comment-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\comment\\comment-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\comment\\comment-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-01.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-01.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-02.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-02.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-03.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-03.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-04.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-04.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-05.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-05.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-06.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-06.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-07.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-07.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-08.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-08.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-10.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-11.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-11.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\demo\\menu\\home-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\demo\\menu\\home-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\favicon.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\360.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\360.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\button-play-light.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\button-play-light.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\button-play.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\button-play.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-10.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cat-icon-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cat-icon-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\cd-arrows.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cd-arrows.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\icons\\quote.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quote.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\logo\\logo-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\logo\\logo-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\logo\\logo-4-big.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-4-big.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\logo\\logo-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\logo\\logo.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\android.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\android.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\ios.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\ios.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\pay-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\pay-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\pay.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\pay.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\tab-hover-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\tab-hover-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\others\\tab-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\others\\tab-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\photoswipe\\default-skin.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\photoswipe\\default-skin.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\photoswipe\\default-skin.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\photoswipe\\default-skin.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\photoswipe\\preloader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\photoswipe\\preloader.gif"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\portfolio-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\portfolio-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\portfolio\\single\\portfolio-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\single\\portfolio-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\cart-product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\cart-product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\cart-product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\cart-product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\cart-product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\cart-product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\deal-product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\deal-product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\deal-product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\deal-product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-10.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-11.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-11.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-12.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-12.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-13.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-13.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\list-product-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\list-product-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-1-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-1-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-10-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-10-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-10.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-16-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-16-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-16.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-16.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-19.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-19.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-2-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-2-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-20.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-20.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-21.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-21.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-22.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-22.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-23-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-23-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-23.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-23.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-24-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-24-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-24.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-24.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-25-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-25-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-25.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-25.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-3-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-3-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-4-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-4-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-5-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-5-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-6-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-6-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-7-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-7-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-8-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-8-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-9-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-9-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s270\\product-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s270\\product-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\cod.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\cod.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\ds.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\ds.jpeg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\er.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\er.jpeg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-1-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-1-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-10-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-10-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-10.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-11-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-11-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-11.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-11.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-12-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-12-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-12.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-12.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-13-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-13-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-13.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-13.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-14-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-14-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-14.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-14.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-15-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-15-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-15.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-15.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-16-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-16-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-16.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-16.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-17-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-17-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-17.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-17.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-18-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-18-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-18.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-18.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-19.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-19.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-2-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-2-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-25-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-25-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-25.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-25.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-26.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-26.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-27-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-27-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-27.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-27.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-28-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-28-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-28.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-28.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-29-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-29-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-29.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-29.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-3-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-3-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-30-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-30-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-30.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-30.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-31.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-31.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-32-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-32-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-32.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-32.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-4-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-4-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-5-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-5-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-6-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-6-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-6.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-6.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-7-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-7-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-7.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-8-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-8-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-8.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-9-hover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-9-hover.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\s328\\product-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\s328\\product-9.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\1\\product-thumb-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\1\\product-thumb-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-thumb-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-thumb-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\2\\product-thumb-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\2\\product-thumb-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\banner\\banner-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\banner\\banner-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\banner\\banner-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\banner\\banner-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\banner\\banner-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\banner\\banner-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\banner\\banner-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\banner\\banner-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\banner\\banner-5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\banner\\banner-5.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\3\\product-thumb-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\3\\product-thumb-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\4\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\4\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\5\\product-thumb-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\5\\product-thumb-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\group-product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\group-product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\group-product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\group-product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\group-product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\group-product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\6\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\6\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\frame-review.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\frame-review.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\frame-total.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\frame-total.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-thumb-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-thumb-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-thumb-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-thumb-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\7\\product-thumb-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\7\\product-thumb-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\single\\8\\product-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\single\\8\\product-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\widget-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\widget-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\widget-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\widget-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\product\\widget-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\widget-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\review\\review-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\review\\review-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\review\\review-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\review\\review-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\review\\review-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\review\\review-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home12\\slide-2.1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home12\\slide-2.1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home1\\slide-1-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home1\\slide-1-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home1\\slide-2-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home1\\slide-2-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home1\\slide-2-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home1\\slide-2-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home1\\slide-3-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home1\\slide-3-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-1-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-1-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-1-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-1-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-2-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-2-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-2-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-2-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-2-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-2-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-3-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-3-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-3-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-3-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home2\\slider-3-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home2\\slider-3-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home4\\slide-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home4\\slide-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home4\\slide-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home4\\slide-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home4\\slide-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home4\\slide-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home5\\slide1-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home5\\slide1-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home5\\slide1-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home5\\slide1-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home5\\slide2-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home5\\slide2-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home5\\slide3-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home5\\slide3-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home7\\slide1-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home7\\slide1-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home7\\slide2-title-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home7\\slide2-title-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home7\\slide2-title-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home7\\slide2-title-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home8\\slide-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home8\\slide-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home8\\slide-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home8\\slide-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\slider\\home8\\slide-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\home8\\slide-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\team\\team-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\team\\team-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\team\\team-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\testimonial\\testimonial-1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-1.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\testimonial\\testimonial-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-2.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\testimonial\\testimonial-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\testimonial\\testimonial-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-4.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\title\\title-decor-left.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\title\\title-decor-left.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\images\\title\\title-decor-right.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\title\\title-decor-right.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\ResizeSensor.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ResizeSensor.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\instafeed.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\instafeed.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.matchHeight-min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.matchHeight-min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.sticky-sidebar.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\mo.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\mo.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\photoswipe-ui-default.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\photoswipe-ui-default.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\photoswipe.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\photoswipe.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\product360.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\product360.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\scrollax.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\slick.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\plugins\\swiper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\swiper.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\vendor\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\vendor\\jquery-migrate-3.1.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-migrate-3.1.0.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\assets\\js\\vendor\\modernizr-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ECommerceDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ECommerceDemo.props",
+      "PackagePath": "build\\ECommerceDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceDemo.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ECommerceDemo.props",
+      "PackagePath": "buildTransitive\\ECommerceDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
