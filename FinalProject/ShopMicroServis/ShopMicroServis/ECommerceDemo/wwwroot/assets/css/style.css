@@ -3356,7 +3356,7 @@ body.offside-header-left {
           transform-origin: 100% 50%;
   background-color: #333333;
 }
-.site-main-menu > ul > li.has-children > a::before {
+/*.site-main-menu > ul > li.has-children > a::before {
   font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   position: absolute;
@@ -3367,7 +3367,7 @@ body.offside-header-left {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   opacity: 0.6;
-}
+}*/
 .site-main-menu > ul > li.align-left > .sub-menu {
   right: 0;
   left: auto;

@@ -28,17 +28,17 @@ namespace ECommerceDemo.Areas.Identity.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            //if (eCommerceDataDbContext?.Users == null)
-            //{
-            //    var user = new ECommerceDemoUser
-            //    {
-            //        Email = "test@test.com",
-            //        UserName = "test@test.com",
-            //        EmailConfirmed = true,
-            //    };
+            if (_userManager.Users is null)
+            {
+                var user = new ECommerceDemoUser
+                {
+                    Email = "test@test.com",
+                    UserName = "test@test.com",
+                    EmailConfirmed = true,
+                };
 
-            //    await _userManager.CreateAsync(user, "Test123$");
-            //}
+                await _userManager.CreateAsync(user, "Test123$");
+            }
 
 
             if (User.Identity.IsAuthenticated)

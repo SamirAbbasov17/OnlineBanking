@@ -90,7 +90,7 @@ namespace ECommerceDemo.Controllers
             // mark the payment as completed
             //await this.ordersService.SetPaymentStatus(id, PaymentStatus.Completed);
 
-            return this.RedirectToAction("My", "Orders");
+            return this.RedirectToAction("Index", "Home");
         }
     }
 }
