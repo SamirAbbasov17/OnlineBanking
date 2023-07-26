@@ -16,6 +16,38 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/Unauthorized/Identity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVW5hdXRob3JpemVkXElkZW50aXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/Unauthorized/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVW5hdXRob3JpemVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/Unauthorized/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcVW5hdXRob3JpemVkXFNob3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Views/CardPayments/Pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFBheW1lbnRzXFBheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Views/DirectPayments/PaymentPostRedirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0UGF5bWVudHNcUGF5bWVudFBvc3RSZWRpcmVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -47,6 +79,10 @@ build_metadata.AdditionalFiles.CssScope =
 [F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Areas/Identity/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-70nuugd4av
 
 [F:/FinalProject/ShopMicroServis/ShopMicroServis/ECommerceDemo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

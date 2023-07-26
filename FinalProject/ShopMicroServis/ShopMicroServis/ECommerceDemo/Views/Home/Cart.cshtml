@@ -146,8 +146,11 @@
                     </tr>
                 </tbody>
             </table>
-            <a href="checkout.html" class="btn btn-dark btn-outline-hover-dark">Card Payment</a>
-            <a href="checkout.html" class="btn btn-dark btn-outline-hover-dark" style="margin-top:1em;">Direct Payment</a>
+                @if (true)
+                {
+                    <a asp-controller="DirectPayments" , asp-action="Pay" asp-route-name="Total" asp-route-price="@total" class="btn btn-dark btn-outline-hover-dark">Direct payment</a> 
+                    <a asp-controller="CardPayments" , asp-action="Pay" asp-route-name="Total" asp-route-price="@total" class="btn btn-dark btn-outline-hover-dark">Card payment</a>
+                }
         </div>
     </div>
 

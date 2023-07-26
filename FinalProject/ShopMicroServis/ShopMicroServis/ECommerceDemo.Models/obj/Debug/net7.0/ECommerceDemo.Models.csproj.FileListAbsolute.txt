@@ -1,0 +1,12 @@
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\bin\Debug\net7.0\ECommerceDemo.Models.deps.json
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\bin\Debug\net7.0\ECommerceDemo.Models.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\bin\Debug\net7.0\ECommerceDemo.Models.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.csproj.AssemblyReference.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.AssemblyInfoInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.AssemblyInfo.cs
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.csproj.CoreCompileInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\refint\ECommerceDemo.Models.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ECommerceDemo.Models.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Models\obj\Debug\net7.0\ref\ECommerceDemo.Models.dll

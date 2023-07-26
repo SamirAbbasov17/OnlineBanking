@@ -1,0 +1,17 @@
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Data.deps.json
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Data.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Data.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Models.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Models.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.csproj.AssemblyReference.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.AssemblyInfoInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.AssemblyInfo.cs
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.csproj.CoreCompileInputs.cache
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.csproj.CopyComplete
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\refint\ECommerceDemo.Data.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.pdb
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ref\ECommerceDemo.Data.dll
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\bin\Debug\net7.0\ECommerceDemo.Data.runtimeconfig.json
+F:\FinalProject\ShopMicroServis\ShopMicroServis\ECommerceDemo.Data\obj\Debug\net7.0\ECommerceDemo.Data.genruntimeconfig.cache
