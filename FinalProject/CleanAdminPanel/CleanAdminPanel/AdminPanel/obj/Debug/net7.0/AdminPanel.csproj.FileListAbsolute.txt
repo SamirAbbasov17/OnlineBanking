@@ -1,0 +1,8 @@
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.csproj.AssemblyReference.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.AssemblyInfoInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.AssemblyInfo.cs
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.csproj.CoreCompileInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.MvcApplicationPartsAssemblyInfo.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.RazorAssemblyInfo.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel\obj\Debug\net7.0\AdminPanel.RazorAssemblyInfo.cs

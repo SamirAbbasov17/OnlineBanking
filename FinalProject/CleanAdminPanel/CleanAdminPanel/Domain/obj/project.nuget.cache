@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JIDhyR6aAi3qrF4AN5qibSm2V+ph5awqjKhycTgKCrw7DD3FPVaCSfRwgUO58fWPTuQ2dXnjzw2JZm/p9czlpQ==",
+  "success": true,
+  "projectFilePath": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

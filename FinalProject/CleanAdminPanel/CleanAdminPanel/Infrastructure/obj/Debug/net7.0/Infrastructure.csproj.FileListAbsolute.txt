@@ -1,0 +1,17 @@
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Application.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Domain.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Application.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Domain.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

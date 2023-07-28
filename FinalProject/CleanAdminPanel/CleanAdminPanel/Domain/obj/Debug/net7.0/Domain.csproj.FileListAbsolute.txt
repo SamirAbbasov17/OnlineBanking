@@ -1,0 +1,12 @@
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\bin\Debug\net7.0\Domain.deps.json
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\bin\Debug\net7.0\Domain.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\bin\Debug\net7.0\Domain.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\refint\Domain.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\Domain.pdb
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Domain\obj\Debug\net7.0\ref\Domain.dll
