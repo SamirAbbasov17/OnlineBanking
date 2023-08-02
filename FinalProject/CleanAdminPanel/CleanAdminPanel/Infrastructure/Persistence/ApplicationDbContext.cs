@@ -28,6 +28,12 @@ namespace Infrastructure.Persistence
         public DbSet<JobRequirement> JobRequirements => Set<JobRequirement>();
 
         private readonly AuditableEntitySaveChangesInterceptor _auditableEntitySaveChangesInterceptor;
+
+
+        public ApplicationDbContext()
+        {
+            
+        }
         public ApplicationDbContext(
        DbContextOptions<ApplicationDbContext> options,
        AuditableEntitySaveChangesInterceptor auditableEntitySaveChangesInterceptor) : base(options)
@@ -46,7 +52,14 @@ namespace Infrastructure.Persistence
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.AddInterceptors(_auditableEntitySaveChangesInterceptor);
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(
+                "Server=DESKTOP-9OSB66T;Database=AdminPanel;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true");
+            }
             base.OnConfiguring(optionsBuilder);
+
+            
         }
     }
 }

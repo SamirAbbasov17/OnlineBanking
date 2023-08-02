@@ -12,7 +12,7 @@ namespace Infrastructure.Persistence
 {
     public class ApplicationDbContextInitialiser
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext? _context;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<ApplicationDbContextInitialiser> _logger;

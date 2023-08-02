@@ -15,3 +15,5 @@ F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\
 F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+F:\FinalProject\CleanAdminPanel\CleanAdminPanel\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache

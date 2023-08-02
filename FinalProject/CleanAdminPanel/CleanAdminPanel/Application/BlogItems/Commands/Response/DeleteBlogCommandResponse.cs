@@ -8,5 +8,6 @@ namespace Application.BlogItems.Commands.Response
 {
     public class DeleteBlogCommandResponse
     {
+        public bool IsSuccess { get; set; }
     }
 }

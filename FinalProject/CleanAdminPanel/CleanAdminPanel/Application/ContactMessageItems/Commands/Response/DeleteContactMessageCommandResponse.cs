@@ -8,5 +8,6 @@ namespace Application.ContactMessageItems.Commands.Response
 {
     public class DeleteContactMessageCommandResponse
     {
+        public bool IsSuccess { get; set; }
     }
 }

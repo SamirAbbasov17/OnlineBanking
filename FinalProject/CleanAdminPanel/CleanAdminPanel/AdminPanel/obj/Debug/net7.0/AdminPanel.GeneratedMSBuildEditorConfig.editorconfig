@@ -16,6 +16,66 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\FinalProject\CleanAdminPanel\CleanAdminPanel\AdminPanel
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Blogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Blogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Blogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Blogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/ContactMessages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1lc3NhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/ContactMessages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1lc3NhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/ContactMessages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1lc3NhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/ContactMessages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1lc3NhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/ContactMessages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdE1lc3NhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Helps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Helps/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Helps/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Helps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Helps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,8 +84,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/JobApplications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/JobApplications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/JobApplications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/JobApplications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/JobApplications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Jobs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Jobs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Jobs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Jobs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/CleanAdminPanel/CleanAdminPanel/AdminPanel/Views/Shared/_ValidationScriptsPartial.cshtml]

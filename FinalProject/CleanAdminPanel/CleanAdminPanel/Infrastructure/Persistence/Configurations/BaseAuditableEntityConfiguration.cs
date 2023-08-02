@@ -14,7 +14,7 @@ namespace Infrastructure.Persistence.Configurations
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
             builder.Property(t => t.Id).IsRequired();
-            builder.Property(t => t.Created).IsRequired();
+            builder.Property(t => t.Created).IsRequired(false);
             builder.Property(t => t.CreatedBy).HasMaxLength(150).IsRequired(false);
             builder.Property(t => t.LastModified).IsRequired(false);
             builder.Property(t => t.LastModifiedBy).HasMaxLength(150).IsRequired(false);

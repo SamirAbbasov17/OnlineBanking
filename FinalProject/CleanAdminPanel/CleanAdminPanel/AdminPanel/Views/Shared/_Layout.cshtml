@@ -44,6 +44,37 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function addRequirement() {
+            var container = document.getElementById("requirements-container");
+            var index = container.children.length/2;
+
+            var input = document.createElement("input");
+            input.setAttribute("type", "text");
+            input.setAttribute("name", "JobRequirementList[" + index + "].Name");
+
+            var button = document.createElement("button");
+            button.setAttribute("type", "button");
+            button.setAttribute("onclick", "removeRequirement(" + index + ")");
+            button.textContent = "Remove";
+
+            container.appendChild(input);
+            container.appendChild(button);
+        }
+
+        function removeRequirement(index) {
+            var container = document.getElementById("requirements-container");
+            var input = container.querySelector("input[name='JobRequirementList[" + index + "].Name']");
+            var button = container.querySelector("button[onclick='removeRequirement(" + index + ")']");
+
+            if (input && button) {
+                container.removeChild(input);
+                container.removeChild(button);
+                console.log("s");
+            }
+            console.log("a");
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

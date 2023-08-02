@@ -8,5 +8,6 @@ namespace Application.HelpItems.Commands.Response
 {
     public class CreateHelpCommandResponse
     {
+        public bool IsSuccess { get; set; }
     }
 }

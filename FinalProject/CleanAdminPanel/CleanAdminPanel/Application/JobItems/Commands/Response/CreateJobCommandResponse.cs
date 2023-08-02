@@ -8,5 +8,6 @@ namespace Application.JobItems.Commands.Response
 {
     public class CreateJobCommandResponse
     {
+        public bool IsSuccess { get; set; }
     }
 }

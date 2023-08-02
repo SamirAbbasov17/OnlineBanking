@@ -1,0 +1,73 @@
+﻿@using Application.JobItems.Commands.Response;
+@model UpdateJobCommandResponse
+
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Job</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="JobName" class="control-label"></label>
+                <input asp-for="JobName" class="form-control" />
+                <span asp-validation-for="JobName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobTitle" class="control-label"></label>
+                <input asp-for="JobTitle" class="form-control" />
+                <span asp-validation-for="JobTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobDescription" class="control-label"></label>
+                <input asp-for="JobDescription" class="form-control" />
+                <span asp-validation-for="JobDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobTime" class="control-label"></label>
+                <input asp-for="JobTime" class="form-control" />
+                <span asp-validation-for="JobTime" class="text-danger"></span>
+            </div>
+
+            <h3>Job Requirements</h3>
+          
+             
+
+          
+
+            <div id="requirements-container">
+                @if (Model != null)
+                {
+                    @for (int i = 0; i < Model.JobRequirementList.Count; i++)
+                    {
+                        
+                        <input type="text" name="JobRequirementList[@i].Name" value="@Model.JobRequirementList[i].Name" />
+                        <button type="button" onclick="removeRequirement(@i)">Remove</button>
+                        
+                    }
+                }
+            </div>
+            <button type="button" onclick="addRequirement()">Add Requirement</button>
+
+
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

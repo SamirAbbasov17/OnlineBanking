@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Application.BlogItems.Queries.Response
 {
-    internal class GetAllBlogQueryResponse
+    public class GetAllBlogQueryResponse
     {
+        public int? Id { get; set; }
+        public string? Title { get; set; }
+        public string? Content { get; set; }
+        public string? Description { get; set; }
+        public string? Image { get; set; }
     }
 }
