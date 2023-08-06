@@ -12,9 +12,11 @@ using Application.BlogItems.Queries.Request;
 using MediatR;
 using Application.BlogItems.Commands.Response;
 using Application.BlogItems.Commands.Request;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AdminPanel.Controllers
 {
+    [Authorize]
     public class BlogsController : Controller
     {
         IMediator _mediator;

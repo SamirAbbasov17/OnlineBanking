@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿@*<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -201,4 +201,436 @@
 
     @RenderSection("Scripts", false)
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from pixner.net/paylio/paylio-dashboard/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2023 05:04:27 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/bundle/vendor.min.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/bundle/main.min.css" asp-append-version="true" />
+
+    <link rel="shortcut icon" href="~/user/assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/user/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/user/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/user/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/user/assets/css/plugin/apexcharts.css">
+    <link rel="stylesheet" href="~/user/assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="~/user/assets/css/arafat-font.css">
+    <link rel="stylesheet" href="~/user/assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="~/user/assets/css/style.css">
+    @RenderSection("CustomCss", false)
+    <style>
+        th,td{
+            margin: 0;
+            font-family: "Jost",sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #0c266c;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <partial name="_CookieConsentPartial" />
+
+    @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
+    {
+        <div class="alert alert-primary fade show mb-0" role="alert">
+            <div class="container d-flex flex-row">
+                <i class="fas fa-check fa-2x align-self-center"></i>
+                <p class="pl-3 my-2" style="font-size: large;">@TempData[GlobalConstants.TempDataSuccessMessageKey]</p>
+                <div class="ml-auto">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
+    {
+        <div class="alert alert-danger fade show mb-0" role="alert">
+            <div class="container d-flex flex-row">
+                <i class="fas fa-exclamation-circle fa-2x align-self-center"></i>
+                <p class="pl-3 my-2" style="font-size: large;">@TempData[GlobalConstants.TempDataErrorMessageKey]</p>
+                <div class="ml-auto">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (TempData[GlobalConstants.TempDataNoTwoFactorKey] as bool? == true)
+    {
+        <div class="modal fade" id="noTwoFactorModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered show" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Two-factor authentication is disabled</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Enabling two-factor authentication enhances the security of your account
+                        and protects it better from hackers, and is highly recommended.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link mr-auto text-muted" data-dismiss="modal"
+                                onclick="noTwoFactorModalDoNotShow()">
+                            Do not show for 30 days
+                        </button>
+
+                        <button type="button" class="btn btn-outline-primary d-none d-md-inline-block"
+                                data-dismiss="modal">
+                            Close
+                        </button>
+
+                        <a asp-page="/Account/Settings/Enable2fa" class="btn btn-primary">
+                            Enable now
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+    <!-- header-section start -->
+    <header class="header-section body-collapse">
+        <div class="overlay">
+            <div class="container-fruid">
+                <div class="row d-flex header-area">
+                    <div class="navbar-area d-flex align-items-center justify-content-between">
+                        <div class="sidebar-icon">
+                            <img src="~/user/assets/images/icon/menu.png" alt="icon">
+                        </div>
+                        <form action="#" class="flex-fill">
+                            <div class="form-group d-flex align-items-center">
+                                <img src="~/user/assets/images/icon/search.png" alt="icon">
+                                <input type="text" placeholder="Type to search...">
+                            </div>
+                        </form>
+                        <div class="dashboard-nav">
+                            <div class="single-item language-area">
+                                <div class="language-btn">
+                                    <img src="~/user/assets/images/icon/lang.png" alt="icon">
+                                </div>
+                                <ul class="main-area language-content">
+                                    <li>English</li>
+                                    <li>Hindi</li>
+                                    <li class="active">English (US)</li>
+                                    <li>Japanese</li>
+                                    <li>Kannada</li>
+                                    <li>Lithuanian</li>
+                                </ul>
+                            </div>
+                            <div class="single-item notifications-area">
+                                <div class="notifications-btn">
+                                    <img src="~/user/assets/images/icon/bell.png" class="bell-icon" alt="icon">
+                                </div>
+                                <div class="main-area notifications-content">
+                                    <div class="head-area d-flex justify-content-between">
+                                        <h5>Notifications</h5>
+                                        <span class="mdr">4</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="~/user/assets/images/user-1.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">
+                                                        You received a payment of <b>$134.00</b> from <b>
+                                                            Anna
+                                                            Green
+                                                        </b>
+                                                    </p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="~/user/assets/images/user-2.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">
+                                                        <b>James Deed</b> requested a payment of
+                                                        <b>£890.00</b>
+                                                    </p>
+                                                    <p class="mdr time-area">08.09AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="~/user/assets/images/master-card.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">
+                                                        Your new payment method has beed added successfully
+                                                    </p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="~/user/assets/images/user-3.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">
+                                                        You received a payment of <b>$250.00</b> from Goerge
+                                                        Michael
+                                                    </p>
+                                                    <p class="mdr time-area">Yesterday</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-item user-area">
+                                <div class="profile-area d-flex align-items-center">
+                                    <span class="user-profile">
+                                        <img src="~/user/assets/images/avatar.png" alt="User">
+                                    </span>
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                                <div class="main-area user-content">
+                                    <div class="head-area d-flex align-items-center">
+                                        <div class="profile-img">
+                                            <img src="~/user/assets/images/avatar-2.png" alt="User">
+                                        </div>
+                                        <div class="profile-head">
+                                            <a href="javascript:void(0)">
+                                                <h6>@User.Identity.Name</h6>
+                                            </a>
+                                            <p class="wallet-id">Wallet ID: 6264849965</p>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-area">
+                                            <a href="account.html"><i class="fas fa-cog"></i>Settings</a>
+                                        </li>
+                                        <li>
+                                            <form id="logOut1" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new {area = ""})">
+                                               @* <button type="submit"> <img src="~/user/assets/images/icon/quit.png" alt="Quit"> <span>LogOut</span></button>*@
+                                                <a href="javascript:$('#logOut1').submit();"><i class="fas fa-sign-out"></i>Logout</a>
+                                            </form>
+                                          
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-wrapper">
+                        <div class="close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="sidebar-logo">
+                            <a href="dashboard.html"><img src="~/user/assets/images/logo.png" alt="logo"></a>
+                        </div>
+                        <ul>
+                            <li class='@ViewData["Active"]'>
+                                <a href="/Home/Index">
+                                    <img src="~/user/assets/images/icon/dashboard.png" alt="Dashboard"> <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class='@ViewData["Active1"]'>
+                                <a  asp-area="Cards" asp-controller="Cards" asp-action="Index">
+                                    <img src="~/user/assets/images/icon/pay.png" alt="Pay"> <span>Cards</span>
+                                </a>
+                            </li>
+                            <li class='@ViewData["Active2"]'>
+                                <a asp-area="Cards" asp-action="Create" asp-controller="Cards">
+                                    <img src="~/user/assets/images/icon/receive.png" alt="Receive"> <span>Create New Card</span>
+                                </a>
+                            </li>
+                            <li class='@ViewData["Active3"]'>
+                                <a asp-page="/MoneyTransfers">
+                                    <img src="~/user/assets/images/icon/exchange.png" alt="Exchange"> <span>New Transfer</span>
+                                </a>
+                            </li>
+                            <li class='@ViewData["Active4"]'>
+                                <a  asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">
+                                    <img src="~/user/assets/images/icon/recipients.png" alt="Recipients"> <span>Archive</span>
+                                </a>
+                            </li>
+                            @if (User.IsInRole(GlobalConstants.AdministratorRoleName))
+                            {
+
+                                <li class='@ViewData["Active5"]'>
+                                    <a asp-area="Administration" asp-controller="Accounts" asp-action="Index">
+                                        <img src="~/user/assets/images/icon/deposit.png" alt="Deposit"> <span>Accounts</span>
+                                    </a>
+                                </li>
+                                <li class='@ViewData["Active6"]'>
+                                    <a asp-area="Administration" asp-controller="Transactions" asp-action="Search">
+                                        <img src="~/user/assets/images/icon/withdraw.png" alt="Withdraw"> <span>Look up transaction</span>
+                                    </a>
+                                </li>
+                               
+                            }
+                           
+                        </ul>
+                        <ul class="bottom-item">
+                            <li class='@ViewData["Active7"]'>
+                                <a asp-page="/Account/Settings/Index">
+                                    <img src="~/user/assets/images/icon/account.png" alt="Account"> <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <form asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new {area = ""})">
+                                   @* <button type="submit"> <img src="~/user/assets/images/icon/quit.png" alt="Quit"> <span>Quit</span></button>*@
+                                    <a href="javascript:$('#logOut1').submit();">
+                                        <img src="~/user/assets/images/icon/logout.png" alt="Account"> <span>Quit</span>
+                                    </a>
+                                </form>
+                            </li>
+                        </ul>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+    @RenderSection("UnderNavbar", false)
+    @RenderBody()
+
+    <!--==================================================================-->
+   
+    @if (TempData[GlobalConstants.TempDataNoTwoFactorKey] as bool? == true)
+    {
+        <script>
+            $('#noTwoFactorModal').modal('show');
+
+            function noTwoFactorModalDoNotShow() {
+                document.cookie = '@GlobalConstants.IgnoreTwoFactorWarningCookie=yes; Max-Age=2592000; Secure';
+            }
+        </script>
+    }
+    <script src="~/user/assets/js/jquery.min.js"></script>
+    <script src="~/user/assets/js/bootstrap.min.js"></script>
+    <script src="~/user/assets/js/jquery-ui.js"></script>
+    <script src="~/user/assets/js/plugin/apexcharts.js"></script>
+    <script src="~/user/assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="~/user/assets/js/plugin/waypoint.min.js"></script>
+    <script src="~/user/assets/js/plugin/wow.min.js"></script>
+    <script src="~/user/assets/js/plugin/plugin.js"></script>
+    <script src="~/user/assets/js/main.js"></script>
+    <script src="~/bundle/vendor.min.js" asp-append-version="true"></script>
+    <script src="~/bundle/main.min.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", false)
+</body>
+
+
+<!-- Mirrored from pixner.net/paylio/paylio-dashboard/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2023 05:04:47 GMT -->
 </html>

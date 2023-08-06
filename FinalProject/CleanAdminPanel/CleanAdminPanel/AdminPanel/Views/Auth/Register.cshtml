@@ -1,0 +1,33 @@
+﻿@using AdminPanel.ViewModels;
+@model RegisterVM
+<form asp-action="Register" method="post">
+    <div class="row learts-mb-n50">
+        <div class="col-12 learts-mb-20">
+            <label asp-for="@Model.Username"></label>
+            <input asp-for="@Model.Username" class="form-control p_input">
+            <span class="text-danger" asp-validation-for="@Model.Username"></span>
+        </div>
+        <div class="col-12 learts-mb-20">
+            <label asp-for="@Model.Email"></label>
+            <input asp-for="@Model.Email" class="form-control p_input">
+            <span class="text-danger" asp-validation-for="@Model.Email"></span>
+        </div>
+        <div class="col-12 learts-mb-20">
+            <label asp-for="@Model.Password"></label>
+            <input asp-for="@Model.Password" class="form-control p_input">
+            <span class="text-danger" asp-validation-for="@Model.Password"></span>
+        </div>
+        <div class="col-12 learts-mb-20">
+            <label asp-for="@Model.ConfirmPassword"></label>
+            <input asp-for="@Model.ConfirmPassword" class="form-control p_input">
+            <span class="text-danger" asp-validation-for="@Model.ConfirmPassword"></span>
+        </div>
+        <div class="col-12 learts-mb-50">
+            <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy</p>
+        </div>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-12 text-center learts-mb-50">
+            <button type="submit" class="btn btn-dark btn-outline-hover-dark">Register</button>
+        </div>
+    </div>
+</form>

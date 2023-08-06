@@ -12,9 +12,11 @@ using Application.HelpItems.Commands.Response;
 using Application.HelpItems.Queries.Request;
 using Application.HelpItems.Queries.Response;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AdminPanel.Controllers
 {
+    [Authorize]
     public class HelpsController : Controller
     {
         IMediator _mediator;

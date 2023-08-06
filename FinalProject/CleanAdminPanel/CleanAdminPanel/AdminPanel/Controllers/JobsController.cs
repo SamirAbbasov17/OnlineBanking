@@ -12,9 +12,11 @@ using Application.JobItems.Commands.Response;
 using Application.JobItems.Queries.Request;
 using Application.JobItems.Queries.Response;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AdminPanel.Controllers
 {
+    [Authorize]
     public class JobsController : Controller
     {
         IMediator _mediator;

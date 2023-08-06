@@ -24,11 +24,9 @@
     <!-- start preloader -->
     <div class="preloader" id="preloader"></div>
     <!-- end preloader -->
-
     <!-- Scroll To Top Start-->
     <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
     <!-- Scroll To Top End -->
-
     <!-- Register In start -->
     <section class="log-reg register">
         <div class="overlay">
@@ -61,13 +59,17 @@
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="personal-tab" data-bs-toggle="tab"
-                                        data-bs-target="#personal" type="button" role="tab" aria-controls="personal"
-                                        aria-selected="true">Personal</button>
+                                            data-bs-target="#personal" type="button" role="tab" aria-controls="personal"
+                                            aria-selected="true">
+                                        Personal
+                                    </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business"
-                                        type="button" role="tab" aria-controls="business"
-                                        aria-selected="false">Business</button>
+                                            type="button" role="tab" aria-controls="business"
+                                            aria-selected="false">
+                                        Business
+                                    </button>
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
@@ -112,7 +114,7 @@
                                         </div>
                                         <div class="remember-forgot d-flex justify-content-between">
                                             <div class="form-group d-flex">
-                                                <div class="checkbox_wrapper" >
+                                                <div class="checkbox_wrapper">
                                                     <input class="check-box" id="check1" type="checkbox">
                                                     <label></label>
                                                 </div>
@@ -122,7 +124,7 @@
                                                 <a href="forgot-password.html">Forgot your password?</a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="btn-area">
                                             <button class="cmn-btn">Register Now</button>
                                         </div>
@@ -209,6 +211,18 @@
     <script src="assets/js/plugin/wow.min.js"></script>
     <script src="assets/js/plugin/plugin.js"></script>
     <script src="assets/js/main.js"></script>
+
+    @if (TempData[GlobalConstants.TempDataNoTwoFactorKey] as bool? == true)
+    {
+        <script>
+            $('#noTwoFactorModal').modal('show');
+
+            function noTwoFactorModalDoNotShow() {
+                document.cookie = '@GlobalConstants.IgnoreTwoFactorWarningCookie=yes; Max-Age=2592000; Secure';
+            }
+        </script>
+    }
+
 </body>
 
 

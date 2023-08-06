@@ -1,0 +1,39 @@
+﻿@using AdminPanel.ViewModels;
+@model LoginVM
+
+<form asp-action="Login" method="post">
+    <div class="row learts-mb-n50">
+        <div class="col-12 learts-mb-50">
+            <label asp-for="@Model.UsernameOrEmail">Username or email <abbr class="required">*</abbr></label>
+            <input asp-for="@Model.UsernameOrEmail" class="form-control p_input">
+            <span asp-validation-for="@Model.UsernameOrEmail" class="text-danger"></span>
+        </div>
+        <div class="col-12 learts-mb-50">
+            <label asp-for="@Model.Password">Password</label>
+            <input asp-for="@Model.Password" class="form-control p_input">
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+        </div>
+        <div class="col-12 text-center learts-mb-50">
+            <button type="submit" class="btn btn-dark btn-outline-hover-dark">login</button>
+        </div>
+        <div class="col-12 learts-mb-50">
+            <div class="row learts-mb-n20">
+                <div class="col-12 learts-mb-20">
+                    <div class="form-check">
+                        <input asp-for="@Model.RememberMe" type="checkbox" class="form-check-input" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    </div>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                </div>
+                <div class="col-12 learts-mb-20">
+                    <a href="lost-password.html" class="fw-400">Lost your password?</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 learts-mb-50" style="visibility:hidden">
+            <label>Username or email <abbr class="required">*</abbr></label>
+            <input class="form-control p_input">
+            <span class="text-danger"></span>
+        </div>
+    </div>
+</form>

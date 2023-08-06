@@ -12,9 +12,11 @@ using Application.ContactMessageItems.Commands.Response;
 using Application.ContactMessageItems.Queries.Request;
 using Application.ContactMessageItems.Queries.Response;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AdminPanel.Controllers
 {
+    [Authorize]
     public class ContactMessagesController : Controller
     {
         IMediator _mediator;

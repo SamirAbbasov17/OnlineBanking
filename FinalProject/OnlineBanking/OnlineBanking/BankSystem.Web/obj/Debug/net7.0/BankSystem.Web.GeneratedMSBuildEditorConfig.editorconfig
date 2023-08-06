@@ -124,12 +124,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Accounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Accounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Blogs/SinglePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcU2luZ2xlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Careers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Careers/Position.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZWVyc1xQb3NpdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Errors/Error.cshtml]
@@ -142,6 +166,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Errors/Error404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEVycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Helps/HelpDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcSGVscERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Helps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Home/Index.cshtml]
@@ -162,6 +194,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/FinalProject/OnlineBanking/OnlineBanking/BankSystem.Web/Views/Shared/_PaginationPartial.cshtml]

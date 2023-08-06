@@ -77,8 +77,9 @@ namespace BankSystem.Web.Pages.Account
                 foreach (var error in result.Errors)
                 {
                     this.ModelState.AddModelError(string.Empty, error.Description);
+                    TempData.Add("ErrorMessage", error.Description);
                 }
-
+                
                 return this.Page();
             }
 

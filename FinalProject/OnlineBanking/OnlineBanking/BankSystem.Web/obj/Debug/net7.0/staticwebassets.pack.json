@@ -1,6 +1,1610 @@
 {
   "Files": [
     {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\custom-family.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\custom-family.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\plugin\\animate.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\plugin\\animate.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\plugin\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\plugin\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\plugin\\nice-select.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\plugin\\nice-select.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\plugin\\slick.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\plugin\\slick.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\bank\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\about-banner-icon1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\about-banner-icon1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\about-banner-icon2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\about-banner-icon2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\about-banner-icon3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\about-banner-icon3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\about-banner-icon4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\about-banner-icon4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\about-us-banner.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\about-us-banner.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\affiliate-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\affiliate-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\app-download-left.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\app-download-left.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\app-download-screen.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\app-download-screen.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\apple_btn.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\apple_btn.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\arrow-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\arrow-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\arrow_01.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\arrow_01.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\arrow_02.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\arrow_02.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\author-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\author-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\author-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\author-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\award-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\award-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ban-frame-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ban-frame-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ban-frame-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ban-frame-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ban-frame-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ban-frame-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ban-frame-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ban-frame-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ban-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ban-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-carousel-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-carousel-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-carousel-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-carousel-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-carousel-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-carousel-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-carousel-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-carousel-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\banner-carousel-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\banner-carousel-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefit-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefit-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\benefits-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\benefits-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog-banner-four.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog-banner-four.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog-banner-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog-banner-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog-banner-two.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog-banner-two.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog-bg-img.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog-bg-img.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog-profile.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog-profile.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\blog4-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\blog4-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\built-in-crypto.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\built-in-crypto.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\business-commercial-Illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\business-commercial-Illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\buy-sell-secure.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\buy-sell-secure.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-bg-index8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-bg-index8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-circle.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-circle.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-content-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-content-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-index4-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-index4-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-second-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-second-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-action-third-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-action-third-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\call-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\call-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\careers-banner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\careers-banner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\careers-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\careers-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\category-icon-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\category-icon-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\check-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\check-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\check-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\check-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\check-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\check-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\check-alt.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\check-alt.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\check.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\check.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\choose-us-icon-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\choose-us-icon-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\clock-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\clock-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\coming-soon-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\coming-soon-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\comment-img-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\comment-img-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\comment-img-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\comment-img-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\comment-img-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\comment-img-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-banner-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-banner-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-banner-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-banner-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-banner-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-banner-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-com-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-com-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-email-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-email-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-form-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-form-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-phone-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-phone-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-us-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-us-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\contact-user-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\contact-user-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\cus-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\cus-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\customers-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\customers-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\diamond.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\diamond.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\dislike.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\dislike.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\dot-map.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\dot-map.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\down-arrow.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\down-arrow.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\down_arrow.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\down_arrow.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\earning-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\earning-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\earth-banner.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\earth-banner.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\earth-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\earth-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\error-404-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\error-404-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\eth-blog-sec.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\eth-blog-sec.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\eth-blog.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\eth-blog.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ex-tab-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ex-tab-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ex-tab-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ex-tab-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\ex-tab-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\ex-tab-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\facebook.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\faq-right-sec.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\faq-right-sec.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\faq-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\faq-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fav.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fav.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fb.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fb.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-Illu-index11.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-Illu-index11.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-cross-currency.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-cross-currency.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-list-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-list-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-list-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-list-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\feature-list-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\feature-list-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-1-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-1-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-2-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-2-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-3-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-3-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-4-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-4-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-5-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-5-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-10.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-10.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-11.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-11.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-13.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-13.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-14.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-14.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-15.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-15.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-16.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-16.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-17.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-17.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-18.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-18.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-icon-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-icon-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\features-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\features-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fees-icon-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fees-icon-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\flag-en.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\flag-en.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\flag-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\flag-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\flag.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\flag.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\footer-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\footer-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\forgot-password-Illus.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\forgot-password-Illus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\forgot-pwd-2-Illus.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\forgot-pwd-2-Illus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\fully-registered-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\fully-registered-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\gPlay_btn.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\gPlay_btn.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\global-payment-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\global-payment-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\gold.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\gold.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\google.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\google.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\got-covered-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\got-covered-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\help-details-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\help-details-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-work-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-work-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-work-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-work-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-work-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-work-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-Illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-Illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-left.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-left.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\how-works-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\how-works-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\icon-left.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\icon-left.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\icon-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\icon-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index10-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index10-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index11-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index11-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index2-banner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index2-banner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index2-banner-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index2-banner-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index3-banner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index3-banner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index3-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index3-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index3-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index3-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index4-banner-left.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index4-banner-left.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index4-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index4-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index5-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index5-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index5-right.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index5-right.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index6-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index6-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index8-banner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index8-banner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index8-banner-overlay.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index8-banner-overlay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index8-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index8-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\index9-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\index9-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\info_icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\info_icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\inner-page-banner.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\inner-page-banner.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\instagram.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\lang.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\lang.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-10.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-10.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-articles-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-articles-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-posts-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-posts-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-posts-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-posts-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-posts-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-posts-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\latest-posts-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\latest-posts-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\left-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\left-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\left-quote.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\left-quote.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\like.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\like.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\linkedin.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\linkedin.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\loading.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\loading.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\local-pay-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\local-pay-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\login-bg-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\login-bg-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\logo-index4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\logo-index4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\logo-soon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\logo-soon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\mail-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\mail-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\maps.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\maps.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\market-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\market-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\marketplaces-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\marketplaces-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\marketplaces-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\marketplaces-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\marketplaces-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\marketplaces-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\marketplaces-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\marketplaces-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\mass-payments-secure.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\mass-payments-secure.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\minus.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\minus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\online-pay-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\online-pay-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\online-pay-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\online-pay-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\online-pay-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\online-pay-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\our-values-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\our-values-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\our-values-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\our-values-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\our-values-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\our-values-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\our-values-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\our-values-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\our-vision-img.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\our-vision-img.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\payment-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\payment-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\payment-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\payment-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\payment-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\payment-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\payment-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\payment-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\payment-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\payment-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\plus.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\plus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\pop-up-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\pop-up-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-articles-img-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-articles-img-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-articles-img-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-articles-img-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-articles-img-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-articles-img-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popular-posts-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popular-posts-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popup-circle.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popup-circle.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\popup-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\popup-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\preloader.gif",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\preloader.gif"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\privacy-cookies.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\privacy-cookies.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\privacy-policy-banner.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\privacy-policy-banner.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\profile-info-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\profile-info-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\protecting-privacy.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\protecting-privacy.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\rectangle-globe.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\rectangle-globe.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\register-illus.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\register-illus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\reply-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\reply-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\right-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\right-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\search-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\search-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\send-and-receive.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\send-and-receive.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\send.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\send.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\share-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\share-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\show-hide.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\show-hide.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\silver.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\silver.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\smart-phone-mockup.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\smart-phone-mockup.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\smile.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\smile.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\sms-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\sms-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\sub-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\sub-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\submit-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\submit-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-details-profile.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-details-profile.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\team-member-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\team-member-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-inner-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-inner-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-left.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-left.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-10.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-10.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-7.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-8.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\testimonials-user-9.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\testimonials-user-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\trending-posts-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\trending-posts-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\twitter.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\uk-flag.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\uk-flag.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\usa-flag.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\usa-flag.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\video-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\video-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\view-icon.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\view-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-in-it-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-in-it-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-in-it-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-in-it-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-in-it-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-in-it-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-init-bg.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-init-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-1.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-2.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-3.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-4.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-5.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-we-offer-icon-6.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-we-offer-icon-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\img\\what-you-need-illu.png",
+      "PackagePath": "staticwebassets\\bank\\assets\\img\\what-you-need-illu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\fontawesome.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\apexcharts.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\jquery.countdown.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\plugin.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\plugin.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\slick.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\slick.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\plugin\\wow.min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\plugin\\wow.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\js\\proper-min.js",
+      "PackagePath": "staticwebassets\\bank\\assets\\js\\proper-min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\own-family.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\own-family.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\own-family.svg",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\own-family.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\own-family.ttf",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\own-family.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\own-family.woff",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\own-family.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bank\\assets\\webfonts\\own-familyd41d.eot",
+      "PackagePath": "staticwebassets\\bank\\assets\\webfonts\\own-familyd41d.eot"
+    },
+    {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\bundle\\home-guest.min.css",
       "PackagePath": "staticwebassets\\bundle\\home-guest.min.css"
     },
@@ -103,6 +1707,594 @@
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\source\\vendor\\js\\moment.js",
       "PackagePath": "staticwebassets\\source\\vendor\\js\\moment.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\arafat-font.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\arafat-font.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\images\\ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\images\\ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\plugin\\animate.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\plugin\\animate.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\plugin\\apexcharts.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\plugin\\apexcharts.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\plugin\\nice-select.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\plugin\\nice-select.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\add-new.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\add-new.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\avatar-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\avatar-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\avatar.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\blockchain-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blockchain-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\fav.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\fav.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\account.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\account.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\add-recipients.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\add-recipients.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\bank-account-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\bank-account-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\bell.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\bell.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\bitcoin.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\bitcoin.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\buy-crypto.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\buy-crypto.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\cardano.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\cardano.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\check-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\check-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\check.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\check.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\company-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\company-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\confirm.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\confirm.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\copy-link.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\copy-link.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\credit-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\credit-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\crypto.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\crypto.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\csv.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\csv.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\dashboard.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\dashboard.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\delete-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\delete-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\delete.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\delete.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\deposit.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\deposit.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\dogecoin.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\dogecoin.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\eos.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\eos.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\ethereum.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\ethereum.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\excel.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\excel.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\exchange-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\exchange-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\exchange.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\exchange.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\flag-bd.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\flag-bd.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\flag-btc.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\flag-btc.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\flag-usa.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\flag-usa.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\imac.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\imac.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\individual-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\individual-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\ipad.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\ipad.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\iphone.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\iphone.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\lang.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\lang.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\limit.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\limit.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\logout.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\logout.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\mastercard.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\mastercard.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\menu.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\menu.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\messenger.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\messenger.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\not-confirm.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\not-confirm.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\option.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\option.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\pay.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\pay.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\paylio-account-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\paylio-account-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\paylio-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\paylio-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\paypal.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\paypal.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\pdf.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\pdf.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\pending.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\pending.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\polkadot.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\polkadot.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\printer.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\printer.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\quit.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\quit.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\receive.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\receive.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\recipients.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\recipients.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\remove.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\remove.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\request-funds.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\request-funds.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\right-arrow.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\right-arrow.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\search.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\search.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\sell-crypto.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\sell-crypto.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\send-funds.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\send-funds.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\skype.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\skype.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\spend-get.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\spend-get.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\submitted-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\submitted-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\success.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\success.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\support-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\support-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\support.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\support.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\tether.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\tether.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\transaction-details-icon.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\transaction-details-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\transactions.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\transactions.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\transfer-limit.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\transfer-limit.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\uniswap.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\uniswap.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\upload-icons.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\upload-icons.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\usd.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\usd.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\whatsapp.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\whatsapp.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\withdraw.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\withdraw.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\xrp.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\xrp.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\invite-now-illus.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\invite-now-illus.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\master-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\master-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\owner-profile-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\owner-profile-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\owner-profile.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\owner-profile.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\paylio-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\paylio-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\paypal-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\paypal-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\popup-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\popup-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\preloader.gif"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\profile-1.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\profile-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\profile-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\profile-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\profile-3.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\profile-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\recipients-1.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\recipients-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\recipients-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\recipients-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\recipients-3.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\recipients-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\recipients-4.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\recipients-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\recipients-user.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\recipients-user.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-1.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-10.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-10.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-3.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-4.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-4.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-5.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-5.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-6.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-6.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-7.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-7.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-8.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-8.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\table-img-9.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\table-img-9.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\user-1.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\user-1.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\user-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\user-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\user-3.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\user-3.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\user-profile.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\user-profile.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\visa-card-2.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\visa-card-2.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\visa-card.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\visa-card.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\plugin\\apexcharts.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\plugin\\apexcharts.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\plugin\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\plugin\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\plugin\\plugin.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\plugin\\plugin.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\plugin\\waypoint.min.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\plugin\\waypoint.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\js\\plugin\\wow.min.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\plugin\\wow.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\arafat-font.eot",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\arafat-font.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\arafat-font.svg",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\arafat-font.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\arafat-font.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\arafat-font.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\arafat-font.woff",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\arafat-font.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\arafat-fontd41d.eot",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\arafat-fontd41d.eot"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\user\\assets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BankSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props",

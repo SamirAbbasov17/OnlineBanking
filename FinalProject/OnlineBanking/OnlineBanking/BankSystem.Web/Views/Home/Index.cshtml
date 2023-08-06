@@ -1,8 +1,9 @@
 ﻿@model HomeViewModel
 @{
     ViewData["Title"] = "Home Page";
+    ViewData["Active"] = "active";
 }
-<div class="container">
+@*<div class="container">
     <div class="row flex-lg-row-reverse">
         <div class="col-12 col-lg-4">
             <div class="card mb-3">
@@ -99,6 +100,551 @@
     </div>
 </div>
 
+
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Dashboard Section start -->
+<section class="dashboard-section body-collapse">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7">
+                    <div class="section-content">
+                        <div class="acc-details">
+                            <div class="top-area" style="border-radius: 10px 10px 0 0;background: #5654D1;border-bottom:white 1px solid;">
+                                <div class="left-side" >
+                                    <h5>Hi, @User.Identity.Name</h5>
+
+                                </div>
+                            </div>
+                            @{
+                                int i = 0;
+                            }
+                            @foreach (var account in Model.UserBankAccounts)
+                            {
+
+                                <div class="top-area" style="border-bottom:white 1px solid">
+                                    <div class="left-side">
+                                        <a asp-controller="Accounts" asp-action="Details" asp-route-id="@account.Id" style="color:white;font-size:2em;">@account.Name</a>
+                                        @if(i == 0)
+                                        {
+                                             <p style="color:white">Main Acoount</p>
+                                             i++;
+                                        }
+                                        else
+                                        {
+                                            <p style="color:white">Online Account</p>
+                                        }
+                                       
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="right-top">
+                                            <select>
+                                                <option value="1">US Dollar</option>
+                                                <option value="2">US Dollar</option>
+                                                <option value="3">US Dollar</option>
+                                            </select>
+                                            <div class="dropdown-area">
+                                                <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <img src="~/user/assets/images/icon/option.png" alt="icon">
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                    <li><a class="dropdown-item" href="#">Fiat Currency</a></li>
+                                                    <li><a class="dropdown-item" href="#">crypto Currency</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="right-bottom">
+                                            <h4>$@account.Balance</h4>
+                                            <h5>Payouts</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                           
+                            <div class="bottom-area" style="margin-top:0px;border-radius:0 0 10px 10px">
+                                <div class="left-side">
+                                    <a class ="cmn-btn" asp-controller="Accounts" asp-action="Create">Create new account</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="side-items">
+                        <div class="single-item">
+                            <div class="section-text d-flex align-items-center justify-content-between">
+                                <h6>Linked Payment system</h6>
+                                <div class="right-side">
+                                    <div class="dropdown-area">
+                                        <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="~/user/assets/images/icon/option.png" alt="icon">
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="account.html">Update</a></li>
+                                            <li><a class="dropdown-item" href="javascript:void(0)">Virtual card</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100" data-bs-toggle="modal"
+                                                data-bs-target="#cardMod">
+                                            <img src="~/user/assets/images/visa-card.png" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100" data-bs-toggle="modal"
+                                                data-bs-target="#cardMod">
+                                            <img src="~/user/assets/images/paylio-card.png" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100" data-bs-toggle="modal"
+                                                data-bs-target="#cardMod">
+                                            <img src="~/user/assets/images/paypal-card.png" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100" data-bs-toggle="modal"
+                                                data-bs-target="#cardMod">
+                                            <img src="~/user/assets/images/blockchain-card.png" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100" data-bs-toggle="modal"
+                                                data-bs-target="#addcardMod">
+                                            <img src="~/user/assets/images/add-new.png" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-content">
+                       
+                        <div class="transactions-area mt-40">
+                            <div class="section-text d-flex align-items-center justify-content-between" style="margin-bottom:0px;">
+                                <div>
+                                    <h5>Transactions</h5>
+                                    <p>Updated every several minutes</p>
+                                </div>
+                               
+                                <div class="view-all d-flex align-items-center">
+                                    <a asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">View All</a>
+                                    <img src="~/user/assets/images/icon/right-arrow.png" alt="icon">
+                                </div>
+                            </div>
+                           @* <div class="top-area d-flex align-items-center justify-content-between">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="latest-tab" data-bs-toggle="tab"
+                                                data-bs-target="#latest" type="button" role="tab" aria-controls="latest"
+                                                aria-selected="true">
+                                            Latest
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="view-all d-flex align-items-center">
+                                    <a asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">View All</a>
+                                    <img src="~/user/assets/images/icon/right-arrow.png" alt="icon">
+                                </div>
+                            </div>*@
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="latest" role="tabpanel"
+                                     aria-labelledby="latest-tab">
+                                    <div class="table-responsive">
+                                        @if (Model.MoneyTransfers.Any())
+                                        {
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th data-priority="2" scope="col">Date</th>
+                                                        <th data-priority="4" scope="col">Details</th>
+                                                        <th data-priority="3" scope="col">From</th>
+                                                        <th data-priority="5" scope="col">To</th>
+                                                        <th data-priority="1" scope="col">Amount</th>
+                                                        <th class="none" scope="col">Reference number</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var moneyTransfer in Model.MoneyTransfers)
+                                                    {
+                                                        <tr data-bs-toggle="modal" data-bs-target="#transactionsMod">
+                                                            <td>@moneyTransfer.MadeOn.ToString("O")</td>
+                                                            <td class="word-break-all">@moneyTransfer.Description</td>
+                                                            <td>@moneyTransfer.Source</td>
+                                                            <td>@moneyTransfer.Destination</td>
+                                                            <td>
+                                                                @if (moneyTransfer.Amount < 0)
+                                                                {
+                                                                    <span class="text-red">@moneyTransfer.Amount EUR</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="text-green">+@moneyTransfer.Amount EUR</span>
+                                                                }
+                                                            </td>
+                                                            <td>@moneyTransfer.ReferenceNumber</td>
+                                                        </tr>
+                                                    }
+
+
+                                                </tbody>
+                                            </table>
+                                            
+                                        }
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dashboard Section end -->
+<!-- Card Popup start -->
+<div class="card-popup">
+    <div class="container-fruid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="modal fade" id="cardMod" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-center">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                            <div class="main-content">
+                                <div class="top-area mb-40 mt-40 text-center">
+                                    <div class="card-area mb-30">
+                                        <img src="~/user/assets/images/visa-card-2.png" alt="image">
+                                    </div>
+                                    <div class="text-area">
+                                        <h5>Paylio payment Card </h5>
+                                        <p>Linked: 01 Jun 2021</p>
+                                    </div>
+                                </div>
+                                <div class="tab-area d-flex align-items-center justify-content-between">
+                                    <ul class="nav nav-tabs mb-30" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="btn-link" id="cancel-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#cancel" type="button" role="tab"
+                                                    aria-controls="cancel" aria-selected="false">
+                                                <img src="~/user/assets/images/icon/limit.png" alt="icon">
+                                                Set transfer limit
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="d-none" id="limit-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#limit" type="button" role="tab"
+                                                    aria-controls="limit" aria-selected="true"></button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <img src="~/user/assets/images/icon/remove.png" alt="icon">
+                                                Remove from Linked
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content mt-30">
+                                    <div class="tab-pane fade show active" id="limit" role="tabpanel"
+                                         aria-labelledby="limit-tab">
+                                        <div class="bottom-area">
+                                            <p class="history">Transaction History : <span>20</span></p>
+                                            <ul>
+                                                <li>
+                                                    <p class="left">
+                                                        <span>03:00 PM</span>
+                                                        <span>17 Oct, 2020</span>
+                                                    </p>
+                                                    <p class="right">
+                                                        <span>$160.48</span>
+                                                        <span>Withdraw</span>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="left">
+                                                        <span>01:09 PM</span>
+                                                        <span>15 Oct, 2021</span>
+                                                    </p>
+                                                    <p class="right">
+                                                        <span>$106.58</span>
+                                                        <span>Withdraw</span>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="left">
+                                                        <span>04:00 PM</span>
+                                                        <span>12 Oct, 2020</span>
+                                                    </p>
+                                                    <p class="right">
+                                                        <span>$176.58</span>
+                                                        <span>Withdraw</span>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="left">
+                                                        <span>06:00 PM</span>
+                                                        <span>25 Oct, 2020</span>
+                                                    </p>
+                                                    <p class="right">
+                                                        <span>$167.85</span>
+                                                        <span>Withdraw</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="cancel" role="tabpanel"
+                                         aria-labelledby="cancel-tab">
+                                        <div class="main-area">
+                                            <div class="transfer-area">
+                                                <p>Set a transfer limit for paylio payment Card</p>
+                                                <p class="mdr">Transfer Limit</p>
+                                            </div>
+                                            <form action="#">
+                                                <div class="input-area">
+                                                    <input class="xxlr" placeholder="400.00" type="number">
+                                                    <select>
+                                                        <option value="1">USD</option>
+                                                        <option value="2">USD</option>
+                                                        <option value="3">USD</option>
+                                                    </select>
+                                                </div>
+                                                <div class="bottom-area d-flex align-items-center justify-content-between">
+                                                    <a href="javascript:void(0)" class="cmn-btn cancel">
+                                                        Cancel and
+                                                        Back
+                                                    </a>
+                                                    <a href="javascript:void(0)" class="cmn-btn">
+                                                        Confirm Transfer
+                                                        Limit
+                                                    </a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Card Popup start -->
+<!-- Add Card Popup start -->
+<div class="add-card">
+    <div class="container-fruid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="modal fade" id="addcardMod" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-between">
+                                <h6>Add Card</h6>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                            <form action="#">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-12">
+                                        <div class="single-input">
+                                            <label for="cardNumber">Card Number</label>
+                                            <input type="text" id="cardNumber"
+                                                   placeholder="5890 - 6858 - 6332 - 9843">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-input">
+                                            <label for="cardHolder">Card Holder</label>
+                                            <input type="text" id="cardHolder" placeholder="Alfred Davis">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-input">
+                                            <label for="month">Month</label>
+                                            <input type="text" id="month" placeholder="12">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-input">
+                                            <label for="year">Year</label>
+                                            <input type="text" id="year" placeholder="2025">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="btn-border w-100">
+                                            <button class="cmn-btn w-100">Add Card</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Add Card Popup start -->
+<!-- Transactions Popup start -->
+<div class="transactions-popup">
+    <div class="container-fruid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="modal fade" id="transactionsMod" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-between">
+                                <h5>Transaction Details</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <div class="main-content">
+                                <div class="row">
+                                    <div class="col-sm-5 text-center">
+                                        <div class="icon-area">
+                                            <img src="~/user/assets/images/icon/transaction-details-icon.png" alt="icon">
+                                        </div>
+                                        <div class="text-area">
+                                            <h6>Envato Pty Ltd</h6>
+                                            <p>16 Jan 2022</p>
+                                            <h3>717.14 USD</h3>
+                                            <p class="com">Completed</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="right-area">
+                                            <h6>Transaction Details</h6>
+                                            <ul class="payment-details">
+                                                <li>
+                                                    <span>Payment Amount</span>
+                                                    <span>718.64 USD</span>
+                                                </li>
+                                                <li>
+                                                    <span>Fee</span>
+                                                    <span>1.50 USD</span>
+                                                </li>
+                                                <li>
+                                                    <span>Total Amount</span>
+                                                    <span>717.14 USD</span>
+                                                </li>
+                                            </ul>
+                                            <ul class="payment-info">
+                                                <li>
+                                                    <p>Payment From</p>
+                                                    <span class="mdr">Envato Pty Ltd</span>
+                                                </li>
+                                                <li>
+                                                    <p>Payment Description</p>
+                                                    <span class="mdr">Envato Feb 2022 Member Payment</span>
+                                                </li>
+                                                <li>
+                                                    <p>Transaction  ID:</p>
+                                                    <span class="mdr">6559595979565959895559595</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="editModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit account display name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="post">
+                        <input type="hidden" name="accountId">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input required class="form-control" type="text" name="name">
+                        </div>
+                        <div class="text-center d-flex justify-content-between">
+                            <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">OK</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Transactions Popup start -->
 @section Scripts
     {
     <script>
@@ -142,3 +688,4 @@
         });
     </script>
 }
+
