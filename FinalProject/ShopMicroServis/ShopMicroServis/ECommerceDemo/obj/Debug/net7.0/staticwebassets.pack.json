@@ -1785,6 +1785,26 @@
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\202313080821_1198418.png",
+      "PackagePath": "staticwebassets\\uploads\\202313080821_1198418.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\202356080830_download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\202356080830_download.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\cod.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cod.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\ds.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\ds.jpeg"
+    },
+    {
+      "Id": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\er.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\er.jpeg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ECommerceDemo.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

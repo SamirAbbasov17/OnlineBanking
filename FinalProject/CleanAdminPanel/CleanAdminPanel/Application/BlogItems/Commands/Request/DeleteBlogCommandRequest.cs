@@ -11,5 +11,7 @@ namespace Application.BlogItems.Commands.Request
     public class DeleteBlogCommandRequest : IRequest<DeleteBlogCommandResponse>
     {
         public int Id { get; set; }
+        public string? RootPath { get; set; }
     }
+}
 }

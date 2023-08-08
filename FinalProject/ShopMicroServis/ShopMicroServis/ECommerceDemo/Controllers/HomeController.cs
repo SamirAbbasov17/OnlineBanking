@@ -9,18 +9,23 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Storage.V1;
+
 
 namespace ECommerceDemo.Controllers
 {
     [Authorize]
     public class HomeController : Controller
     {
+        GoogleCredential google = GoogleCredential.FromFile(@"F:\downloads\our-card-395216-aa1459032ed4.json");
         private readonly ILogger<HomeController> _logger;
         private readonly IGetCurrentUser _currentUser;
+        private readonly IWebHostEnvironment _environment;
         private readonly UserManager<ECommerceDemoUser> _userManager;
         HttpClientHandler clientHandler;
         HttpClient client;
-        public HomeController(ILogger<HomeController> logger, IGetCurrentUser currentUser, UserManager<ECommerceDemoUser> userManager)
+        public HomeController(ILogger<HomeController> logger, IGetCurrentUser currentUser, UserManager<ECommerceDemoUser> userManager, IWebHostEnvironment environment)
         {
             _logger = logger;
             clientHandler = new HttpClientHandler();
@@ -28,6 +33,7 @@ namespace ECommerceDemo.Controllers
             client = new HttpClient(clientHandler);
             this._currentUser = currentUser;
             _userManager = userManager;
+            _environment = environment;
         }
 
         public IActionResult Index()
@@ -66,10 +72,34 @@ namespace ECommerceDemo.Controllers
 
         public async Task<IActionResult> Shop()
         {
+          
+
+
             ViewBag.Success = TempData["success"];
             MainShopVM main = new();
             var responseMessage = await client.GetStringAsync("https://localhost:7098/items");
             var shopVM = JsonConvert.DeserializeObject<List<ShopVM>>(responseMessage);
+            var gcsStorage = StorageClient.Create(google);
+            foreach (var item in shopVM)
+            {
+                try
+                {
+                    var folderPath = Path.Combine(_environment.WebRootPath, "uploads");
+                    var fileDownloadPath = Path.Combine(folderPath, item.Image);
+                    using (var outputFile = System.IO.File.OpenWrite(fileDownloadPath))
+                    {
+                        gcsStorage.DownloadObject("clean_admin", item.Image, outputFile);
+                    }
+                }
+                catch (Exception)
+                {
+
+                    continue;
+                }
+              
+                
+            }
+           
             main.Shops = shopVM;
             return View(main);
         }

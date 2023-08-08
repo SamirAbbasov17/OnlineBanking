@@ -14,11 +14,14 @@ using Application.BlogItems.Commands.Response;
 using Application.BlogItems.Commands.Request;
 using Microsoft.AspNetCore.Authorization;
 
+
+
 namespace AdminPanel.Controllers
 {
     [Authorize]
     public class BlogsController : Controller
     {
+        
         IMediator _mediator;
 
         public BlogsController(IMediator mediator)
