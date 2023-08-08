@@ -5,7 +5,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+@*<h1>Create</h1>
 
 <h4>JobApplication</h4>
 <hr />
@@ -47,6 +47,70 @@
 
 <div>
     <a asp-action="Index">Back to List</a>
+</div>
+
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Create Blog</h4>
+            </div>
+            <div class="card-body">
+                <div class="basic-form">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Name" class="form-label">Title</label>
+                                <input asp-for="Name" type="text" class="form-control">
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Email" class="form-label">Content</label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Phone" class="form-label">Description</label>
+                                <input asp-for="Phone" class="form-control">
+                                <span asp-validation-for="Phone" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Linkedin" class="form-label">Description</label>
+                                <input asp-for="Linkedin" class="form-control">
+                                <span asp-validation-for="Linkedin" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Cv" class="form-label"></label>
+                                <input type="file" class="form-control" />
+                                <span class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-default">Create</button>
+                        <div>
+                            <a asp-action="Index">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @section Scripts {

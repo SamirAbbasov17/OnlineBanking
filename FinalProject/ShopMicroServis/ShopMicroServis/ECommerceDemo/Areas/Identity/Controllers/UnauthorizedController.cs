@@ -67,14 +67,14 @@ namespace ECommerceDemo.Areas.Identity.Controllers
         public async Task<IActionResult> Login(LoginVM loginVm)
         {
             ECommerceDemoUser user;
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return RedirectToAction("Identity");
             if (loginVm.UsernameOrEmail.Contains("@"))
             {
                 user = await _userManager.FindByEmailAsync(loginVm.UsernameOrEmail);
                 if (user == null)
                 {
                     ModelState.AddModelError("", "Invalid Credentials");
-                    return View();
+                    return RedirectToAction("Identity");
                 }
             }
             else
@@ -83,14 +83,14 @@ namespace ECommerceDemo.Areas.Identity.Controllers
                 if (user == null)
                 {
                     ModelState.AddModelError("", "Invalid Credentials");
-                    return View();
+                    return RedirectToAction("Identity");
                 }
             }
             var result = await _signInManager.PasswordSignInAsync(user, loginVm.Password, loginVm.RememberMe, false);
             if (!result.Succeeded)
             {
                 ModelState.AddModelError("", "Invalid Credentials");
-                return View();
+                return RedirectToAction("Identity");
             }
             return RedirectToAction("Index", "Home", new { Area = "" });
         }
@@ -99,7 +99,7 @@ namespace ECommerceDemo.Areas.Identity.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterVM registerVm)
         {
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return RedirectToAction("Identity");
 
             ECommerceDemoUser newUser = new ECommerceDemoUser()
             {
@@ -114,7 +114,7 @@ namespace ECommerceDemo.Areas.Identity.Controllers
                 {
                     ModelState.AddModelError("", error.Description);
                 }
-                return View();
+                return RedirectToAction("Identity");
             }
             return RedirectToAction("Index", "Unauthorized", new { Area = "Identity" });
         }

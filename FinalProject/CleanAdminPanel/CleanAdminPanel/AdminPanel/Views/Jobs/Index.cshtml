@@ -5,7 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@*<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -52,3 +52,72 @@
 }
     </tbody>
 </table>
+
+
+
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Recent Payments Queue</h4>
+                <p>
+                    <a asp-action="Create">Create New</a>
+                </p>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th><strong> @Html.DisplayNameFor(model => model[0].JobName)</strong></th>
+                                <th><strong>  @Html.DisplayNameFor(model => model[0].JobTitle)</strong></th>
+                                <th><strong>@Html.DisplayNameFor(model => model[0].JobDescription)</strong></th>
+                                <th><strong>  @Html.DisplayNameFor(model => model[0].JobTime)</strong></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td> @Html.DisplayFor(modelItem => item.JobName)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.JobTitle)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.JobDescription)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.JobTime)</td>
+                                    <td>
+
+                                        <span>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="Edit"><i class="fas fa-pencil-alt"></i> </a>
+                                            <a asp-action="Details" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="btn-close"><i class="fas fa-info-circle"></i></a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="btn-close"><i class="fas fa-times text-danger"></i></a>
+
+                                        </span>
+
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

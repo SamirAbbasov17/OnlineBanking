@@ -1,5 +1,61 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using AdminPanel.ViewModels;
+@model List<ShopVM>
 @{
+    ViewData["Title"] = "Index";
 }
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Recent Payments Queue</h4>
+
+                <p>
+                    <a asp-action="Create">Create New</a>
+                </p>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th><strong> @Html.DisplayNameFor(model => model[0].Name)</strong></th>
+                                <th><strong>  @Html.DisplayNameFor(model => model[0].Price)</strong></th>
+                                <th><strong>@Html.DisplayNameFor(model => model[0].Description)</strong></th>
+                                <th><strong> @Html.DisplayNameFor(model => model[0].Image)</strong></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td> @Html.DisplayFor(modelItem => item.Name)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.Price)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.Description)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Image)</td>
+                                    <td>
+
+                                        <span>
+                                            <a asp-action="Update" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="Edit"><i class="fas fa-pencil-alt"></i> </a>
+                                            <a asp-action="Details" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="btn-close"><i class="fas fa-info-circle"></i></a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" data-bs-toggle="tooltip"
+                                               data-placement="top" title="btn-close"><i class="fas fa-times text-danger"></i></a>
+
+                                        </span>
+
+                                    </td>
+                                </tr>
+
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
