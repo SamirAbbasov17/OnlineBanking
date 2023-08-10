@@ -1709,6 +1709,14 @@
       "PackagePath": "staticwebassets\\source\\vendor\\js\\moment.js"
     },
     {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202314090856_how-to-write-a-blog-post.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\202314090856_how-to-write-a-blog-post.jpeg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202353090808_ItTakesTwo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\202353090808_ItTakesTwo.jpg"
+    },
+    {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\arafat-font.css",
       "PackagePath": "staticwebassets\\user\\assets\\css\\arafat-font.css"
     },

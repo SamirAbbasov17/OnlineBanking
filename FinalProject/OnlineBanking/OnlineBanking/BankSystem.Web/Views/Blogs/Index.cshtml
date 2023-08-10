@@ -1,4 +1,5 @@
-﻿
+﻿@using BankSystem.Web.ViewModels;
+@model List<BlogVM>
 @{
     Layout = "_Layout1";
 }
@@ -108,27 +109,29 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                             <div class="row cus-mar">
-                                <div class="col-lg-6">
-                                    <div class="single-area">
-                                        <div class="top-item">
-                                            <img src="~/bank/assets/img/latest-articles-1.png" alt="image">
-                                        </div>
-                                        <div class="bottom-item">
-                                            <a href="blog-single.html"><h5>What are NFTs and why are some selling for millions of dollars?</h5></a>
-                                            <p>
-                                                Lacus vestibulum sed arcu non. Leo vel fringilla est ullamcorper eget
-                                                nulla facilisi.
-                                            </p>
-                                            <div class="date-area d-flex justify-content-between">
-                                                <a href="blog-single.html">
-                                                    Read More <img src="~/bank/assets/img/right-icon-5.png"
-                                                                   alt="image">
-                                                </a>
-                                                <p class="mdr">July 21, 2021</p>
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-area">
+                                            <div class="top-item">
+                                                <img src="~/uploads/@item.Image" alt="image">
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="/Blogs/SinglePage/@item.Id"><h5>@item.Title</h5></a>
+                                                <p>
+                                                    @item.Description
+                                                </p>
+                                                <div class="date-area d-flex justify-content-between">
+                                                    <a href="/Blogs/SinglePage/@item.Id">
+                                                        Read More <img src="~/bank/assets/img/right-icon-5.png"
+                                                                       alt="image">
+                                                    </a>
+                                                    <p class="mdr">July 21, 2021</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
                                 <div class="col-lg-6">
                                     <div class="single-area">
                                         <div class="top-item">
@@ -283,27 +286,30 @@
                         </div>
                         <div class="tab-pane fade" id="resources" role="tabpanel" aria-labelledby="resources-tab">
                             <div class="row cus-mar">
-                                <div class="col-lg-6">
-                                    <div class="single-area">
-                                        <div class="top-item">
-                                            <img src="~/bank/assets/img/latest-articles-1.png" alt="image">
-                                        </div>
-                                        <div class="bottom-item">
-                                            <a href="blog-single.html"><h5>What are NFTs and why are some selling for millions of dollars?</h5></a>
-                                            <p>
-                                                Lacus vestibulum sed arcu non. Leo vel fringilla est ullamcorper eget
-                                                nulla facilisi.
-                                            </p>
-                                            <div class="date-area d-flex justify-content-between">
-                                                <a href="blog-single.html">
-                                                    Read More <img src="~/bank/assets/img/right-icon-5.png"
-                                                                   alt="image">
-                                                </a>
-                                                <p class="mdr">July 21, 2021</p>
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-area">
+                                            <div class="top-item">
+                                                <img src="~/uploads/@item.Image" alt="image">
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="/Blogs/SinglePage/@item.Id"><h5>@item.Title</h5></a>
+                                                <p>
+                                                    @item.Description
+                                                </p>
+                                                <div class="date-area d-flex justify-content-between">
+                                                    <a href="/Blogs/SinglePage/@item.Id">
+                                                        Read More <img src="~/bank/assets/img/right-icon-5.png"
+                                                                       alt="image">
+                                                    </a>
+                                                    <p class="mdr">July 21, 2021</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
+                               
                                 <div class="col-lg-6">
                                     <div class="single-area">
                                         <div class="top-item">
@@ -458,27 +464,30 @@
                         </div>
                         <div class="tab-pane fade" id="finance" role="tabpanel" aria-labelledby="finance-tab">
                             <div class="row cus-mar">
-                                <div class="col-lg-6">
-                                    <div class="single-area">
-                                        <div class="top-item">
-                                            <img src="~/bank/assets/img/latest-articles-1.png" alt="image">
-                                        </div>
-                                        <div class="bottom-item">
-                                            <a href="blog-single.html"><h5>What are NFTs and why are some selling for millions of dollars?</h5></a>
-                                            <p>
-                                                Lacus vestibulum sed arcu non. Leo vel fringilla est ullamcorper eget
-                                                nulla facilisi.
-                                            </p>
-                                            <div class="date-area d-flex justify-content-between">
-                                                <a href="blog-single.html">
-                                                    Read More <img src="~/bank/assets/img/right-icon-5.png"
-                                                                   alt="image">
-                                                </a>
-                                                <p class="mdr">July 21, 2021</p>
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-area">
+                                            <div class="top-item">
+                                                <img src="~/uploads/@item.Image" alt="image">
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="/Blogs/SinglePage/@item.Id"><h5>@item.Title</h5></a>
+                                                <p>
+                                                    @item.Description
+                                                </p>
+                                                <div class="date-area d-flex justify-content-between">
+                                                    <a href="/Blogs/SinglePage/@item.Id">
+                                                        Read More <img src="~/bank/assets/img/right-icon-5.png"
+                                                                       alt="image">
+                                                    </a>
+                                                    <p class="mdr">July 21, 2021</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
+                               
                                 <div class="col-lg-6">
                                     <div class="single-area">
                                         <div class="top-item">
@@ -633,27 +642,29 @@
                         </div>
                         <div class="tab-pane fade" id="crypto" role="tabpanel" aria-labelledby="crypto-tab">
                             <div class="row cus-mar">
-                                <div class="col-lg-6">
-                                    <div class="single-area">
-                                        <div class="top-item">
-                                            <img src="~/bank/assets/img/latest-articles-1.png" alt="image">
-                                        </div>
-                                        <div class="bottom-item">
-                                            <a href="blog-single.html"><h5>What are NFTs and why are some selling for millions of dollars?</h5></a>
-                                            <p>
-                                                Lacus vestibulum sed arcu non. Leo vel fringilla est ullamcorper eget
-                                                nulla facilisi.
-                                            </p>
-                                            <div class="date-area d-flex justify-content-between">
-                                                <a href="blog-single.html">
-                                                    Read More <img src="~/bank/assets/img/right-icon-5.png"
-                                                                   alt="image">
-                                                </a>
-                                                <p class="mdr">July 21, 2021</p>
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-area">
+                                            <div class="top-item">
+                                                <img src="~/uploads/@item.Image" alt="image">
+                                            </div>
+                                            <div class="bottom-item">
+                                                <a href="/Blogs/SinglePage/@item.Id"><h5>@item.Title</h5></a>
+                                                <p>
+                                                    @item.Description
+                                                </p>
+                                                <div class="date-area d-flex justify-content-between">
+                                                    <a href="/Blogs/SinglePage/@item.Id">
+                                                        Read More <img src="~/bank/assets/img/right-icon-5.png"
+                                                                       alt="image">
+                                                    </a>
+                                                    <p class="mdr">July 21, 2021</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
                                 <div class="col-lg-6">
                                     <div class="single-area">
                                         <div class="top-item">

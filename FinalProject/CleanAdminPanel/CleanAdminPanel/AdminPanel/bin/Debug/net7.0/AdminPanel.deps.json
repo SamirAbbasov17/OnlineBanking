@@ -2850,6 +2850,7 @@
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Google.Cloud.Storage.V1": "4.6.0",
           "MediatR": "12.1.1",
           "Microsoft.EntityFrameworkCore": "7.0.9"
         },

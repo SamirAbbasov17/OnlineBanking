@@ -14,4 +14,4 @@ namespace Application.BlogItems.Commands.Request
         public string? RootPath { get; set; }
     }
 }
-}
+

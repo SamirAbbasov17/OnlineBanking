@@ -36,10 +36,11 @@ namespace AdminPanel.Controllers
                           Problem("Entity set 'ApplicationDbContext.Blogs'  is null.");            
         }
 
-        [HttpGet]
-        public async Task<IActionResult> BlogByID()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> BlogByID([FromRoute]int id)
         {
             GetByIdBlogQueryRequest requestModel = new();
+            requestModel.Id = id;
             GetByIdBlogQueryResponse blog = await _mediator.Send(requestModel);
             if (blog == null)
             {
@@ -64,8 +65,9 @@ namespace AdminPanel.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Help(GetAllHelpQueryRequest requestModel)
+        public async Task<IActionResult> Help()
         {
+            GetAllHelpQueryRequest requestModel = new();
             List<GetAllHelpQueryResponse> allProducts = await _mediator.Send(requestModel);
             return allProducts != null ?
                           Ok(allProducts) :
@@ -73,10 +75,12 @@ namespace AdminPanel.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("{id}")]
         // GET: Helps/Details/5
-        public async Task<IActionResult> HelpById(GetByIdHelpQueryRequest requestModel)
+        public async Task<IActionResult> HelpById([FromRoute] int id)
         {
+            GetByIdHelpQueryRequest requestModel = new();
+            requestModel.Id = id;
             GetByIdHelpQueryResponse Help = await _mediator.Send(requestModel);
             if (Help == null)
             {

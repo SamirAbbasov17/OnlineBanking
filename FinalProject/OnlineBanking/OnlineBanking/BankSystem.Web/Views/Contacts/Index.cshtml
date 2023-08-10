@@ -1,6 +1,8 @@
-﻿@{
+﻿@using BankSystem.Web.ViewModels;
+@{
     Layout = "_Layout1";
 }
+@model ContactMessageVM
 
 
 
@@ -115,17 +117,19 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="form-area">
-                        <form action="#">
+                        <form asp-action="Send">
                             <div class="row">
                                 <div class="col-6">
                                     <div class="single-input d-flex align-items-center">
-                                        <input type="text" placeholder="Name">
+                                        <input asp-for="Name" placeholder="Name">
+                                         <span asp-validation-for="Name" class="text-danger"></span>
                                         <img src="~/bank/assets/img/contact-user-icon.png" alt="image">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="single-input d-flex align-items-center">
-                                        <input type="email" placeholder="Email">
+                                        <input asp-for="Email" placeholder="Email">
+                                        <span asp-validation-for="Email" class="text-danger"></span>
                                         <img src="~/bank/assets/img/contact-email-icon.png" alt="image">
                                     </div>
                                 </div>
@@ -133,25 +137,29 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="single-input d-flex align-items-center">
-                                        <input type="text" placeholder="Phone">
+                                        <input asp-for="Phone" placeholder="Phone">
+                                        <span asp-validation-for="Phone" class="text-danger"></span>
                                         <img src="~/bank/assets/img/contact-phone-icon.png" alt="image">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="single-input d-flex align-items-center">
-                                        <input type="text" placeholder="Company">
+                                        <input asp-for ="Company" placeholder="Company">
+                                        <span asp-validation-for="Company" class="text-danger"></span>
                                         <img src="~/bank/assets/img/contact-com-icon.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="single-input d-flex align-items-center">
-                                <input type="text" placeholder="How can we help you?">
+                                <input asp-for="MessageTitle" placeholder="How can we help you?">
+                                <span asp-validation-for="MessageTitle" class="text-danger"></span>
                             </div>
                             <div class="single-input d-flex align-items-center">
-                                <textarea placeholder="What’s your message?" cols="30" rows="10"></textarea>
+                                <textarea asp-for="MessageBody" placeholder="What’s your message?" cols="30" rows="10"></textarea>
+                                <span asp-validation-for="MessageBody" class="text-danger"></span>
                             </div>
                             <div class="btn-area text-center">
-                                <button class="cmn-btn">Send message</button>
+                                <button type="submit" class="cmn-btn">Send message</button>
                             </div>
                         </form>
                     </div>

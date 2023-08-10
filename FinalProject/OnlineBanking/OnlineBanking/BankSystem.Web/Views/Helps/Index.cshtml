@@ -1,8 +1,9 @@
-﻿@{
+﻿@using BankSystem.Web.ViewModels;
+@{
     Layout = "_Layout1";
 }
 
-
+@model List<HelpVM>
 
 
 <section class="banner-section inner-pages help-center">
@@ -164,6 +165,29 @@
                         <p>Global Transfers Support team is happy to help you</p>
                     </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
+                        @foreach (var item in Model)
+                        {
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                            aria-controls="flush-collapseOne">
+                                        @item.Name
+                                    </button>
+                                </h6>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            <a style="color:black" href="/Helps/HelpDetails/@item.Id">
+                                                @item.Description
+                                            </a>
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        }
                         <div class="accordion-item">
                             <h6 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"

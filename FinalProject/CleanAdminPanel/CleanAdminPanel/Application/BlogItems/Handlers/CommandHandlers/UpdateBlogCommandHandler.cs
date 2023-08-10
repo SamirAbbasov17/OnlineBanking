@@ -2,6 +2,7 @@
 using Application.BlogItems.Commands.Response;
 using Application.BlogItems.Queries.Response;
 using Application.Common.Interfaces;
+using Application.ContactMessageItems.Commands.Response;
 using Domain.Entities;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Storage.V1;
@@ -28,66 +29,71 @@ namespace Application.BlogItems.Handlers.CommandHandlers
 
         public async Task<UpdateBlogCommandResponse> Handle(UpdateBlogCommandRequest request, CancellationToken cancellationToken)
         {
+            var blog = _context.Blogs.FirstOrDefault(p => p.Id == request.Id);
             if (request.Content == null)
             {
-                var blog = _context.Blogs.FirstOrDefault(p => p.Id == request.Id);
-                if (request.Image != null)
+            
+                    var ContactMessage = _context.ContactMessages.FirstOrDefault(p => p.Id == request.Id);
+                return new UpdateBlogCommandResponse
                 {
-                    var storage = StorageClient.Create(google);
-                    var bucket = storage.GetBucket("clean_admin");
-                    var fileName = DateTime.Now.ToString("yyyymmddMMss") + "_" + Path.GetFileName(request.Image.FileName);
-                    var folderPath = Path.Combine(request.RootPath, "uploads");
-                    var filePath = Path.Combine(folderPath, fileName);
-                    var deletePath = Path.Combine(folderPath, blog.Image);
-                    if (System.IO.File.Exists(deletePath))
-                    {
-                        System.IO.File.Delete(deletePath);
-                        storage.DeleteObject("clean_admin", blog.Image);
-                    }
-                    using (var fileStream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await request.Image.CopyToAsync(fileStream);
-                    }
-                    using (FileStream uploadFileStream = System.IO.File.OpenRead(filePath))
-                    {
-                        string objectName = Path.GetFileName(filePath);
-                        storage.UploadObject("clean_admin", objectName, null, uploadFileStream);
-                    }
-                    return new UpdateBlogCommandResponse
-                    {
-                        Id = blog.Id,
-                        Title = blog.Title,
-                        Content = blog.Content,
-                        Description = blog.Description,
-                        Image = request.Image.FileName
-                    };
-                }
-                else
-                {
-                    return new UpdateBlogCommandResponse
-                    {
-                        Id = blog.Id,
-                        Title = blog.Title,
-                        Content = blog.Content,
-                        Description = blog.Description,
-                        Image = blog.Image
-                    };
-                }
-               
-               
-            }
-            var updateProduct = _context.Blogs.FirstOrDefault(p => p.Id == request.Id);
+                    Id = blog.Id,
+                    Title = blog.Title,
+                    Content = blog.Content,
+                    Description = blog.Description,
+                    Image = blog.Image
+                };
 
-            updateProduct.Title = request.Title;
-            updateProduct.Content = request.Content;
-            updateProduct.Description = request.Description;
-            updateProduct.Image = request.Image.FileName;
-            _context.Blogs.Update(updateProduct);
-            await _context.SaveChangesAsync(cancellationToken);
-            return new UpdateBlogCommandResponse
+            }
+
+            if (request.Image != null)
             {
-                IsSuccess = true,
-            };
+                var storage = StorageClient.Create(google);
+                var bucket = storage.GetBucket("clean_admin");
+                var fileName = DateTime.Now.ToString("yyyymmddMMss") + "_" + Path.GetFileName(request.Image.FileName);
+                var folderPath = Path.Combine(request.RootPath, "uploads");
+                var filePath = Path.Combine(folderPath, fileName);
+                var deletePath = Path.Combine(folderPath, blog.Image);
+                if (System.IO.File.Exists(deletePath))
+                {
+                    System.IO.File.Delete(deletePath);
+                    storage.DeleteObject("clean_admin", blog.Image);
+                }
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await request.Image.CopyToAsync(fileStream);
+                }
+                using (FileStream uploadFileStream = System.IO.File.OpenRead(filePath))
+                {
+                    string objectName = Path.GetFileName(filePath);
+                    storage.UploadObject("clean_admin", objectName, null, uploadFileStream);
+                }
+
+                blog.Title = request.Title;
+                blog.Content = request.Content;
+                blog.Description = request.Description;
+                blog.Image = fileName;
+                _context.Blogs.Update(blog);
+                await _context.SaveChangesAsync(cancellationToken);
+                return new UpdateBlogCommandResponse
+                {
+                    IsSuccess = true,
+                };
+            
+            }
+            else
+            {
+                blog.Title = request.Title;
+                blog.Content = request.Content;
+                blog.Description = request.Description;
+                _context.Blogs.Update(blog);
+                await _context.SaveChangesAsync(cancellationToken);
+                return new UpdateBlogCommandResponse
+                {
+                    IsSuccess = true,
+                };
+            
+            }
+              
         }
     }
 }

@@ -48,7 +48,7 @@ namespace Application.BlogItems.Handlers.CommandHandlers
                 Title = request.Title,
                 Content = request.Content,
                 Description = request.Description,
-                Image = request.Image.FileName
+                Image = fileName
             });
             _context?.Blogs.Add(entity);
             await _context?.SaveChangesAsync(cancellationToken);

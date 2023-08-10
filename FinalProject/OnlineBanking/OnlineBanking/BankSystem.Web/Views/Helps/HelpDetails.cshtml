@@ -1,6 +1,5 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using BankSystem.Web.ViewModels;
+@model HelpVM;
 @{
     Layout = "_Layout1";
 }
@@ -40,8 +39,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-10">
                                 <h2 class="text-uppercase">
-                                    What do I need to open an
-                                    account with Paylio?
+                                    @Model.Name
                                 </h2>
                                 <div class="profile-area d-flex justify-content-center align-items-center">
                                     <div class="icon-area">
@@ -68,38 +66,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="top-wrapper">
-                        <h3>Create a account on Paylio</h3>
-                        <p>Opening a Paylio account is quick and easy. To register you only need to provide your name, country of residence, currency, email and password. You can now explore Paylio!</p>
-                        <p>To actively start using your Paylio account, you will need to complete your registration. We will ask you for the following minimum personal information that will help us set up your Paylio wallet features:</p>
-                        <ul>
-                            <li>
-                                <img src="~/bank/assets/img/right-icon-3.png" alt="image">
-                                Address
-                            </li>
-                            <li>
-                                <img src="~/bank/assets/img/right-icon-3.png" alt="image">
-                                City
-                            </li>
-                            <li>
-                                <img src="~/bank/assets/img/right-icon-3.png" alt="image">
-                                Postal code
-                            </li>
-                            <li>
-                                <img src="~/bank/assets/img/right-icon-3.png" alt="image">
-                                Date of birth
-                            </li>
-                            <li>
-                                <img src="~/bank/assets/img/right-icon-3.png" alt="image">
-                                Mobile phone number
-                            </li>
-                        </ul>
-                        <p>To secure your newly created account, we will send you via phone or email a 6-digit verification code, that you will need to confirm. You can now start using your Paylio account!</p>
-                        <p>Once you make your first successful deposit or receive money in your Paylio  wallet, the option to verify your account will become available for you. You don’t need to verify your identity, though, until you reach certain transaction limit. The limits depend on the features you use and will be displayed to you when you initiate a transaction. </p>
-                        <h5>Good to note:</h5>
-                        <ul class="note">
-                            <li>If you don’t have a Paylio account and money is sent to you from another Paylio customer or online merchant, you will need to complete the registration in order to receive it. Once you do this, the money will be automatically added to your Paylio account in the currency you chose during the registration.</li>
-                            <li>You may need to verify your Paylio account in order to take advantage of some of the available features.</li>
-                        </ul>
+                        <h3>@Model.Description</h3>
+                        <p>@Model.Content</p>
+                        
                         <div class="like-dislike d-flex align-items-center">
                             <a href="javascript:void(0)"><img class="border-area" src="~/bank/assets/img/like.png" alt="image"></a>
                             <a href="javascript:void(0)"><img src="~/bank/assets/img/dislike.png" alt="image"></a>

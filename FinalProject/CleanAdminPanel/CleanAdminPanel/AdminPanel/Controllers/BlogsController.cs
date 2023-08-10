@@ -23,10 +23,12 @@ namespace AdminPanel.Controllers
     {
         
         IMediator _mediator;
+        private readonly IWebHostEnvironment _environment;
 
-        public BlogsController(IMediator mediator)
+        public BlogsController(IMediator mediator, IWebHostEnvironment environment)
         {
             _mediator = mediator;
+            _environment = environment;
         }
 
         // GET: Blogs
@@ -63,7 +65,7 @@ namespace AdminPanel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateBlogCommandRequest requestModel)
         {
-
+            requestModel.RootPath = _environment.WebRootPath;
             if (ModelState.IsValid)
             {
                 CreateBlogCommandResponse response = await _mediator.Send(requestModel);
@@ -75,6 +77,7 @@ namespace AdminPanel.Controllers
         // GET: Blogs/Edit/5
         public async Task<IActionResult> Edit(UpdateBlogCommandRequest requestModel)
         {
+            requestModel.RootPath = _environment.WebRootPath;
             UpdateBlogCommandResponse blog = await _mediator.Send(requestModel);
             if (blog == null)
             {
@@ -90,6 +93,7 @@ namespace AdminPanel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(UpdateBlogCommandRequest requestModel,int a)
         {
+            requestModel.RootPath = _environment.WebRootPath;
             UpdateBlogCommandResponse response = new();
             if (ModelState.IsValid)
             {
@@ -125,6 +129,7 @@ namespace AdminPanel.Controllers
             DeleteBlogCommandRequest delete = new();
             delete.Id = datas.Id;
             DeleteBlogCommandRequest requestModel = delete;
+            requestModel.RootPath = _environment.WebRootPath;
             DeleteBlogCommandResponse response = await _mediator.Send(requestModel);
             if (response == null)
             {

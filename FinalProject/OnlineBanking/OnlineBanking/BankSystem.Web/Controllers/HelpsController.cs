@@ -1,16 +1,32 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BankSystem.Web.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BankSystem.Web.Controllers
 {
     public class HelpsController : Controller
     {
-        public IActionResult Index()
+        HttpClientHandler clientHandler;
+        HttpClient client;
+        public HelpsController()
         {
-            return View();
+            clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+            client = new HttpClient(clientHandler);
         }
-        public IActionResult HelpDetails()
+        public async Task<IActionResult> Index()
         {
-            return View();
+
+            var responseMessage = await client.GetStringAsync($"https://localhost:7178/api/MainApi/Help");
+            var help = JsonConvert.DeserializeObject<List<HelpVM>>(responseMessage);
+            return View(help);
+        }
+        [HttpGet]
+        public async Task<IActionResult> HelpDetails(int id)
+        {
+            var responseMessage = await client.GetStringAsync($"https://localhost:7178/api/MainApi/HelpById/{id}");
+            var help = JsonConvert.DeserializeObject<HelpVM>(responseMessage);
+            return View(help);
         }
     }
 }
