@@ -1,6 +1,8 @@
-﻿@{
+﻿@using BankSystem.Web.ViewModels;
+@{
     Layout = "_Layout1";
 }
+@model List<JobVM>
 
 
 <!-- banner-section start -->
@@ -220,24 +222,28 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Junior Frontend Developer</h5>
-                                    <P class="xlr">Experience: 6 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">April 7, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-lg-6">
+                                    <div class="single-item">
+                                        <h5>@item.JobName</h5>
+                                        <P class="xlr">Experience: 6-9 Years</P>
+                                        <div class="bottom-area d-flex justify-content-between">
+                                            <div class="left-bottom d-flex align-items-center">
+                                                <span>
+                                                    <img src="~/bank/assets/img/clock-icon.png" alt="image">
+                                                    @item.JobTime
+                                                </span>
+                                                <span class="date">April 7, 2021</span>
+                                            </div>
+                                            <div class="right-bottom">
+                                                <a href="/Careers/Position/@item.Id">Explore more</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            }
+                          
                             <div class="col-lg-6">
                                 <div class="single-item">
                                     <h5>Technical Success Lead Consultant</h5>

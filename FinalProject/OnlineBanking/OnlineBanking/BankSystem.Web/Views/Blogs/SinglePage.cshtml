@@ -19,8 +19,8 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb d-flex align-items-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Blog</a></li>
+                                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="/Blogs/Index">Blog</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Blog Single</li>
                                     </ol>
                                 </nav>
@@ -35,7 +35,7 @@
 <!-- banner-section end -->
 <!-- Blog Single In start -->
 <section class="blog-single second latest-articles blog-single-2 latest">
-    <div class="overlay pb-120 pt-120">
+    <div class="overlay pb-30 pt-120">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-12">
@@ -44,13 +44,14 @@
                             @Model.Title
                         </h2>
                         <div class="title-bottom d-flex align-items-center justify-content-between">
+
                             <div class="profile d-flex align-items-center">
-                                <img src="~/bank/assets/img/author-2.png" alt="image">
-                                <h5>Jonh Carter</h5>
+                                <img style="max-width:50px;" src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/corporate-user-icon.png" alt="image">
+                                <h5>Admin</h5>
                             </div>
                             <div class="sub-heading">
-                                <span class="crypto">Crypto</span>
-                                <span class="date">July 21, 2021</span>
+                                <span class="crypto">@Model.Filter</span>
+                                <span class="date">@Model.Created</span>
                             </div>
                         </div>
                     </div>
@@ -65,18 +66,14 @@
                 <div class="col-lg-10">
                     <div class="main-content">
                         <div class="single-content">
-                            <h4 class="title-area">@Model.Title</h4>
+                            <h4 class="title-area">@Model.Description</h4>
                             <p>
-                               @Model.Description
+                               @Model.Content
                             </p>
                         </div>
-                        <div class="single-content">
-                            <p>@Model.Content</p>
-                        </div>
-                     
+
                         <div class="bottom-content d-flex justify-content-between">
                             <div class="right-area d-flex align-items-center">
-                                <div class="share-icon"><img src="~/bank/assets/img/share-icon.png" alt="image"></div>
                                 <div class="social">
                                     <ul class="d-flex">
                                         <li>
@@ -95,90 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="comment-area">
-                            <h4>COMMENTS</h4>
-                            <div class="comment-single d-flex">
-                                <div class="avatar">
-                                    <img src="~/bank/assets/img/comment-img-1.png" alt="image">
-                                </div>
-                                <div class="comnt-text">
-                                    <div class="reply-icon">
-                                        <button><img src="~/bank/assets/img/reply-icon.png" alt="image"></button>
-                                    </div>
-                                    <div class="comnt-info">
-                                        <div class="name-review d-flex align-items-center">
-                                            <h6>Lindsey Dokidis</h6>
-                                            <p class="lang smr"><img src="~/bank/assets/img/flag-en.png" alt="image">United States</p>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec dolor quis eros imperdiet volutpat.</p>
-                                        <p class="smr date">Published 1 week ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comment-single d-flex second">
-                                <div class="avatar">
-                                    <img src="~/bank/assets/img/comment-img-2.png" alt="image">
-                                </div>
-                                <div class="comnt-text">
-                                    <div class="reply-icon">
-                                        <button><img src="~/bank/assets/img/reply-icon.png" alt="image"></button>
-                                    </div>
-                                    <div class="comnt-info">
-                                        <div class="name-review d-flex align-items-center">
-                                            <h6>Ahmad Curtis</h6>
-                                            <p class="lang smr"><img src="~/bank/assets/img/flag-en.png" alt="image">United States</p>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec dolor quis eros imperdiet volutpat.</p>
-                                        <p class="smr date">Published 1 week ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comment-single d-flex">
-                                <div class="avatar">
-                                    <img src="~/bank/assets/img/comment-img-3.png" alt="image">
-                                </div>
-                                <div class="comnt-text">
-                                    <div class="reply-icon">
-                                        <button><img src="~/bank/assets/img/reply-icon.png" alt="image"></button>
-                                    </div>
-                                    <div class="comnt-info">
-                                        <div class="name-review d-flex align-items-center">
-                                            <h6>Lindsey Dokidis</h6>
-                                            <p class="lang smr"><img src="~/bank/assets/img/flag-en.png" alt="image">United States</p>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec dolor quis eros imperdiet volutpat.</p>
-                                        <p class="smr date">Published 1 week ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="leave-comment">
-                            <h4>LEAVE COMMENT</h4>
-                            <div class="form-area">
-                                <form action="#">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="single-input d-flex align-items-center">
-                                                <input type="text" placeholder="Name">
-                                                <img src="~/bank/assets/img/contact-user-icon.png" alt="image">
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="single-input d-flex align-items-center">
-                                                <input type="email" placeholder="Email">
-                                                <img src="~/bank/assets/img/contact-email-icon.png" alt="image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-input d-flex align-items-center">
-                                        <textarea placeholder="What’s your message?" cols="30" rows="10"></textarea>
-                                    </div>
-                                    <div class="btn-area">
-                                        <button class="cmn-btn">Post now</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

@@ -113,10 +113,11 @@ namespace AdminPanel.Controllers
                           Problem("Entity set 'ApplicationDbContext.Jobs'  is null.");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> JobById()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> JobById([FromRoute] int id)
         {
             GetByIdJobQueryRequest requestModel = new();
+            requestModel.Id = id;
             GetByIdJobQueryResponse Job = await _mediator.Send(requestModel);
             if (Job == null)
             {

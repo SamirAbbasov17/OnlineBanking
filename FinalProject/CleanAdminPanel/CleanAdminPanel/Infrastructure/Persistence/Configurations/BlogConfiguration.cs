@@ -25,6 +25,9 @@ namespace Infrastructure.Persistence.Configurations
             builder.Property(t => t.Image)
                 .IsRequired();
 
+            builder.Property(t => t.Filter)
+              .IsRequired(false);
+
             base.Configure(builder);
         }
     }

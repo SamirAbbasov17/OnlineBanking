@@ -51,7 +51,9 @@ namespace AdminPanel
             // Add services to the container.
             builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
             builder.Services.AddApplicationServices();
             builder.Services.AddInfrastructureServices(builder.Configuration);
             var app = builder.Build();

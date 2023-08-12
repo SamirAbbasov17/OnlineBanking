@@ -3,6 +3,5 @@
     public class JobRequirementVM
     {
         public string Name { get; set; }
-        
     }
 }

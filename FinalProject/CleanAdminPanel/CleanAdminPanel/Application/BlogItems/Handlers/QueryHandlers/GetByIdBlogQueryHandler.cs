@@ -29,7 +29,9 @@ namespace Application.BlogItems.Handlers.QueryHandlers
                 Title = product.Title,
                 Content = product.Content,
                 Description = product.Description,
-                Image = product.Image
+                Image = product.Image,
+                Created = product.Created,
+                Filter = product.Filter
             };
         }
     }

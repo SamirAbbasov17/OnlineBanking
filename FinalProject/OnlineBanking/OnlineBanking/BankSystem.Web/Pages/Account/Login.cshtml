@@ -1,11 +1,15 @@
 ﻿@page
 @using BankSystem.Common;
+@using BankSystem.Models;
+@using Microsoft.AspNetCore.Identity;
 @model LoginModel
 
 @{
     Layout = null;
     ViewData["Title"] = "Log in";
 }
+
+@inject SignInManager<User> SignInManager
 @*
 <div class="text-center w-md-75 w-lg-50 mx-auto my-4">
     <h2>@ViewData["Title"]</h2>
@@ -63,6 +67,7 @@
     <link rel="stylesheet" href="~/bank/assets/css/plugin/magnific-popup.css">
     <link rel="stylesheet" href="~/bank/assets/css/plugin/animate.css">
     <link rel="stylesheet" href="~/bank/assets/css/style.css">
+    
 </head>
 
 <body>
@@ -175,9 +180,16 @@
                             <p style="margin-bottom:60px" class="dont-acc">Don't have an account? <a href="/account/register">Register</a></p>
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
-                                    <div class="login-with d-flex align-items-center">
-                                        <a href="javascript:void(0)"><img src="~/bank/assets/img/google.png" alt="image"></a>
-                                        <a href="javascript:void(0)"><img src="~/bank/assets/img/fb.png" alt="image"></a>
+                                    <div>
+                                         @{
+                                            var providers = (await SignInManager.GetExternalAuthenticationSchemesAsync()).ToList();}
+                                      
+
+                                        <form class="login-with d-flex align-items-center" asp-action="ExternalLogin" asp-controller="External" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                                            <input type="submit" class="a a1" value="@providers[0].Name" name="provider">
+                                            <input type="submit" class="a a2" value="@providers[1].Name" name="provider">
+                                        </form>
+                                        
                                     </div>
                                     <div class="continue"><p>Or continue with</p></div>
                                     <form method="post">

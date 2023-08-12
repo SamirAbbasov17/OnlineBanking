@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Storage.V1;
-
+using BankSystem.Web.Infrastructure.Collections;
+using BankSystem.Web.Infrastructure.Extensions;
 
 namespace BankSystem.Web.Controllers
 {
@@ -21,8 +22,8 @@ namespace BankSystem.Web.Controllers
             client = new HttpClient(clientHandler);
             _environment = environment;
         }
-        public async Task<IActionResult> Index()
-        {
+        public async Task<IActionResult> Index(int pageIndex = 1)
+        {       
             var responseMessage = await client.GetStringAsync($"https://localhost:7178/api/MainApi/Blog");
             var blog = JsonConvert.DeserializeObject<List<BlogVM>>(responseMessage);
             var gcsStorage = StorageClient.Create(google);
@@ -41,11 +42,11 @@ namespace BankSystem.Web.Controllers
                 {
 
                     continue;
-                }
-
-
+                } 
             }
-            return View(blog);
+            PaginatedList<BlogVM> paginated = blog.ToPaginatedList<BlogVM>(blog.Count,pageIndex,6);
+            
+            return View(paginated);
         }
         [HttpGet]
         public async Task<IActionResult> SinglePage(int id)

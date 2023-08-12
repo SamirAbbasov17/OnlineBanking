@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6NPxJnln+OyLIq8yT1cxKQKaimKY3X7uCX/YkNplYGxpNdmtYSgPIva0cLTutVWJomK/IoaRkEyXD+vAreAb9w==",
+  "dgSpecHash": "Me3reBU0B8qJLtsHkAm9H/2iQfP6S2ik8OPGmLj1w5BJeHdV8a4OUQG6Cjpv3NQPSLVDuvhxqA1a/sl6+h6e9w==",
   "success": true,
   "projectFilePath": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\BankSystem.Web.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,8 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\jsonsubtypes\\2.0.1\\jsonsubtypes.2.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\7.0.10\\microsoft.aspnetcore.authentication.facebook.7.0.10.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.10\\microsoft.aspnetcore.authentication.google.7.0.10.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.9\\microsoft.aspnetcore.cryptography.keyderivation.7.0.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.9.nupkg.sha512",

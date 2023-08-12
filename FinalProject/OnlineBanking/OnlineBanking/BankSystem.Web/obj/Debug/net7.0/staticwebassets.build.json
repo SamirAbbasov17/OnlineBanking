@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HVV9iCjhYiN9PxgXSurX1s+OHa0MN4dMM+qzaBRulbE=",
+  "Hash": "jSfHFL7zarOZhJ+HX9mf3p2qteHVNoQg47Y/ucsUYLw=",
   "Source": "BankSystem.Web",
   "BasePath": "_content/BankSystem.Web",
   "Mode": "Default",
@@ -7293,6 +7293,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\202314090856_how-to-write-a-blog-post.jpeg"
     },
     {
+      "Identity": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf",
+      "SourceId": "BankSystem.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Web",
+      "RelativePath": "uploads/202319110836_AbbasovSamirCV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf"
+    },
+    {
       "Identity": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202353090808_ItTakesTwo.jpg",
       "SourceId": "BankSystem.Web",
       "SourceType": "Discovered",
@@ -7308,6 +7325,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\202353090808_ItTakesTwo.jpg"
+    },
+    {
+      "Identity": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202354120813_TheLordOfTheFallen.jpg",
+      "SourceId": "BankSystem.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Web",
+      "RelativePath": "uploads/202354120813_TheLordOfTheFallen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\202354120813_TheLordOfTheFallen.jpg"
     },
     {
       "Identity": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\arafat-font.css",

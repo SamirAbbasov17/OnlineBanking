@@ -1713,8 +1713,16 @@
       "PackagePath": "staticwebassets\\uploads\\202314090856_how-to-write-a-blog-post.jpeg"
     },
     {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202319110836_AbbasovSamirCV.pdf"
+    },
+    {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202353090808_ItTakesTwo.jpg",
       "PackagePath": "staticwebassets\\uploads\\202353090808_ItTakesTwo.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202354120813_TheLordOfTheFallen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\202354120813_TheLordOfTheFallen.jpg"
     },
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\arafat-font.css",

@@ -5,10 +5,12 @@ using BankSystem.Data;
 using BankSystem.Models;
 using BankSystem.Web.Infrastructure.Extensions;
 using BankSystem.Web.Infrastructure.Middleware;
+using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Net.Http.Headers;
+using System.Configuration;
 using SameSiteMode = Microsoft.AspNetCore.Http.SameSiteMode;
 
 namespace BankSystem.Web
@@ -63,7 +65,19 @@ namespace BankSystem.Web
                 .AddDomainServices()
                 .AddApplicationServices()
                 .AddCommonProjectServices()
-                .AddAuthentication();
+                .AddAuthentication().AddGoogle(options =>
+                {
+
+                    options.ClientId = configuration["App:GoogleClientId"];
+                    options.ClientSecret = configuration["App:GoogleClientSecret"];
+                    options.SignInScheme = IdentityConstants.ExternalScheme;
+                }).AddFacebook(options =>
+                {
+
+                    options.AppId = configuration["Authentication:Facebook:AppId"];
+                    options.AppSecret = configuration["Authentication:Facebook:AppSecret"];
+                    options.SignInScheme = IdentityConstants.ExternalScheme;
+                });
 
             builder.Services.Configure<SecurityStampValidatorOptions>(
                 options => { options.ValidationInterval = TimeSpan.Zero; });

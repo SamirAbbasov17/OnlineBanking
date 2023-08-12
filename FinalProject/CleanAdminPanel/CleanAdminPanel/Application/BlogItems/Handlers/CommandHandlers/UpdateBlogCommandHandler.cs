@@ -40,7 +40,8 @@ namespace Application.BlogItems.Handlers.CommandHandlers
                     Title = blog.Title,
                     Content = blog.Content,
                     Description = blog.Description,
-                    Image = blog.Image
+                    Image = blog.Image,
+                    Filter = blog.Filter
                 };
 
             }
@@ -72,6 +73,7 @@ namespace Application.BlogItems.Handlers.CommandHandlers
                 blog.Content = request.Content;
                 blog.Description = request.Description;
                 blog.Image = fileName;
+                blog.Filter = request.Filter;
                 _context.Blogs.Update(blog);
                 await _context.SaveChangesAsync(cancellationToken);
                 return new UpdateBlogCommandResponse
@@ -85,6 +87,7 @@ namespace Application.BlogItems.Handlers.CommandHandlers
                 blog.Title = request.Title;
                 blog.Content = request.Content;
                 blog.Description = request.Description;
+                blog.Filter = request.Filter;
                 _context.Blogs.Update(blog);
                 await _context.SaveChangesAsync(cancellationToken);
                 return new UpdateBlogCommandResponse

@@ -8789,3 +8789,53 @@ p, span, li {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+.log-reg .login-with .a:first-child {
+    margin-right: 15px;
+}
+
+.log-reg .login-with .a {
+    padding: 15px 20px;
+    border: 1px solid #D0D3E8;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    text-indent: -9999px;
+}
+
+.a {
+    display: inline-block;
+    color: var(--body-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.a, .a:focus, .a:hover {
+    text-decoration: none;
+    outline: none;
+    color: var(--body-color);
+}
+
+.a2 {
+    background-image: url(../img/facebook.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.a1 {
+    background-image: url(../img/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
