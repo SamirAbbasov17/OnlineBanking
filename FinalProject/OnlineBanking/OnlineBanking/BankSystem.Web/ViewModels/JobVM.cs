@@ -8,5 +8,7 @@
         public string JobDescription { get; set; }
         public string JobTime { get; set; }
         public List<JobRequirementVM>? JobRequirementList { get; set; }
+        public string? Experience { get; set; }
+        public DateTime? Created { get; set; }
     }
 }

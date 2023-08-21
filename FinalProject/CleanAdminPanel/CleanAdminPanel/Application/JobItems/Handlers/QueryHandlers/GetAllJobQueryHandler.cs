@@ -30,6 +30,8 @@ namespace Application.JobItems.Handlers.QueryHandlers
                     JobDescription = request.JobDescription,
                     JobTitle = request.JobTitle,
                     JobTime = request.JobTime,
+                    Experience = request.Experience,
+                    Created = request.Created,
                     JobRequirementList = request.JobRequirementList
                 }).ToList();
             }

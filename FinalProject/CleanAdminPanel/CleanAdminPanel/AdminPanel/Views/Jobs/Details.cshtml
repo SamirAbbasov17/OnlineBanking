@@ -42,14 +42,20 @@
                             @Html.DisplayFor(model => model.JobTime)
                         </dd>
                         <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.JobRequirementList)
+                            @Html.DisplayNameFor(model => model.Experience)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Experience)
+                        </dd>
+                        <dt style="margin-top:10px;margin-bottom:5px;" class="col-sm-12">
+                            @Html.DisplayNameFor(model => model.JobRequirementList) :
                         </dt>
                         @if (Model.JobRequirementList != null)
                         {
                             @foreach (var item in Model.JobRequirementList)
                             {
-                                <dd class="col-sm-10">
-                                    @item.Name
+                                <dd class="col-sm-12">
+                                    -@item.Name
                                 </dd>
                             }
                         }

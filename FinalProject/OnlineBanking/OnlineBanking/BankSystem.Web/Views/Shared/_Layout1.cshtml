@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="~/bank/assets/css/plugin/magnific-popup.css">
     <link rel="stylesheet" href="~/bank/assets/css/plugin/animate.css">
     <link rel="stylesheet" href="~/bank/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     @RenderSection("CustomCss", false)
 </head>
 
@@ -144,6 +145,30 @@
     <script src="~/bank/assets/js/plugin/wow.min.js"></script>
     <script src="~/bank/assets/js/plugin/plugin.js"></script>
     <script src="~/bank/assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
+        {
+            <text>
+                toastr.success('@TempData[GlobalConstants.TempDataSuccessMessageKey]');
+            </text>
+        }
+        @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
+        {
+            <text>
+                toastr.error('@TempData[GlobalConstants.TempDataErrorMessageKey]');
+            </text>
+
+        }
+        @if (TempData.ContainsKey("ErrorMessage2"))
+        {
+            <text>
+                toastr.error('@TempData["ErrorMessage2"]');
+            </text>
+        }
+    </script>
+
+    @RenderSection("JS",false);
 </body>
 
 

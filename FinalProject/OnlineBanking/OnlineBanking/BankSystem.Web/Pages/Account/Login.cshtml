@@ -67,80 +67,19 @@
     <link rel="stylesheet" href="~/bank/assets/css/plugin/magnific-popup.css">
     <link rel="stylesheet" href="~/bank/assets/css/plugin/animate.css">
     <link rel="stylesheet" href="~/bank/assets/css/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <style>
+        span {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
 
     <partial name="_CookieConsentPartial" />
 
-    @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
-    {
-        <div class="alert alert-primary fade show mb-0" role="alert">
-            <div class="container d-flex flex-row">
-                <i class="fas fa-check fa-2x align-self-center"></i>
-                <p class="pl-3 my-2" style="font-size: large;">@TempData[GlobalConstants.TempDataSuccessMessageKey]</p>
-                <div class="ml-auto">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    }
-
-    @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
-    {
-        <div class="alert alert-danger fade show mb-0" role="alert">
-            <div class="container d-flex flex-row">
-                <i class="fas fa-exclamation-circle fa-2x align-self-center"></i>
-                <p class="pl-3 my-2" style="font-size: large;">@TempData[GlobalConstants.TempDataErrorMessageKey]</p>
-                <div class="ml-auto">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    }
-
-    @if (TempData[GlobalConstants.TempDataNoTwoFactorKey] as bool? == true)
-    {
-        <div class="modal fade" id="noTwoFactorModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered show" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Two-factor authentication is disabled</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Enabling two-factor authentication enhances the security of your account
-                        and protects it better from hackers, and is highly recommended.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-link mr-auto text-muted" data-dismiss="modal"
-                                onclick="noTwoFactorModalDoNotShow()">
-                            Do not show for 30 days
-                        </button>
-
-                        <button type="button" class="btn btn-outline-primary d-none d-md-inline-block"
-                                data-dismiss="modal">
-                            Close
-                        </button>
-
-                        <a asp-page="/Account/Settings/Enable2fa" class="btn btn-primary">
-                            Enable now
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    }
-
-
+   
 
 
     <!-- start preloader -->
@@ -197,20 +136,20 @@
                                             <div class="col-12">
                                                 <div class="single-input d-flex align-items-center">
                                                     <input asp-for="Input.Email" placeholder="Email" autocomplete="off"/>
-                                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
                                                 </div>
+                                                <span asp-validation-for="Input.Email" class="text-danger mb-3"></span>
                                             </div>
                                             <div class="col-12">
                                                 <div class="single-input d-flex align-items-center">
                                                     <input asp-for="Input.Password" class="passInput" placeholder="Password" />
-                                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
                                                     <img class="showPass" src="~/bank/assets/img/show-hide.png" alt="image">
                                                 </div>
+                                                <span asp-validation-for="Input.Password" class="text-danger mb-3"></span>
                                             </div>
                                         </div>
                                         <div class="remember-forgot d-flex justify-content-end">
                                             <div class="forget-pw">
-                                                <a href="javascript:void(0)">Forgot your password?</a>
+                                                <a href="/Contacts/Index">Forgot your password? Contact Us!</a>
                                             </div>
                                         </div>
                                         <div class="btn-area">
@@ -255,6 +194,30 @@
         </script>
     }
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
+        {
+           <text>
+                toastr.success('@TempData[GlobalConstants.TempDataSuccessMessageKey]');
+           </text>
+        }
+        @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
+        {
+           <text>
+                toastr.error('@TempData[GlobalConstants.TempDataErrorMessageKey]');
+           </text>
+            
+        }
+        @if (TempData.ContainsKey("ErrorMessage2"))
+        {
+            <text>
+                toastr.error('@TempData["ErrorMessage2"]');
+           </text>
+        }
+    </script>
+    
 </body>
 
 

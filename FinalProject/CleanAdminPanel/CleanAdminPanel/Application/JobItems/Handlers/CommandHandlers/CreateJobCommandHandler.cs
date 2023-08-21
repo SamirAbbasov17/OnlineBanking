@@ -27,7 +27,8 @@ namespace Application.JobItems.Handlers.CommandHandlers
                 JobName = request.JobName,
                 JobTitle = request.JobTitle,
                 JobDescription = request.JobDescription,
-                JobTime = request.JobTime
+                JobTime = request.JobTime,
+                Experience = request.Experience
             });
             _context?.Jobs.Add(entity);
             await _context?.SaveChangesAsync(cancellationToken);

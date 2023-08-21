@@ -19,9 +19,9 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb d-flex align-items-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Help</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Help Center</li>
+                                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="/Helps/Index">Help Center</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Help Page</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -41,15 +41,6 @@
                                 <h2 class="text-uppercase">
                                     @Model.Name
                                 </h2>
-                                <div class="profile-area d-flex justify-content-center align-items-center">
-                                    <div class="icon-area">
-                                        <img src="~/bank/assets/img/profile-info-1.png" alt="image">
-                                    </div>
-                                    <div class="text-area text-start">
-                                        <h5>John Carter</h5>
-                                        <p>May 20, 2021</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -68,7 +59,6 @@
                     <div class="top-wrapper">
                         <h3>@Model.Description</h3>
                         <p>@Model.Content</p>
-                        
                         <div class="like-dislike d-flex align-items-center">
                             <a href="javascript:void(0)"><img class="border-area" src="~/bank/assets/img/like.png" alt="image"></a>
                             <a href="javascript:void(0)"><img src="~/bank/assets/img/dislike.png" alt="image"></a>
@@ -89,7 +79,7 @@
                     <div class="section-header text-center">
                         <h2 class="title">Need to Contact Us?</h2>
                         <p>Our customer service hours 10:00 a.m. EST - 8 p.m. EST</p>
-                        <a href="contact.html" class="cmn-btn">Contact Us</a>
+                        <a href="/Contacts/Index" class="cmn-btn">Contact Us</a>
                     </div>
                 </div>
             </div>

@@ -2,8 +2,9 @@
 @model Enable2faModel
 @{
     ViewData["Title"] = "Configure authenticator app";
+    ViewData["Active7"] = "active";
 }
-
+@*
 <div class="w-md-75 w-lg-50 mx-auto my-4">
     <h3 class="text-center">@ViewData["Title"]</h3>
     <hr/>
@@ -56,7 +57,7 @@
             </li>
         </ol>
     </form>
-</div>
+</div>*@
 
 @section Scripts
 {
@@ -74,4 +75,129 @@
             keyContainer.html(keyContainer.data('key'));
         }
     </script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="dashboard-section body-collapse account">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="main-content">
+                <div class="row">
+
+                    <div class="col-xxl-12 col-xl-12">
+                        <div class="tab-main">
+                            <div class="tab-content mt-40">
+                                <div class="tab-pane active" role="tabpanel">
+                                    <div class="change-pass mb-40">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h5>Activate Two-Factor</h5>
+                                                <p>To use an authenticator app go through the following steps:</p>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <form id="send-code" method="post">
+                                                    <div class="row justify-content-center">
+                                                        <ol>
+                                                            <li>
+                                                                <p>
+                                                                    Download a two-factor authenticator app like Google Authenticator for
+                                                                    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Android</a> and
+                                                                    <a href="https://itunes.apple.com/us/app/google-authenticator/id388497605">iOS</a>.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p>
+                                                                    Scan the QR Code or enter this key
+                                                                    <kbd id="keyContainer" data-key="@Model.SharedKey"><a href="#" onclick="showKey()" class="text-white font-italic">click to show key</a></kbd>
+                                                                    into your two factor authenticator app. Spaces and casing do not matter.
+                                                                </p>
+                                                                <div class="mt-3 text-center">
+                                                                    <div class="d-inline-block background-grey rounded p-2" id="qrCode"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <p>
+                                                                    Once you have scanned the QR code or input the key above, your two factor authentication app will provide you
+                                                                    with a unique code. Enter the code in the confirmation box below.
+                                                                </p>
+                                                                <div class="form-group">
+                                                                    <label asp-for="Input.Code" class="control-label">Verification Code</label>
+                                                                    <input asp-for="Input.Code" class="form-control" autocomplete="off" />
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mt-5">To confirm your identity, please enter your password.</p>
+                                                                <div class="form-group">
+                                                                    <label asp-for="Input.Password"></label>
+                                                                    <input asp-for="Input.Password" class="form-control" />
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <span  asp-validation-for="Input.Code" class="text-danger"></span>
+                                                                    <span  asp-validation-for="Input.Password" class="text-danger"></span>
+                                                                </div>
+                                                                <div class="text-center">
+                                                                   
+                                                                    <button type="submit" class="cmn-btn w-100">Enable 2FA</button>
+                                                                    <a class="col-md-12" asp-page="./Index">
+                                                                        <button type="button" style="margin-bottom:10px;color:#0C266C;border:1px solid #0C266C;border-radius:10px" class="btn btn-lg btn-block" asp-page="./Index">
+                                                                            <i class="fas fa-chevron-left"></i>
+                                                                            Cancel
+                                                                        </button>
+                                                                    </a>
+                                                                </div>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+@section CustomCss{
+    <style>
+        a {
+            background: none;
+            border: none !important;
+            padding: 0px !important;
+        }
+
+        span {
+            background: none !important;
+            border: none !important;
+            color:#DC3545 !important;
+            display:inline;
+        }
+    </style>
+
+
 }

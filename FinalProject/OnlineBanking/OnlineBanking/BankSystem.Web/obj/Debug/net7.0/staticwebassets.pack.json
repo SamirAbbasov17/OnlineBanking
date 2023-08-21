@@ -1709,6 +1709,10 @@
       "PackagePath": "staticwebassets\\source\\vendor\\js\\moment.js"
     },
     {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202302140832_a9d48447-c56e-4ea9-a671-5dae2b660b80.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202302140832_a9d48447-c56e-4ea9-a671-5dae2b660b80.pdf"
+    },
+    {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202314090856_how-to-write-a-blog-post.jpeg",
       "PackagePath": "staticwebassets\\uploads\\202314090856_how-to-write-a-blog-post.jpeg"
     },
@@ -1717,12 +1721,36 @@
       "PackagePath": "staticwebassets\\uploads\\202319110836_AbbasovSamirCV.pdf"
     },
     {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202324200856_download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\202324200856_download.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202334160833_1198418 (1).png",
+      "PackagePath": "staticwebassets\\uploads\\202334160833_1198418 (1).png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202339200802_AbbasovSamirCV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202339200802_AbbasovSamirCV.pdf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202345150854_iTicket.AZ-Order-2859952-10658980.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202345150854_iTicket.AZ-Order-2859952-10658980.pdf"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202348140819_c676e9ce-313d-40a1-8803-3a522abf3ad2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202348140819_c676e9ce-313d-40a1-8803-3a522abf3ad2.pdf"
+    },
+    {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202353090808_ItTakesTwo.jpg",
       "PackagePath": "staticwebassets\\uploads\\202353090808_ItTakesTwo.jpg"
     },
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202354120813_TheLordOfTheFallen.jpg",
       "PackagePath": "staticwebassets\\uploads\\202354120813_TheLordOfTheFallen.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\uploads\\202354140822_AbbasovSamirCV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202354140822_AbbasovSamirCV.pdf"
     },
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\css\\arafat-font.css",
@@ -1927,6 +1955,10 @@
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\iphone.png",
       "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\iphone.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\key.png",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\icon\\key.png"
     },
     {
       "Id": "F:\\FinalProject\\OnlineBanking\\OnlineBanking\\BankSystem.Web\\wwwroot\\user\\assets\\images\\icon\\lang.png",

@@ -4,6 +4,8 @@
     ViewData["Title"] = "Confirm payment";
 }
 
+
+@*
 <div class="text-center w-md-75 w-lg-50 mx-auto my-4 p-5 shadow">
     <h2>@ViewData["Title"]</h2>
     <hr/>
@@ -49,6 +51,153 @@
     <div id="errAlert" class="alert alert-danger" style="display: none;" role="alert"></div>
 </div>
 
+
+*@
+
+
+
+
+<section class="dashboard-section body-collapse pay step step-3 crypto deposit-money">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="main-content">
+                <div class="head-area d-flex align-items-center justify-content-between">
+                    <h4>Confirm Payment</h4>
+                    <div class="icon-area">
+                        <img src="~/user/assets/images/icon/support-icon.png" alt="icon">
+                    </div>
+                </div>
+                <div class="row justify-content-between pb-120">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="left-area">
+                            <ul>
+                                <li><a href="deposit-money.html" class="single-link active">Choose Payment Method</a></li>
+                                <li><a href="deposit-money-2.html" class="single-link active">Choose Your Account</a></li>
+                                <li><a href="deposit-money-3.html" class="single-link active last">Confirm Order</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <form id="paymentForm" method="post">
+                            <input type="hidden" asp-for="DataHash" />
+                            <div class="payment-details">
+                                <div class="top-area">
+                                    <h6>Confirm  account & amount</h6>
+                                    <div class="right">
+                                        <div style="background:none !important;border:none !important;" class="form-group">
+                                            <select id="accountPicker" class="form-control custom-select" asp-for="AccountId">
+                                                @foreach (var account in Model.OwnAccounts)
+                                                {
+                                                    <option value="@account.Id">@account.Name - €@account.Balance.ToString("f2")</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xxl-8 col-xl-9 col-lg-12">
+                                        <ul class="details-list">
+                                            <li>
+                                                <span>Amount:</span>
+                                                <b>$@Model.Amount.ToString("f2")</b>
+                                            </li>
+                                            <li>
+                                                <span>Description:</span>
+                                                <b>@Model.Description</b>
+                                            </li>
+                                            <li>
+                                                <span>Destination bank:</span>
+                                                <b>@Model.DestinationBankName</b>
+                                            </li>
+                                            <li>
+                                                <span>Destination bank account:</span>
+                                                <b>@Model.DestinationBankAccountUniqueId</b>
+                                            </li>
+                                            <li>
+                                                <span>Recipient:</span>
+                                                <b>@Model.RecipientName</b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-area mt-40">
+                                <a id="cancelBtn" asp-controller="Home" asp-action="Index">Cancel</a>
+                                <a href="javascript:void(0)" id="payBtn" class="active" data-bs-toggle="modal" data-bs-target="#congratulationsMod">Pay</a>
+                            </div>
+                            <div id="errAlert" class="alert alert-danger" style="display: none;" role="alert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Dashboard Section end -->
+<!-- Congratulations Popup start -->
+<div class="congratulations-popup purchased-popup">
+    <div class="container-fruid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="modal fade" id="congratulationsMod" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <a class="a" href="/Home/Index"><i class="fa-solid fa-xmark"></i></a>
+                            </div>
+                            <div class="main-content text-center pt-120 pb-120">
+                                <img class="mb-60" src="~/user/assets/images/icon/success.png" alt="icon">
+                                <h4 class="mb-30">Congratulations</h4>
+                                <p>You have successfully add fund your account for $@Model.Amount.ToString("f2") USD</p>
+                                <a href="/Home/Index" class="mt-40">Back to Dashboard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section CustomCss{
+    <style>
+        .nice-select {
+            width: 100%;
+        }
+
+            .nice-select.custom-select::after {
+                content: '';
+            }
+
+        span {
+            padding: 0px !important;
+            background: none !important;
+            border: none !important;
+        }
+
+        .dashboard-section.account::before {
+            background: none;
+        }
+
+        .nice-select:after {
+            height: none;
+            visibility: hidden
+        }
+        .a{
+            margin: 0;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 1;
+            border: none;
+            background: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+}
 @section Scripts
 {@*
     <script>
@@ -74,4 +223,5 @@
             });
         });
     </script>
+   
 }

@@ -4,6 +4,9 @@
     Layout = "_Layout1";
 }
 
+@{
+    var isTrue = ViewBag.Success2;
+}
 
 <section class="banner-section inner-pages open-positions">
     <div class="overlay">
@@ -16,8 +19,8 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb d-flex align-items-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>
+                                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="/Careers/Index">Careers</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Open Positions</li>
                                     </ol>
                                 </nav>
@@ -34,14 +37,14 @@
                 <div class="col-lg-12">
                     <div class="top-area">
                         <h2 class="text-uppercase">@Model.JobVM.JobName</h2>
-                        <p class="xlr">Work Experience : 7 - 10 years </p>
+                        <p class="xlr">Work Experience :@Model.JobVM.Experience </p>
                         <a href="#apply-now" class="cmn-btn">Apply Now</a>
                         <div class="time-area d-flex align-items-center justify-content-center">
                             <span>
                                 <img src="~/bank/assets/img/clock-icon.png" alt="image">
                                 @Model.JobVM.JobTime
                             </span>
-                            <span class="date">Posted on: May 18, 2021</span>
+                            <span class="date">Posted on: @Model.JobVM.Created</span>
                         </div>
                     </div>
                     <div class="row">
@@ -51,20 +54,25 @@
                                     <h3>Job Description</h3>
                                     <p>@Model.JobVM.JobDescription</p>
                                 </div>
-                                <div class="single">
-                                    <h3>Key Functional Areas of Responsibility</h3>
-                                    <ul>
-                                        @foreach (var item in Model.JobVM.JobRequirementList)
-                                        {
-                                            <li>
-                                                <span><img src="~/bank/assets/img/right-icon-1.png" alt="image"></span>
-                                                <span>@item.Name</span>
-                                            </li>
-                                        }
-                                       
-                                    </ul>
-                                </div>
-                              
+                                @if (Model.JobVM.JobRequirementList != null)
+                                {
+                                    @if (Model.JobVM.JobRequirementList.Count > 0)
+                                    {
+                                        <div class="single">
+                                            <h3>Key Functional Areas of Responsibility</h3>
+                                            <ul>
+                                                @foreach (var item in Model.JobVM.JobRequirementList)
+                                                {
+                                                    <li>
+                                                        <span><img src="~/bank/assets/img/right-icon-1.png" alt="image"></span>
+                                                        <span>@item.Name</span>
+                                                    </li>
+                                                }
+
+                                            </ul>
+                                        </div>
+                                    }  
+                                }                            
                             </div>
                         </div>
                     </div>
@@ -95,45 +103,48 @@
                                 <input type="hidden" name="@Model.JobVM.JobRequirementList[@i]" value="@Model.JobVM.JobRequirementList[i]" />
                               
                             }*@
-
-                            @for (int i = 0; i < Model.JobVM.JobRequirementList.Count; i++)
+                            @if (Model.JobVM.JobRequirementList != null)
                             {
-                                <input type="hidden" name="JobVM.JobRequirementList[@i].Name" value="@Model.JobVM.JobRequirementList[i].Name" />
+                                @for (int i = 0; i < Model.JobVM.JobRequirementList.Count; i++)
+                                {
+                                    <input type="hidden" name="JobVM.JobRequirementList[@i].Name" value="@Model.JobVM.JobRequirementList[i].Name" />
+                                }
+
                             }
                             <div class="row top-area">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mt-2">
                                     <div class=" single-input d-flex align-items-center">
                                         <div class="input-control">
                                             <input asp-for="@Model.ApplicationVM.Name" class="input-field" placeholder="Name">
                                             <label asp-for="@Model.ApplicationVM.Name" class="input-label"></label>
-                                            <span asp-validation-for="@Model.ApplicationVM.Name" class="text-danger"></span>
+                                            <span asp-validation-for="@Model.ApplicationVM.Name" class="text-danger mt-2"></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mt-2">
                                     <div class=" single-input d-flex align-items-center">
                                         <div class="input-control">
                                             <input asp-for="@Model.ApplicationVM.Phone" class="input-field" placeholder="Phone">
                                             <label asp-for="@Model.ApplicationVM.Phone" class="input-label"></label>
-                                            <span asp-validation-for="@Model.ApplicationVM.Phone" class="text-danger"></span>
+                                            <span asp-validation-for="@Model.ApplicationVM.Phone" class="text-danger mt-2"></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mt-2">
                                     <div class=" single-input d-flex align-items-center">
                                         <div class="input-control">
                                             <input asp-for="@Model.ApplicationVM.Email" class="input-field" placeholder="Email">
                                             <label asp-for="@Model.ApplicationVM.Email" class="input-label"></label>
-                                            <span asp-validation-for="@Model.ApplicationVM.Email" class="text-danger"></span>
+                                            <span asp-validation-for="@Model.ApplicationVM.Email" class="text-danger mt-2"></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mt-2">
                                     <div class=" single-input d-flex align-items-center">
                                         <div class="input-control">
                                             <input asp-for="@Model.ApplicationVM.Linkedin" class="input-field" placeholder="Linkedin">
                                             <label asp-for="@Model.ApplicationVM.Linkedin" class="input-label"></label>
-                                            <span asp-validation-for="@Model.ApplicationVM.Linkedin" class="text-danger"></span>
+                                            <span asp-validation-for="@Model.ApplicationVM.Linkedin" class="text-danger mt-2"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +152,7 @@
                             <div class="upload-req">
                                 <label for="attach"><span class="smr">Attach Resume</span></label>
                                 <input asp-for="@Model.ApplicationVM.Cv" id="attach">
-                                <span class="smr">You can attach files of size up to 5 MB</span>
+                                <span class="smr">You can attach files of size up to 5 MB (PDF Only)</span>
                                 <span asp-validation-for="@Model.ApplicationVM.Cv" class="text-danger"></span>
                             </div>
                             <button type="submit" class="cmn-btn">Get started</button>
@@ -152,3 +163,25 @@
         </div>
     </div>
 </section>
+
+
+@section JS
+    {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+
+        @if (isTrue == "true2")
+        {
+            <text>
+                toastr.success('Müraciətiniz qəbul olundu');
+            </text>
+        }
+        else if (isTrue == "false2")
+        {
+            <text>
+                toastr.error('CV-niz təsdiqlənən zaman xəta baş verdi. Xahiş olunur düzgün məlumat girdiyinizdən əmin olun');
+            </text>
+        }
+    </script>
+
+}

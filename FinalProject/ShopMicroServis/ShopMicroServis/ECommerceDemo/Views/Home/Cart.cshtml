@@ -13,7 +13,7 @@
                 <div class="page-title">
                     <h1 class="title">Cart</h1>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
                         <li class="breadcrumb-item active">Cart</li>
                     </ul>
                 </div>
@@ -37,50 +37,7 @@
                         <th class="remove">&nbsp;</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td class="thumbnail"><a href="product-details.html"><img src="~/assets/images/product/cart-product-1.webp" alt="cart-product-1"></a></td>
-                        <td class="name"> <a href="product-details.html">Walnut Cutting Board</a></td>
-                        <td class="price"><span>£100.00</span></td>
-                        <td class="quantity">
-                            <div class="product-quantity">
-                                <span class="qty-btn minus"><i class="ti-minus"></i></span>
-                                <input type="text" class="input-qty" value="1">
-                                <span class="qty-btn plus"><i class="ti-plus"></i></span>
-                            </div>
-                        </td>
-                        <td class="subtotal"><span>£100.00</span></td>
-                        <td class="remove"><a href="#" class="btn">×</a></td>
-                    </tr>
-                    <tr>
-                        <td class="thumbnail"><a href="product-details.html"><img src="~/assets/images/product/cart-product-2.webp" alt="cart-product-2"></a></td>
-                        <td class="name"> <a href="product-details.html">Lucky Wooden Elephant</a></td>
-                        <td class="price"><span>£35.00</span></td>
-                        <td class="quantity">
-                            <div class="product-quantity">
-                                <span class="qty-btn minus"><i class="ti-minus"></i></span>
-                                <input type="text" class="input-qty" value="1">
-                                <span class="qty-btn plus"><i class="ti-plus"></i></span>
-                            </div>
-                        </td>
-                        <td class="subtotal"><span>£35.00</span></td>
-                        <td class="remove"><a href="#" class="btn">×</a></td>
-                    </tr>
-                    <tr>
-                        <td class="thumbnail"><a href="product-details.html"><img src="~/assets/images/product/cart-product-3.webp" alt="cart-product-3"></a></td>
-                        <td class="name"> <a href="product-details.html">Fish Cut Out Set</a></td>
-                        <td class="price"><span>£9.00</span></td>
-                        <td class="quantity">
-                            <div class="product-quantity">
-                                <span class="qty-btn minus"><i class="ti-minus"></i></span>
-                                <input type="text" class="input-qty" value="1">
-                                <span class="qty-btn plus"><i class="ti-plus"></i></span>
-                            </div>
-                        </td>
-                        <td class="subtotal"><span>£9.00</span></td>
-                        <td class="remove"><a href="#" class="btn">×</a></td>
-                    </tr>
-                  
+                <tbody>                  
                     @{
                         List<int> lD = new();
                         List<int> Quant = new();
@@ -120,15 +77,8 @@
                 </tbody>
             </table>
             <div class="row justify-content-between mb-n3">
-                <div class="col-auto mb-3">
-                    <div class="cart-coupon">
-                        <input type="text" placeholder="Enter your coupon code">
-                        <button class="btn"><i class="fal fa-gift"></i></button>
-                    </div>
-                </div>
                 <div class="col-auto">
-                    <a class="btn btn-light btn-hover-dark mr-3 mb-3" href="shop.html">Continue Shopping</a>
-                    <button class="btn btn-dark btn-outline-hover-dark mb-3">Update Cart</button>
+                    <a class="btn btn-light btn-hover-dark mr-3 mb-3" href="/Home/Shop">Continue Shopping</a>
                 </div>
             </div>
        @* </form>*@

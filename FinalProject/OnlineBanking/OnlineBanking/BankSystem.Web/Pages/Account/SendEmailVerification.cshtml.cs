@@ -39,6 +39,12 @@
 
         public async Task<IActionResult> OnPostAsync()
         {
+            var a = Recaptcha.ReCaptchaResponse;
+            if (a == null)
+            {
+                this.ShowErrorMessage("Captcha Hissesi Bos Ola Bilmez");
+                return this.Page();
+            }
             if (!this.ModelState.IsValid)
             {
                 return this.Page();

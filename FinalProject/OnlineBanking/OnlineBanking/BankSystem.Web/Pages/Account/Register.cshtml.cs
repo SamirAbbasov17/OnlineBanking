@@ -52,6 +52,11 @@ namespace BankSystem.Web.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            var a = Recaptcha.ReCaptchaResponse;
+            if (a == null)
+            {
+                TempData.Add("ErrorMessage2", "Captcha Hissesi Bos Ola Bilmez");
+            }
             returnUrl = returnUrl ?? this.Url.Content("~/");
 
             if (this.User.Identity.IsAuthenticated)

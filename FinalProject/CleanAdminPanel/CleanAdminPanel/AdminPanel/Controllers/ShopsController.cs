@@ -36,13 +36,19 @@ namespace AdminPanel.Controllers
         }
         public IActionResult Create()
         {
-            return View();
+			ViewBag.Success = TempData["success"];
+			return View();
         }
         [HttpPost]
         public async Task<IActionResult> Create(ShopCreateVM shopVM)
         {
-         
-            var storage = StorageClient.Create(google);
+			if (shopVM.Image == null || System.IO.Path.GetExtension(shopVM.Image.FileName) != ".jpeg" || System.IO.Path.GetExtension(shopVM.Image.FileName) != ".jpg" || System.IO.Path.GetExtension(shopVM.Image.FileName) != ".png")
+			{
+
+				TempData["success"] = "false";
+				return RedirectToAction("Create");
+			}
+			var storage = StorageClient.Create(google);
             var bucket = storage.GetBucket("clean_admin");
             var fileName = DateTime.Now.ToString("yyyymmddMMss") + "_" + Path.GetFileName(shopVM.Image.FileName);
             var folderPath = Path.Combine(_environment.WebRootPath, "uploads");
@@ -107,8 +113,8 @@ namespace AdminPanel.Controllers
         }
         public async Task<IActionResult> Update(string id)
         {
-
-            var responseMessage = await client.GetStringAsync($"https://localhost:7098/items/{id}");
+			ViewBag.Success = TempData["success"];
+			var responseMessage = await client.GetStringAsync($"https://localhost:7098/items/{id}");
             var shopDataVM = JsonConvert.DeserializeObject<ShopDataVM>(responseMessage);
             ShopVM shopVM = new()
             {
@@ -123,7 +129,17 @@ namespace AdminPanel.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(ShopVM shopVM)
         {
-            ShopDataVM shopDataVM = new();
+			if (shopVM.Image != null)
+			{
+				if (System.IO.Path.GetExtension(shopVM.Image.FileName) != ".jpeg" || System.IO.Path.GetExtension(shopVM.Image.FileName) != ".jpg" || System.IO.Path.GetExtension(shopVM.Image.FileName) != ".png")
+				{
+
+					TempData["success"] = "false";
+					return RedirectToAction("Update");
+				}
+			}
+
+			ShopDataVM shopDataVM = new();
             if (shopVM.Image != null)
             {
                 var testData = await client.GetStringAsync($"https://localhost:7098/items/{shopVM.Id}");

@@ -157,47 +157,57 @@
                             @{
                                 int i = 0;
                             }
-                            @foreach (var account in Model.UserBankAccounts)
+                            @if(Model.UserBankAccounts.Count() > 0){
+                                @foreach (var account in Model.UserBankAccounts)
+                                {
+
+                                    <div class="top-area" style="border-bottom:white 1px solid">
+                                        <div class="left-side">
+                                            <a asp-controller="Accounts" asp-action="Details" asp-route-id="@account.Id" style="color:white;font-size:2em;">@account.Name</a>
+                                            @if (i == 0)
+                                            {
+                                                <p style="color:white">Main Acoount</p>
+                                                i++;
+                                            }
+                                            else
+                                            {
+                                                <p style="color:white">Online Account</p>
+                                            }
+
+                                        </div>
+                                        <div class="right-side">
+                                            <div class="right-top">
+                                                <select>
+                                                    <option value="1">US Dollar</option>
+                                                    <option value="2">US Dollar</option>
+                                                    <option value="3">US Dollar</option>
+                                                </select>
+                                                <div class="dropdown-area">
+                                                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="~/user/assets/images/icon/option.png" alt="icon">
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                        <li><a class="dropdown-item" href="#">Fiat Currency</a></li>
+                                                        <li><a class="dropdown-item" href="#">crypto Currency</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="right-bottom">
+                                                <h4>$@account.Balance</h4>
+                                                <h5>Payouts</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else
                             {
 
                                 <div class="top-area" style="border-bottom:white 1px solid">
-                                    <div class="left-side">
-                                        <a asp-controller="Accounts" asp-action="Details" asp-route-id="@account.Id" style="color:white;font-size:2em;">@account.Name</a>
-                                        @if(i == 0)
-                                        {
-                                             <p style="color:white">Main Acoount</p>
-                                             i++;
-                                        }
-                                        else
-                                        {
-                                            <p style="color:white">Online Account</p>
-                                        }
-                                       
-                                    </div>
-                                    <div class="right-side">
-                                        <div class="right-top">
-                                            <select>
-                                                <option value="1">US Dollar</option>
-                                                <option value="2">US Dollar</option>
-                                                <option value="3">US Dollar</option>
-                                            </select>
-                                            <div class="dropdown-area">
-                                                <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <img src="~/user/assets/images/icon/option.png" alt="icon">
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">Fiat Currency</a></li>
-                                                    <li><a class="dropdown-item" href="#">crypto Currency</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <h4>$@account.Balance</h4>
-                                            <h5>Payouts</h5>
-                                        </div>
-                                    </div>
+                                    <h3 style="color:#fff;">Create Account From Accounts Tab</h3>
                                 </div>
                             }
+
                            
                             <div class="bottom-area" style="margin-top:0px;border-radius:0 0 10px 10px">
                                 <div class="left-side">
@@ -213,17 +223,6 @@
                         <div class="single-item">
                             <div class="section-text d-flex align-items-center justify-content-between">
                                 <h6>Linked Payment system</h6>
-                                <div class="right-side">
-                                    <div class="dropdown-area">
-                                        <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img src="~/user/assets/images/icon/option.png" alt="icon">
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="account.html">Update</a></li>
-                                            <li><a class="dropdown-item" href="javascript:void(0)">Virtual card</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
@@ -283,7 +282,7 @@
                                 </div>
                                
                                 <div class="view-all d-flex align-items-center">
-                                    <a asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">View All</a>
+                                    <a style="margin-right:5px;" asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">View All</a>
                                     <img src="~/user/assets/images/icon/right-arrow.png" alt="icon">
                                 </div>
                             </div>
@@ -344,7 +343,11 @@
 
                                                 </tbody>
                                             </table>
-                                            
+
+                                        }
+                                        else
+                                        {
+                                            <h4 style="margin:30px">No money transfers have been made from this account</h4>
                                         }
                                     </div>
                                 </div>
@@ -359,7 +362,7 @@
 </section>
 <!-- Dashboard Section end -->
 <!-- Card Popup start -->
-<div class="card-popup">
+@*<div class="card-popup">
     <div class="container-fruid">
         <div class="row">
             <div class="col-lg-6">
@@ -644,7 +647,7 @@
         </div>
     </div>
 </div>
-<!-- Transactions Popup start -->
+<!-- Transactions Popup start -->*@
 @section Scripts
     {
     <script>

@@ -9,6 +9,6 @@ namespace BankSystem.Web.Models
         [Required]
         [ValidateReCaptcha]
         [BindProperty(Name = "g-recaptcha-response")]
-        public string ReCaptchaResponse { get; set; }
+        public string? ReCaptchaResponse { get; set; }
     }
 }

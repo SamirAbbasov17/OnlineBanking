@@ -287,6 +287,7 @@
     <link rel="stylesheet" href="~/user/assets/css/arafat-font.css">
     <link rel="stylesheet" href="~/user/assets/css/plugin/animate.css">
     <link rel="stylesheet" href="~/user/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     @RenderSection("CustomCss", false)
     <style>
         th,td{
@@ -302,7 +303,7 @@
 
 <body>
     <partial name="_CookieConsentPartial" />
-
+@*
     @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
     {
         <div class="alert alert-primary fade show mb-0" role="alert">
@@ -367,23 +368,7 @@
                 </div>
             </div>
         </div>
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }*@
 
     <!-- start preloader -->
     <div class="preloader" id="preloader"></div>
@@ -400,24 +385,13 @@
                         <div class="sidebar-icon">
                             <img src="~/user/assets/images/icon/menu.png" alt="icon">
                         </div>
-                        <form action="#" class="flex-fill">
-                            <div class="form-group d-flex align-items-center">
-                                <img src="~/user/assets/images/icon/search.png" alt="icon">
-                                <input type="text" placeholder="Type to search...">
-                            </div>
-                        </form>
                         <div class="dashboard-nav">
                             <div class="single-item language-area">
                                 <div class="language-btn">
                                     <img src="~/user/assets/images/icon/lang.png" alt="icon">
                                 </div>
                                 <ul class="main-area language-content">
-                                    <li>English</li>
-                                    <li>Hindi</li>
                                     <li class="active">English (US)</li>
-                                    <li>Japanese</li>
-                                    <li>Kannada</li>
-                                    <li>Lithuanian</li>
                                 </ul>
                             </div>
                             <div class="single-item notifications-area">
@@ -497,25 +471,24 @@
                             <div class="single-item user-area">
                                 <div class="profile-area d-flex align-items-center">
                                     <span class="user-profile">
-                                        <img src="~/user/assets/images/avatar.png" alt="User">
+                                        <img width="40" height="40" src="https://cdn-icons-png.flaticon.com/256/3135/3135715.png" alt="User">
                                     </span>
                                     <i class="fa-solid fa-sort-down"></i>
                                 </div>
                                 <div class="main-area user-content">
                                     <div class="head-area d-flex align-items-center">
                                         <div class="profile-img">
-                                            <img src="~/user/assets/images/avatar-2.png" alt="User">
+                                            <img width="50" height="50" src="https://cdn-icons-png.flaticon.com/256/3135/3135715.png" alt="User">
                                         </div>
                                         <div class="profile-head">
                                             <a href="javascript:void(0)">
                                                 <h6>@User.Identity.Name</h6>
                                             </a>
-                                            <p class="wallet-id">Wallet ID: 6264849965</p>
                                         </div>
                                     </div>
                                     <ul>
                                         <li class="border-area">
-                                            <a href="account.html"><i class="fas fa-cog"></i>Settings</a>
+                                            <a href="/account/settings"><i class="fas fa-cog"></i>Settings</a>
                                         </li>
                                         <li>
                                             <form id="logOut1" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new {area = ""})">
@@ -534,7 +507,7 @@
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         <div class="sidebar-logo">
-                            <a href="dashboard.html"><img src="~/user/assets/images/logo.png" alt="logo"></a>
+                            <a href="/Home/Index"><img src="~/user/assets/images/logo.png" alt="logo"></a>
                         </div>
                         <ul>
                             <li class='@ViewData["Active"]'>
@@ -544,7 +517,7 @@
                             </li>
                             <li class='@ViewData["Active1"]'>
                                 <a  asp-area="Cards" asp-controller="Cards" asp-action="Index">
-                                    <img src="~/user/assets/images/icon/pay.png" alt="Pay"> <span>Cards</span>
+                                    <img src="~/user/assets/images/icon/recipients.png" alt="Pay"> <span>Cards</span>
                                 </a>
                             </li>
                             <li class='@ViewData["Active2"]'>
@@ -559,7 +532,7 @@
                             </li>
                             <li class='@ViewData["Active4"]'>
                                 <a  asp-area="MoneyTransfers" asp-controller="Home" asp-action="All">
-                                    <img src="~/user/assets/images/icon/recipients.png" alt="Recipients"> <span>Archive</span>
+                                    <img src="~/user/assets/images/icon/pay.png" alt="Recipients"> <span>Archive</span>
                                 </a>
                             </li>
                             @if (User.IsInRole(GlobalConstants.AdministratorRoleName))
@@ -627,6 +600,29 @@
     <script src="~/user/assets/js/main.js"></script>
     <script src="~/bundle/vendor.min.js" asp-append-version="true"></script>
     <script src="~/bundle/main.min.js" asp-append-version="true"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
+        {
+            <text>
+                toastr.success('@TempData[GlobalConstants.TempDataSuccessMessageKey]');
+            </text>
+        }
+        @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
+        {
+            <text>
+                toastr.error('@TempData[GlobalConstants.TempDataErrorMessageKey]');
+            </text>
+
+        }
+        @if (TempData.ContainsKey("ErrorMessage2"))
+        {
+            <text>
+                toastr.error('@TempData["ErrorMessage2"]');
+            </text>
+        }
+    </script>
 
     @RenderSection("Scripts", false)
 </body>

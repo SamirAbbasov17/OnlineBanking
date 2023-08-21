@@ -10018,10 +10018,10 @@ svg.pulse-svg {
     .dlabnav {
       top: 5.5rem;
       height: calc(100% - 5.5rem); } }
-  @media only screen and (max-width: 47.9375rem) {
+  /*@media only screen and (max-width: 47.9375rem) {
     .dlabnav {
       width: 18rem;
-      background: linear-gradient(180deg, #763ed0, #2e1ba0); } }
+      background: linear-gradient(180deg, #763ed0, #2e1ba0); } }*/
   .dlabnav .dlabnav-scroll {
     position: relative;
     height: 100%; }

@@ -42,11 +42,19 @@
                         <dd class="col-sm-10">
                             @Html.DisplayFor(model => model.Linkedin)
                         </dd>
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.Cv)
+                        <dt class="col-sm-12">
+                            @Html.DisplayNameFor(model => model.Cv):
                         </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.Cv)
+                        <dd class="col-sm-12 mt-3">
+                            <form method="post" asp-action="DownloadFile">
+                                <input type="hidden" value="@Model.Cv" asp-for="Cv" />
+                                <input type="hidden" value="@Model.Name" asp-for="Name" />
+                                <input type="hidden" value="@Model.Email" asp-for="Email" />
+                                <input type="hidden" value="@Model.Phone" asp-for="Phone" />
+                                <input type="hidden" value="@Model.Linkedin" asp-for="Linkedin" />
+                                <button type="submit" class="btn light btn-primary"><i class="fa fa-download"></i> Download</button>
+                            </form>
+                           
                         </dd>
                     </dl>
                 </div>
@@ -64,3 +72,12 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+@section Css{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+}

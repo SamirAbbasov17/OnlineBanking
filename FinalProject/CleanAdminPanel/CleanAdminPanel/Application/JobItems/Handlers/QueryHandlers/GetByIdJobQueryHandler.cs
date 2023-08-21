@@ -31,6 +31,8 @@ namespace Application.JobItems.Handlers.QueryHandlers
                 JobDescription = Job.JobDescription,
                 JobTitle = Job.JobTitle,
                 JobTime = Job.JobTime,
+                Experience = Job.Experience,
+                Created = Job.Created,
                 JobRequirementList = JobRequirement
             };
         }

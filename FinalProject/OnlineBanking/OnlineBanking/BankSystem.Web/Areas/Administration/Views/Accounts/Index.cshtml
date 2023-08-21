@@ -4,7 +4,7 @@
     ViewData["Active5"] = "active";
 }
 
-<div class="container">
+@*<div class="container">
     @if (!Model.BankAccounts.Any())
     {
         <h3>No bank accounts have been created</h3>
@@ -38,7 +38,87 @@
                 }
             </tbody>
         </table>
-
+       
         <partial name="_PaginationPartial" model="@Model.BankAccounts" />
     }
 </div>
+
+
+
+*@
+
+
+
+
+
+
+<section class="dashboard-section body-collapse pay step">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="main-content">
+                @if (!Model.BankAccounts.Any())
+                {
+                    <h4>No bank accounts have been created</h4>
+                }
+               
+                else
+                {
+                    <div class="top-items">
+                        <h4 style="margin-bottom:30px;">All bank accounts</h4>
+                    </div>
+
+
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th data-priority="1">Account number</th>
+                                    <th data-priority="5">Balance</th>
+                                    <th data-priority="3">Owner</th>
+                                    <th data-priority="2">Owner's email</th>
+                                    <th data-priority="4">Date of creation</th>
+                                    <th data-priority="6">Display name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var account in Model.BankAccounts)
+                                {
+                                    <tr>
+                                        <td>@account.UniqueId</td>
+                                        <td><span class="text-green">€@account.Balance</span></td>
+                                        <td>@account.UserFullName</td>
+                                        <td>@account.UserUserName</td>
+                                        <td class="auto-format-date">@account.CreatedOn.ToString("O")</td>
+                                        <td>@account.Name</td>
+
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                    <partial name="_PaginationPartial" model="@Model.BankAccounts" />
+
+
+                }
+               
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@if (Model.BankAccounts.Count() < 6){
+    @section CustomCss{
+        <style>
+            body{
+                overflow:hidden
+            }
+        </style>
+    }
+}

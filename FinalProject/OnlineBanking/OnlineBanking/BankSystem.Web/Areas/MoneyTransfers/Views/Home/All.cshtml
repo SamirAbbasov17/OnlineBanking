@@ -18,7 +18,17 @@
                            
                             @if (!Model.MoneyTransfers.Any())
                             {
-                                <h3>No money transfers have been made from this account</h3>
+                            <h4 style="margin:30px;margin-bottom:0px;">No money transfers have been made from this account</h4>
+
+
+                                @section CustomCss{
+                                <style>
+
+                                    body {
+                                        overflow: hidden;
+                                    }
+                                </style>
+                                }
                             }
                             else
                             {
@@ -61,16 +71,16 @@
                                     </table>
                                 </div>
 
+                                <nav aria-label="Page navigation" class="d-flex justify-content-center mt-40">
 
+                                    @if (Model.MoneyTransfers.Any())
+                                    {
+                                        <partial name="_PaginationPartial" model="@Model.MoneyTransfers" />
+                                    }
+                                </nav>
 
                             }
-                            <nav aria-label="Page navigation" class="d-flex justify-content-center mt-40">
-
-                                @if (Model.MoneyTransfers.Any())
-                                {
-                                    <partial name="_PaginationPartial" model="@Model.MoneyTransfers" />
-                                }
-                            </nav>
+                           
 
                         </div>
                     </div>

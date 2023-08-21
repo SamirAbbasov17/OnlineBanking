@@ -38,17 +38,18 @@
                             @Html.DisplayFor(model => model.Description)
                         </dd>
                         <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.Image)
-                        </dt>
-                        <dd class="col-sm-10">
-                            <img width="200" height="200" src="~/uploads/@Html.DisplayFor(model => model.Image)" />
-                        </dd>
-                        <dt class="col-sm-2">
                             @Html.DisplayNameFor(model => model.Filter)
                         </dt>
                         <dd class="col-sm-10">
                             @Html.DisplayFor(model => model.Filter)
                         </dd>
+                        <dt style="margin-top:15px;margin-bottom:15px;" class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Image)
+                        </dt>
+                        <dd style="margin-top:15px;margin-bottom:15px;" class="col-sm-10">
+                            <img style="object-fit:cover" width="300" height="200" src="~/uploads/@Html.DisplayFor(model => model.Image)" />
+                        </dd>
+                        
                     </dl>
                 </div>
                 <div>

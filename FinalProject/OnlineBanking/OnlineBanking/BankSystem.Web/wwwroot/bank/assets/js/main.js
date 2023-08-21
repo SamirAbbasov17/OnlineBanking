@@ -71,5 +71,14 @@ $(function ($) {
           passInput.attr('type','password');
         }
     })
+
+    $('.showPass1').on('click', function () {
+        var passInput = $(".passInput1");
+        if (passInput.attr('type') === 'password') {
+            passInput.attr('type', 'text');
+        } else {
+            passInput.attr('type', 'password');
+        }
+    })
   });
 });

@@ -55,6 +55,7 @@ namespace AdminPanel.Controllers
         // GET: Blogs/Create
         public IActionResult Create()
         {
+            ViewBag.Success = TempData["success"];
             return View();
         }
 
@@ -65,19 +66,35 @@ namespace AdminPanel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateBlogCommandRequest requestModel)
         {
-            requestModel.RootPath = _environment.WebRootPath;
-            if (ModelState.IsValid)
+            if (requestModel.Image == null)
             {
-                CreateBlogCommandResponse response = await _mediator.Send(requestModel);
-               
+                TempData["success"] = "false";
+                return RedirectToAction("Create");
             }
-            return RedirectToAction("Index");
+            if (System.IO.Path.GetExtension(requestModel.Image.FileName) == ".jpeg" || System.IO.Path.GetExtension(requestModel.Image.FileName) == ".jpg" || System.IO.Path.GetExtension(requestModel.Image.FileName) == ".png") {
+               
+                requestModel.RootPath = _environment.WebRootPath;
+
+                if (ModelState.IsValid)
+                {
+                    CreateBlogCommandResponse response = await _mediator.Send(requestModel);
+
+                }
+                return RedirectToAction("Index");
+
+            }
+            else{
+                TempData["success"] = "false";
+                return RedirectToAction("Create");
+            }
+
         }
 
         // GET: Blogs/Edit/5
         public async Task<IActionResult> Edit(UpdateBlogCommandRequest requestModel)
         {
-            requestModel.RootPath = _environment.WebRootPath;
+			ViewBag.Success = TempData["success"];
+			requestModel.RootPath = _environment.WebRootPath;
             UpdateBlogCommandResponse blog = await _mediator.Send(requestModel);
             if (blog == null)
             {
@@ -93,7 +110,18 @@ namespace AdminPanel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(UpdateBlogCommandRequest requestModel,int a)
         {
-            requestModel.RootPath = _environment.WebRootPath;
+            if(requestModel.Image != null)
+            {
+				if (System.IO.Path.GetExtension(requestModel.Image.FileName) != "jpeg" || System.IO.Path.GetExtension(requestModel.Image.FileName) != "jpg" || System.IO.Path.GetExtension(requestModel.Image.FileName) != "png")
+				{
+
+					TempData["success"] = "false";
+					return RedirectToAction("Edit");
+				}
+			}
+			
+
+			requestModel.RootPath = _environment.WebRootPath;
             UpdateBlogCommandResponse response = new();
             if (ModelState.IsValid)
             {

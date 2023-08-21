@@ -18,6 +18,7 @@ namespace BankSystem.Web.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            ViewBag.Success1 = TempData["success1"];
             return View();
         }
         [HttpPost]
@@ -30,7 +31,8 @@ namespace BankSystem.Web.Controllers
             var contact = JsonConvert.SerializeObject(contactMessageVM);
             StringContent content = new StringContent(contact, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync($"https://localhost:7178/api/MainApi/Contact", content);
-            return View("Index");
+            TempData["success1"] = "true1";
+            return RedirectToAction("Index");
         }
     }
 }

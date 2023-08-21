@@ -4,7 +4,7 @@
     ViewData["Title"] = "Account settings";
     ViewData["Active7"] = "active";
 }
-
+@*
 <div class="mx-auto my-4 text-center pb-3">
     <h2>@ViewData["Title"]</h2>
     <div class="card card-body floating-card pt-4 pb-5 mt-4 mb-5 w-md-75 mx-auto shadow">
@@ -33,4 +33,117 @@
             </a>
         }
     </div>
-</div>
+</div>*@
+
+
+<section class="dashboard-section body-collapse account">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-4 col-md-6">
+                        <div class="owner-details">
+                            <div class="profile-area">
+                                <div class="profile-img">
+                                    <img src="https://cdn-icons-png.flaticon.com/256/3135/3135715.png" alt="image">
+                                </div>
+                                <div class="name-area">
+                                    <h6>@Model.FullName</h6>
+                                    <p class="active-status">Active</p>
+                                </div>
+                            </div>
+                            <div class="owner-info">
+                                <ul>
+                                    <li>
+                                        <p>Email:</p>
+                                        <span class="mdr">@Model.Email</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="owner-action">
+                                <a style="color:#F93E2B !important" asp-page="./ChangePassword" class="delete">
+                                    <img width="22" height="22" src="~/user/assets/images/icon/key.png" alt="image">
+                                    Change Password
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-9 col-xl-8">
+                        <div class="tab-main">
+                            <div class="tab-content mt-40">
+                                <div class="tab-pane active" role="tabpanel">
+                                    <div class="single-content authentication d-flex align-items-center justify-content-between">
+                                        <div class="left">
+                                            <h5>Two Factor Authentication</h5>
+                                            <p>Two-Factor Authentication (2FA) can be used to help protect your account</p>
+                                        </div>
+                                        @if (Model.TwoFactorEnabled)
+                                        {
+                                          
+                                            <a style="margin-left:10px;" asp-page="./Disable2fa">
+                                                <div class="right">
+                                                    <button>Disable</button>
+                                                </div>
+                                            </a>
+                                        }
+                                        else
+                                        {
+
+                                            <a style="margin-left:10px;" asp-page="./Enable2fa">
+                                                <div class="right">
+                                                    <button>Enable</button>
+                                                </div>
+                                            </a>
+                                        }
+                                       
+                                    </div>
+                                    <div class="change-pass mb-40">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <a>
+                                                    <h5>Payilo User Agreements</h5>
+                                                </a>
+                                                <p>You can always change your password for security reasons or reset your password in case you forgot it.</p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="change-pass mb-40">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <a>
+                                                    <h5>User Privacy</h5>
+                                                </a>
+                                                <p>Your Privacy Protected By Payilo. You Can Always Contact Us And Support For Help</p>
+                                                <a style="color: #0C266C !important;">- Payilo Team</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+@section CustomCss{
+    <style>
+        a {
+            background: none;
+            border: none !important;
+            padding:0px !important;
+        }
+    </style>
+   
+   
+}

@@ -45,7 +45,17 @@
                             <div style="margin-bottom:75px;">
                                 <label style="margin-bottom:10px;" asp-for="AccountId">
                                 </label>
-                                <select style="width:100%" class="custom-select" asp-for="AccountId" asp-items="Model.BankAccounts"></select>
+                                @if (Model.BankAccounts.Count() > 0)
+                                {
+                                    <select style="width:100%" class="custom-select" asp-for="AccountId" asp-items="Model.BankAccounts"></select>
+                                }
+                                else
+                                {
+                                    <select style="width:100%" class="custom-select">
+                                        <option>Create New Account</option>
+                                    </select>
+                                }
+
                                 <span asp-validation-for="AccountId" class="text-danger"></span>
                             </div>
                             <button type="submit" data-bs-toggle="modal" data-bs-target="#recipientsMod">
@@ -61,61 +71,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="dashboard-section body-collapse pay step">
-    <div class="overlay pt-120">
-        <div class="container-fruid">
-            <div class="main-content">
-                <div class="head-area d-flex align-items-center justify-content-between">
-                    <h4>Create Card</h4>
-                    <div class="icon-area">
-                        <img src="~/user/assets/images/icon/support-icon.png" alt="icon">
-                    </div>
-                </div>
-                <div class="choose-recipient">
-                    <div class="recipient-list">
-                        <form method="post">
-                            <div style="margin-bottom:75px;">
-                                <label style="margin-bottom:10px;" asp-for="AccountId">
-                                </label>
-                                <select style="width:100%" class="custom-select" asp-for="AccountId" asp-items="Model.BankAccounts"></select>
-                                <span asp-validation-for="AccountId" class="text-danger"></span>
-                            </div>
-                            <button type="submit" data-bs-toggle="modal" data-bs-target="#recipientsMod">
-                                <span class="icon-area">
-                                    <i class="icon-e-plus"></i>
-                                </span>
-                                <span>Create New Card</span>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
 
 
 @section CustomCss{
@@ -127,6 +82,13 @@
         .nice-select::after {
             content:'';
             display:none;
+        }
+
+        body{
+            overflow:hidden;
+        }
+        ul{
+            width:100%;
         }
     </style>
 }

@@ -59,60 +59,79 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-
-                        @foreach (var card in Model.Cards)
+                        @if(Model.Cards.Count() > 0)
                         {
-                            <div class="payment-details" style="margin-bottom:20px">
-                                <div class="top-area">
-                                    <h6>Card</h6>
-                                    <div class="right">
-                                        <button class="btn btn-outline-danger" data-toggle="modal"
-                                                data-target="#deleteModal" data-id="@card.Id">
-                                            <i class="fas fa-trash"></i> Delete
-                                        </button>
+                            @foreach (var card in Model.Cards)
+                            {
+                                <div class="payment-details" style="margin-bottom:20px">
+                                    <div class="top-area">
+                                        <h6>Card</h6>
+                                        <div class="right">
+                                            <button class="btn btn-outline-danger" data-toggle="modal"
+                                                    data-target="#deleteModal" data-id="@card.Id">
+                                                <i class="fas fa-trash"></i> Delete
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xxl-8 col-xl-10 col-12">
+                                            <ul class="details-list">
+                                                <li>
+                                                    <span>Card Number</span>
+                                                    <b> @card.Number</b>
+                                                </li>
+                                                <li>
+                                                    <span>Expiration</span>
+                                                    <b>@card.ExpiryDate</b>
+                                                </li>
+                                                <li>
+                                                    <span>Account</span>
+                                                    <b>@card.AccountName</b>
+                                                </li>
+                                                <li>
+                                                    <span>Cardholder name</span>
+                                                    <b>@card.Name</b>
+                                                </li>
+                                                <li>
+                                                    <span>Security code</span>
+                                                    <b>@card.SecurityCode</b>
+                                                </li>
+                                                <li>
+                                                    <span>Card</span>
+                                                    <img src="~/user/assets/images/visa-card.png" alt="image" style="width:100px;margin-top:10px">
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xxl-8 col-xl-10 col-12">
-                                        <ul class="details-list">
-                                            <li>
-                                                <span>Card Number</span>
-                                                <b> @card.Number</b>
-                                            </li>
-                                            <li>
-                                                <span>Expiration</span>
-                                                <b>@card.ExpiryDate</b>
-                                            </li>
-                                            <li>
-                                                <span>Account</span>
-                                                <b>@card.AccountName</b>
-                                            </li>
-                                            <li>
-                                                <span>Cardholder name</span>
-                                                <b>@card.Name</b>
-                                            </li>
-                                            <li>
-                                                <span>Security code</span>
-                                                <b>@card.SecurityCode</b>
-                                            </li>
-                                            <li>
-                                                <span>Card</span>
-                                                <img src="~/user/assets/images/visa-card.png" alt="image" style="width:100px;margin-top:10px">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        }
+                            }
 
+                        }
+                        else
+                        {
+                            <h4 style="margin:30px">No money transfers have been made from this account</h4>
+
+
+                            @section CustomCss{
+                            <style>
+
+                                body {
+                                    overflow: hidden;
+                                }
+                            </style>
+                            }
+                        }
+                       
                     </div>
                 </div>
-                <nav aria-label="Page navigation" class="d-flex justify-content-center mt-40">
+               
                 @if (Model.Cards.Any())
                 {
-                    <partial name="_PaginationPartial" model="@Model.Cards" />
+                    <nav aria-label="Page navigation" class="d-flex justify-content-center mt-40">
+                        <partial name="_PaginationPartial" model="@Model.Cards" />
+                    </nav>
                 }
-                </nav>
+                
 
             </div>
         </div>

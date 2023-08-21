@@ -73,7 +73,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Recent Payments Queue</h4>
+                <h4 class="card-title">Jobs</h4>
                 <p>
                     <a asp-action="Create">Create New</a>
                 </p>
@@ -87,6 +87,7 @@
                                 <th><strong>  @Html.DisplayNameFor(model => model[0].JobTitle)</strong></th>
                                 <th><strong>@Html.DisplayNameFor(model => model[0].JobDescription)</strong></th>
                                 <th><strong>  @Html.DisplayNameFor(model => model[0].JobTime)</strong></th>
+                                <th><strong>  @Html.DisplayNameFor(model => model[0].Experience)</strong></th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -98,6 +99,7 @@
                                     <td> @Html.DisplayFor(modelItem => item.JobTitle)</td>
                                     <td> @Html.DisplayFor(modelItem => item.JobDescription)</td>
                                     <td> @Html.DisplayFor(modelItem => item.JobTime)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.Experience)</td>
                                     <td>
 
                                         <span>

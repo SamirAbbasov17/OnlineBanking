@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BRamSqm37Au/6BxCfdaYRPBBRYLa5Pmao4Wb2UQe8U0=",
+  "Hash": "aL2Ae0IQJMfKLmkCfAz7HsnojP+01bfnkckFatly5jE=",
   "Source": "ECommerceDemo",
   "BasePath": "_content/ECommerceDemo",
   "Mode": "Default",
@@ -8651,6 +8651,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\202309080813_1198418.png"
+    },
+    {
+      "Identity": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\202309080823_ItTakesTwo.jpg",
+      "SourceId": "ECommerceDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\",
+      "BasePath": "_content/ECommerceDemo",
+      "RelativePath": "uploads/202309080823_ItTakesTwo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\202309080823_ItTakesTwo.jpg"
     },
     {
       "Identity": "F:\\FinalProject\\ShopMicroServis\\ShopMicroServis\\ECommerceDemo\\wwwroot\\uploads\\202310080845_download.jpg",

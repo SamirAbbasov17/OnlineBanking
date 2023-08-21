@@ -1,10 +1,12 @@
 ﻿@page
+@using BankSystem.Common;
 @model SendEmailVerificationModel
 
 @{
+    Layout = null;
     ViewData["Title"] = "Send email verification link";
 }
-
+@*
 <div class="container">
     <div class="text-center">
         <div class="text-left">
@@ -29,9 +31,192 @@
             <button type="submit" class="btn btn-primary">Send</button>
         </form>
     </div>
-</div>
+</div>*@
 
 @section Scripts
 {
     <script src="https://www.google.com/recaptcha/api.js"></script>
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from pixner.net/paylio/paylio-v2/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2023 05:15:49 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paylio - Money Transfer and Online Payments HTML Template</title>
+
+    <link rel="stylesheet" href="~/bundle/vendor.min.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/bundle/main.min.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/bank/assets/img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/bank/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/bank/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/bank/assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="~/bank/assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="~/bank/assets/css/custom-family.css">
+    <link rel="stylesheet" href="~/bank/assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="~/bank/assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="~/bank/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <partial name="_CookieConsentPartial" />
+
+
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+    <!-- Register In start -->
+    <section class="log-reg register">
+        <div class="overlay">
+            <div class="container">
+                <div class="top-head-area">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-sm-5 col">
+                            <a class="back-home" href="/Home/Index">
+                                <img src="~/bank/assets/img/left-icon.png" alt="image">
+                                Back To Paylio
+                            </a>
+                        </div>
+                        <div class="col-sm-5 col">
+                            <a href="/Home/Index">
+                                <img src="~/bank/assets/img/logo.png" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5" style="height:650px;">
+                        <div class="img-area">
+                            <img style="max-height:650px !important;" src="~/bank/assets/img/register-illus.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 z-1 text-center d-flex justify-content-center pb-120">
+                        <div class="form-box">
+                            <h4>Send Email Verification Link</h4>
+
+
+                            <p style="margin-bottom:60px;" class="alr-acc dont-acc">Back To <a href="/account/login">Log in Page</a></p>
+
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                                    
+                                    <form style="margin-top:15px" method="post">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="single-input d-flex align-items-center">
+                                                    <input asp-for="Input.Email" placeholder="Email" autocomplete="off" />
+                                                </div>
+                                                <span asp-validation-for="Input.Email" class="mb-3" style="color:red;"></span>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="form-group d-flex flex-row justify-content-center">
+                                            <recaptcha />
+                                            <span asp-validation-for="Recaptcha.ReCaptchaResponse" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="btn-area">
+                                            <button type="submit" class="cmn-btn">Send</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register In end -->
+
+    <script src="~/bank/assets/js/jquery.min.js"></script>
+    <script src="~/bank/assets/js/proper-min.js"></script>
+    <script src="~/bank/assets/js/bootstrap.min.js"></script>
+    <script src="~/bank/assets/js/fontawesome.js"></script>
+    <script src="~/bank/assets/js/plugin/slick.js"></script>
+    <script src="~/bank/assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="~/bank/assets/js/plugin/apexcharts.min.js"></script>
+    <script src="~/bank/assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="~/bank/assets/js/plugin/jquery.countdown.js"></script>
+    <script src="~/bank/assets/js/plugin/wow.min.js"></script>
+    <script src="~/bank/assets/js/plugin/plugin.js"></script>
+    <script src="~/bank/assets/js/main.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script src="~/bundle/vendor.min.js" asp-append-version="true"></script>
+    <script src="~/bundle/main.min.js" asp-append-version="true"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        @if (TempData.ContainsKey(GlobalConstants.TempDataSuccessMessageKey))
+        {
+            <text>
+                toastr.success('@TempData[GlobalConstants.TempDataSuccessMessageKey]');
+            </text>
+        }
+        @if (TempData.ContainsKey(GlobalConstants.TempDataErrorMessageKey))
+        {
+            <text>
+                toastr.error('@TempData[GlobalConstants.TempDataErrorMessageKey]');
+            </text>
+
+        }
+        @if (TempData.ContainsKey("ErrorMessage2"))
+        {
+            <text>
+                toastr.error('@TempData["ErrorMessage2"]');
+            </text>
+        }
+    </script>
+
+</body>
+</html>
+
+

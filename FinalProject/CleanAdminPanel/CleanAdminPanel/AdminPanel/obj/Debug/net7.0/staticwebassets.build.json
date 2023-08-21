@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DvElr+ix7NjCpk3IouoRSnsAek16mpTMh4eOlQU1Ma0=",
+  "Hash": "f/EMJcUljmsKKj/KCHguba4dOGuUi0rbDvB1La8a/ps=",
   "Source": "AdminPanel",
   "BasePath": "_content/AdminPanel",
   "Mode": "Default",
@@ -4267,6 +4267,23 @@
       "OriginalItemSpec": "wwwroot\\Trident\\index.html"
     },
     {
+      "Identity": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\ Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent",
+      "SourceId": "AdminPanel",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\",
+      "BasePath": "_content/AdminPanel",
+      "RelativePath": "uploads/ Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent"
+    },
+    {
       "Identity": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202302080854_background_53876-32171.jpeg",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
@@ -4537,6 +4554,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\202315080826_stylish-modern-dried-flower-arrangement-in-cylindrical-vase-as-home-decoration-3d-rendering-png.jpg"
+    },
+    {
+      "Identity": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf",
+      "SourceId": "AdminPanel",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\",
+      "BasePath": "_content/AdminPanel",
+      "RelativePath": "uploads/202319110836_AbbasovSamirCV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf"
+    },
+    {
+      "Identity": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202324200856_download.jpg",
+      "SourceId": "AdminPanel",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\",
+      "BasePath": "_content/AdminPanel",
+      "RelativePath": "uploads/202324200856_download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\202324200856_download.jpg"
     },
     {
       "Identity": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202331090850_how-to-write-a-blog-post.jpeg",

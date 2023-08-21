@@ -1,5 +1,6 @@
 ﻿@using BankSystem.Web.ViewModels;
 @{
+    int value = 0;
     Layout = "_Layout1";
 }
 
@@ -17,8 +18,7 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb d-flex align-items-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Help</a></li>
+                                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Help Center</li>
                                     </ol>
                                 </nav>
@@ -38,12 +38,6 @@
                             <div class="col-lg-8">
                                 <h2 class="text-uppercase">How can we help you?</h2>
                                 <p class="xlr">Welcome to the Help Centre, where you can find info to help you get started and familiarise yourself with Paylio Global Transfers, or get help with an issue.</p>
-                                <form action="#">
-                                    <div class="search d-flex">
-                                        <input type="email" placeholder="Search for questions or topics...">
-                                        <button class="cmn-btn"><span>Search</span></button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -165,18 +159,20 @@
                         <p>Global Transfers Support team is happy to help you</p>
                     </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
+                       
                         @foreach (var item in Model)
                         {
+                            value++;
                             <div class="accordion-item">
-                                <h6 class="accordion-header" id="flush-headingOne">
+                                <h6 class="accordion-header" id="flush-heading-@value">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                            data-bs-target="#flush-collapse-@value" aria-expanded="false"
                                             aria-controls="flush-collapseOne">
                                         @item.Name
                                     </button>
                                 </h6>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div id="flush-collapse-@value" class="accordion-collapse collapse"
+                                     aria-labelledby="flush-heading-@value" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <p>
                                             <a style="color:black" href="/Helps/HelpDetails/@item.Id">
@@ -188,169 +184,7 @@
                                 </div>
                             </div>
                         }
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                    Can I cancel a payment I sent?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                    What should I do if there is a problem with my Paylio purchase?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                    How do I reset my password if I forgot it?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                        aria-controls="flush-collapseFour">
-                                    How do I add money to my Paylio account?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                        aria-controls="flush-collapseFive">
-                                    How to request a refund?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                        aria-controls="flush-collapseSix">
-                                    How do I save, modify or delete my phone number?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseSeven" aria-expanded="false"
-                                        aria-controls="flush-collapseSeven">
-                                    How can I confirm my bank account?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingEight">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseEight" aria-expanded="false"
-                                        aria-controls="flush-collapseEight">
-                                    How do I transfer money to my bank account?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseEight" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h6 class="accordion-header" id="flush-headingNine">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseNine" aria-expanded="false"
-                                        aria-controls="flush-collapseNine">
-                                    Why is my payment suspended or unavailable?
-                                </button>
-                            </h6>
-                            <div id="flush-collapseNine" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa.
-                                        Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -367,7 +201,7 @@
                     <div class="section-header text-center">
                         <h2 class="title">Need to Contact Us?</h2>
                         <p>Our customer service hours 10:00 a.m. EST - 8 p.m. EST</p>
-                        <a href="contact.html" class="cmn-btn">Contact Us</a>
+                        <a href="/Contacts/Index" class="cmn-btn">Contact Us</a>
                     </div>
                 </div>
             </div>

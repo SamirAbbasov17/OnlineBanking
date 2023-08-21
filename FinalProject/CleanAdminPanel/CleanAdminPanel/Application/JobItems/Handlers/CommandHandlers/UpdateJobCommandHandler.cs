@@ -32,6 +32,7 @@ namespace Application.JobItems.Handlers.CommandHandlers
                     JobDescription = Job.JobDescription,
                     JobTitle = Job.JobTitle,
                     JobTime = Job.JobTime,
+                    Experience = Job.Experience,
                     JobRequirementList = requirement
                 };
             }
@@ -41,6 +42,7 @@ namespace Application.JobItems.Handlers.CommandHandlers
             updateProduct.JobDescription = request.JobDescription;
             updateProduct.JobTitle = request.JobTitle;
             updateProduct.JobTime = request.JobTime;
+            updateProduct.Experience = request.Experience;
             var req = _context.JobRequirements.Where(p => p.JobId == request.Id);
             foreach (var item in req)
             {

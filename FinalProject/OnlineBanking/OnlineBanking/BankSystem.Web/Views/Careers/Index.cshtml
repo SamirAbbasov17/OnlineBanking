@@ -2,7 +2,10 @@
 @{
     Layout = "_Layout1";
 }
-@model List<JobVM>
+@{
+    var isTrue = ViewBag.Success;
+}
+@model JobPageVM
 
 
 <!-- banner-section start -->
@@ -17,8 +20,7 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb d-flex align-items-center">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>
+                                        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Careers</li>
                                     </ol>
                                 </nav>
@@ -222,19 +224,20 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                         <div class="row">
-                            @foreach (var item in Model)
+                            
+                            @foreach (var item in Model.VMs)
                             {
                                 <div class="col-lg-6">
                                     <div class="single-item">
                                         <h5>@item.JobName</h5>
-                                        <P class="xlr">Experience: 6-9 Years</P>
+                                        <P class="xlr">Experience: @item.Experience</P>
                                         <div class="bottom-area d-flex justify-content-between">
                                             <div class="left-bottom d-flex align-items-center">
                                                 <span>
                                                     <img src="~/bank/assets/img/clock-icon.png" alt="image">
                                                     @item.JobTime
                                                 </span>
-                                                <span class="date">April 7, 2021</span>
+                                                <span class="date">@item.Created</span>
                                             </div>
                                             <div class="right-bottom">
                                                 <a href="/Careers/Position/@item.Id">Explore more</a>
@@ -242,218 +245,99 @@
                                         </div>
                                     </div>
                                 </div>
-                            }
-                          
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Technical Success Lead Consultant</h5>
-                                    <P class="xlr">Experience: 5 - 7 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">May 17, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Digital Marketing Lead</h5>
-                                    <P class="xlr">Experience: 6 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">February 15, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Fresh Graduates – DevOps Engineer</h5>
-                                    <P class="xlr">Experience: 7 - 8 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">June 12, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>UI/UX and Product Designer</h5>
-                                    <P class="xlr">Experience: 5 - 7 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">July 11, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Finance Analyst</h5>
-                                    <P class="xlr">Experience: 7 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">March 9, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              
+                               
+                            }            
                         </div>
                     </div>
                     <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>UI/UX and Product Designer</h5>
-                                    <P class="xlr">Experience: 5 - 7 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">July 11, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
+
+                            @foreach (var item in Model.VMs)
+                            {
+                                @if (item.JobTitle == "design")
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-item">
+                                            <h5>@item.JobName</h5>
+                                            <P class="xlr">Experience: @item.Experience</P>
+                                            <div class="bottom-area d-flex justify-content-between">
+                                                <div class="left-bottom d-flex align-items-center">
+                                                    <span>
+                                                        <img src="~/bank/assets/img/clock-icon.png" alt="image">
+                                                        @item.JobTime
+                                                    </span>
+                                                    <span class="date">@item.Created</span>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="/Careers/Position/@item.Id">Explore more</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                }
+
+                            }
                         </div>
                     </div>
                     <div class="tab-pane fade" id="development" role="tabpanel" aria-labelledby="development-tab">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Junior Frontend Developer</h5>
-                                    <P class="xlr">Experience: 6 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">April 7, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Fresh Graduates – DevOps Engineer</h5>
-                                    <P class="xlr">Experience: 7 - 8 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">June 12, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
+
+                            @foreach (var item in Model.VMs)
+                            {
+                                @if (item.JobTitle == "development")
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-item">
+                                            <h5>@item.JobName</h5>
+                                            <P class="xlr">Experience: @item.Experience</P>
+                                            <div class="bottom-area d-flex justify-content-between">
+                                                <div class="left-bottom d-flex align-items-center">
+                                                    <span>
+                                                        <img src="~/bank/assets/img/clock-icon.png" alt="image">
+                                                        @item.JobTime
+                                                    </span>
+                                                    <span class="date">@item.Created</span>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="/Careers/Position/@item.Id">Explore more</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                }
+
+                            }
                         </div>
                     </div>
                     <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Technical Success Lead Consultant</h5>
-                                    <P class="xlr">Experience: 5 - 7 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">May 17, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Digital Marketing Lead</h5>
-                                    <P class="xlr">Experience: 6 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">February 15, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
+
+                            @foreach (var item in Model.VMs)
+                            {
+                                @if (item.JobTitle == "business")
+                                {
+                                    <div class="col-lg-6">
+                                        <div class="single-item">
+                                            <h5>@item.JobName</h5>
+                                            <P class="xlr">Experience: @item.Experience</P>
+                                            <div class="bottom-area d-flex justify-content-between">
+                                                <div class="left-bottom d-flex align-items-center">
+                                                    <span>
+                                                        <img src="~/bank/assets/img/clock-icon.png" alt="image">
+                                                        @item.JobTime
+                                                    </span>
+                                                    <span class="date">@item.Created</span>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="/Careers/Position/@item.Id">Explore more</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="single-item">
-                                    <h5>Finance Analyst</h5>
-                                    <P class="xlr">Experience: 7 - 9 Years</P>
-                                    <div class="bottom-area d-flex justify-content-between">
-                                        <div class="left-bottom d-flex align-items-center">
-                                            <span>
-                                                <img src="~/bank/assets/img/clock-icon.png" alt="image">
-                                                Full Time
-                                            </span>
-                                            <span class="date">March 9, 2021</span>
-                                        </div>
-                                        <div class="right-bottom">
-                                            <a href="open-positions.html">Explore more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                }
+
+                            }
                         </div>
                     </div>
                 </div>
@@ -491,47 +375,53 @@
                                                         <div class="col-lg-12">
                                                             <div class="main-content">
                                                                 <h2>Apply for Digital Marketing Lead</h2>
-                                                                <form class="form">
+                                                                <form class="form" method="post" asp-action="JobApplyFromIndex" enctype="multipart/form-data">
+                                                                  
                                                                     <div class="row top-area">
                                                                         <div class="col-sm-6">
                                                                             <div class=" single-input d-flex align-items-center">
                                                                                 <div class="input-control">
-                                                                                    <input type="number" class="input-field" placeholder="Name">
-                                                                                    <label class="input-label">Name</label>
+                                                                                    <input asp-for="@Model.ApplicationVM.Name" class="input-field" placeholder="Name">
+                                                                                    <label asp-for="@Model.ApplicationVM.Name" class="input-label"></label>
+                                                                                    <span asp-validation-for="@Model.ApplicationVM.Name" class="text-danger"></span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-6">
                                                                             <div class=" single-input d-flex align-items-center">
                                                                                 <div class="input-control">
-                                                                                    <input type="number" class="input-field" placeholder="Mobile number">
-                                                                                    <label class="input-label">Mobile number</label>
+                                                                                    <input asp-for="@Model.ApplicationVM.Phone" class="input-field" placeholder="Phone">
+                                                                                    <label asp-for="@Model.ApplicationVM.Phone" class="input-label"></label>
+                                                                                    <span asp-validation-for="@Model.ApplicationVM.Phone" class="text-danger"></span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-6">
                                                                             <div class=" single-input d-flex align-items-center">
                                                                                 <div class="input-control">
-                                                                                    <input type="number" class="input-field" placeholder="Email Address">
-                                                                                    <label class="input-label">Email Address</label>
+                                                                                    <input asp-for="@Model.ApplicationVM.Email" class="input-field" placeholder="Email">
+                                                                                    <label asp-for="@Model.ApplicationVM.Email" class="input-label"></label>
+                                                                                    <span asp-validation-for="@Model.ApplicationVM.Email" class="text-danger"></span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-6">
                                                                             <div class=" single-input d-flex align-items-center">
                                                                                 <div class="input-control">
-                                                                                    <input type="number" class="input-field" placeholder="Linkedin Profile">
-                                                                                    <label class="input-label">Linkedin Profile</label>
+                                                                                    <input asp-for="@Model.ApplicationVM.Linkedin" class="input-field" placeholder="Linkedin">
+                                                                                    <label asp-for="@Model.ApplicationVM.Linkedin" class="input-label"></label>
+                                                                                    <span asp-validation-for="@Model.ApplicationVM.Linkedin" class="text-danger"></span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="upload-req">
                                                                         <label for="attach"><span class="smr">Attach Resume</span></label>
-                                                                        <input type="file" id="attach">
-                                                                        <span class="smr">You can attach files of size up to 5 MB</span>
+                                                                        <input asp-for="@Model.ApplicationVM.Cv" id="attach">
+                                                                        <span class="smr">You can attach files of size up to 5 MB (PDF Only)</span>
+                                                                        <span asp-validation-for="@Model.ApplicationVM.Cv" class="text-danger"></span>
                                                                     </div>
-                                                                    <button class="cmn-btn">Get started</button>
+                                                                    <button type="submit" class="cmn-btn">Get started</button>
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -549,3 +439,28 @@
         </div>
     </div>
 </section>
+
+
+
+
+@section JS
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+
+        @if (isTrue == "true")
+    {
+        <text>
+            toastr.success('Müraciətiniz qəbul olundu');
+        </text>
+    }
+    else if (isTrue == "false")
+    {
+        <text>
+            toastr.error('CV-niz təsdiqlənən zaman xəta baş verdi. Xahiş olunur düzgün məlumat girdiyinizdən əmin olun');
+        </text>
+    }   
+    </script>
+
+}
+   

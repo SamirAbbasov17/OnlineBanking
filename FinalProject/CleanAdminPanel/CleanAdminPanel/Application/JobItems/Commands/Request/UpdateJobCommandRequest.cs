@@ -17,6 +17,7 @@ namespace Application.JobItems.Commands.Request
         public string JobTitle { get; set; }
         public string JobDescription { get; set; }
         public string JobTime { get; set; }
+        public string? Experience { get; set; }
         public List<JobRequirement>? JobRequirementList { get; set; }
     }
 }

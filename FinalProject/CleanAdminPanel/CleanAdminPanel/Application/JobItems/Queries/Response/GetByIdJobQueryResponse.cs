@@ -14,6 +14,8 @@ namespace Application.JobItems.Queries.Response
         public string JobTitle { get; set; }
         public string JobDescription { get; set; }
         public string JobTime { get; set; }
+        public string? Experience { get; set; }
+        public DateTime? Created { get; set; }
         public List<JobRequirement>? JobRequirementList { get; set; }
     }
 }

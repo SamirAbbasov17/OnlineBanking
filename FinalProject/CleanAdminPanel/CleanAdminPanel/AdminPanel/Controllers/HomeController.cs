@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AdminPanel.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace AdminPanel.Controllers
@@ -8,15 +10,22 @@ namespace AdminPanel.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        HttpClientHandler clientHandler;
+        HttpClient client;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+            client = new HttpClient(clientHandler);
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var responseMessage = await client.GetStringAsync("https://localhost:51612/api/Values");
+            var valuesVM = JsonConvert.DeserializeObject<List<ValuesVM>>(responseMessage);
+            return View(valuesVM);
         }
 
         public IActionResult Privacy()

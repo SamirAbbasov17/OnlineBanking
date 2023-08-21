@@ -997,6 +997,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\ Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent",
+      "PackagePath": "staticwebassets\\uploads\\ Microsoft.AspNetCore.Mvc.ViewFeatures.StringHtmlContent"
+    },
+    {
       "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202302080854_background_53876-32171.jpeg",
       "PackagePath": "staticwebassets\\uploads\\202302080854_background_53876-32171.jpeg"
     },
@@ -1059,6 +1063,14 @@
     {
       "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202315080826_stylish-modern-dried-flower-arrangement-in-cylindrical-vase-as-home-decoration-3d-rendering-png.jpg",
       "PackagePath": "staticwebassets\\uploads\\202315080826_stylish-modern-dried-flower-arrangement-in-cylindrical-vase-as-home-decoration-3d-rendering-png.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202319110836_AbbasovSamirCV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\202319110836_AbbasovSamirCV.pdf"
+    },
+    {
+      "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202324200856_download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\202324200856_download.jpg"
     },
     {
       "Id": "F:\\FinalProject\\CleanAdminPanel\\CleanAdminPanel\\AdminPanel\\wwwroot\\uploads\\202331090850_how-to-write-a-blog-post.jpeg",

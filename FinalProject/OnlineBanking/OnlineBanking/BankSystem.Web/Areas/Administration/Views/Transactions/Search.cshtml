@@ -2,7 +2,7 @@
     ViewData["Title"] = "Look up transaction";
     ViewData["Active6"] = "active";
 }
-
+@*
 <div class="container">
     <div class="text-center w-md-75 w-lg-50 mx-auto my-4">
         <h2>@ViewData["Title"]</h2>
@@ -17,3 +17,27 @@
         </form>
     </div>
 </div>
+
+
+
+
+*@
+
+
+
+<section class="dashboard-section body-collapse pay step">
+    <div class="overlay pt-120">
+        <div class="container-fruid">
+            <div class="main-content">
+                <h4>Look up Transaction</h4>
+                <form method="get" asp-action="Result" asp-controller="Transactions" class="flex-fill">
+                    <div class="form-group d-flex align-items-center">
+                        <input style="width:48px;height:35px;" type="image" src="~/user/assets/images/icon/search.png" alt="icon">
+                        <input type="text" required class="form-control" name="referenceNumber" placeholder="Reference Number">
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+</section>

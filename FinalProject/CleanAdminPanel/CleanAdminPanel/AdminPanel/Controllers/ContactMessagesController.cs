@@ -47,62 +47,62 @@ namespace AdminPanel.Controllers
             return View(ContactMessage);
         }
 
-        // GET: ContactMessages/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+        //// GET: ContactMessages/Create
+        //public IActionResult Create()
+        //{
+        //    return View();
+        //}
 
-        // POST: ContactMessages/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(CreateContactMessageCommandRequest requestModel)
-        {
+        //// POST: ContactMessages/Create
+        //// To protect from overposting attacks, enable the specific properties you want to bind to.
+        //// For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create(CreateContactMessageCommandRequest requestModel)
+        //{
 
-            if (ModelState.IsValid)
-            {
-                CreateContactMessageCommandResponse response = await _mediator.Send(requestModel);
+        //    if (ModelState.IsValid)
+        //    {
+        //        CreateContactMessageCommandResponse response = await _mediator.Send(requestModel);
 
-            }
-            return RedirectToAction("Index");
-        }
+        //    }
+        //    return RedirectToAction("Index");
+        //}
 
-        // GET: ContactMessages/Edit/5
-        public async Task<IActionResult> Edit(UpdateContactMessageCommandRequest requestModel)
-        {
-            UpdateContactMessageCommandResponse ContactMessage = await _mediator.Send(requestModel);
-            if (ContactMessage == null)
-            {
-                return NotFound();
-            }
-            ModelState.Clear();
-            return View(ContactMessage);
-        }
+        //// GET: ContactMessages/Edit/5
+        //public async Task<IActionResult> Edit(UpdateContactMessageCommandRequest requestModel)
+        //{
+        //    UpdateContactMessageCommandResponse ContactMessage = await _mediator.Send(requestModel);
+        //    if (ContactMessage == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    ModelState.Clear();
+        //    return View(ContactMessage);
+        //}
 
-        // POST: ContactMessages/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(UpdateContactMessageCommandRequest requestModel, int a)
-        {
-            UpdateContactMessageCommandResponse response = new();
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    response = await _mediator.Send(requestModel);
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    throw;
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(response);
-        }
+        //// POST: ContactMessages/Edit/5
+        //// To protect from overposting attacks, enable the specific properties you want to bind to.
+        //// For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Edit(UpdateContactMessageCommandRequest requestModel, int a)
+        //{
+        //    UpdateContactMessageCommandResponse response = new();
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            response = await _mediator.Send(requestModel);
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            throw;
+        //        }
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(response);
+        //}
 
         // GET: ContactMessages/Delete/5
         public async Task<IActionResult> Delete(GetByIdContactMessageQueryRequest requestModel)

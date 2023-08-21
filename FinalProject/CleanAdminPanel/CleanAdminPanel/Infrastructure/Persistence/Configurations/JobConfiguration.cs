@@ -25,6 +25,9 @@ namespace Infrastructure.Persistence.Configurations
             builder.Property(t => t.JobDescription)
                .IsRequired();
 
+            builder.Property(t => t.Experience)
+              .IsRequired(false);
+
             base.Configure(builder);
         }
     }
