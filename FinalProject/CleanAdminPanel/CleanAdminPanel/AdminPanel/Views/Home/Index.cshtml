@@ -217,49 +217,54 @@
 
 @section Js{
 	<script>
-		Chart.defaults.global.defaultFontColor = 'white';
+		function GetJSON_Simple() {
+			var resp = [];
+			$.ajax({
+				type: "GET",
+				url: '/Home/Chart',
+				async: false,
+				contentType: "application/json",
+				success: function (data) {
+					resp.push(data);
+				},
+				error: function (req, status, error) {
+					// do something with error
+					alert("error");
+				}
+			});
+			return resp;
+		}
+
+		var simpleData = GetJSON_Simple();
+		var arr1 = [];
+		simpleData[0].userAccount.forEach(inF);
+		function inF() {
+			arr1.push(1);
+		}
+		var arr2 = [];
+		simpleData[0].userUsers.forEach(inF1);
+		function inF1() {
+			arr2.push(1);
+		}
+
+		var userAccounts = simpleData[0].userAccount;
+		var userBalances = simpleData[0].userBalance;
+
 		const ctx1 = document.getElementById('myAreaChart');
 
 		new Chart(ctx1, {
 			type: 'line',
 			data: {
-				defaultFontFamily: 'Poppins',
-				labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+				labels: userAccounts, // Doğru etiket dizisi
 				datasets: [{
 					label: 'My First Dataset',
-					data: [65, 59, 80, 81, 56, 55, 40],
+					data: userBalances, // Doğru veri dizisi
 					fill: false,
 					borderColor: 'rgb(75, 192, 192)',
 					tension: 0.1
 				}]
 			},
-			options: {
-				legend: false,
-				scales: {
-					yAxes: [{
-						ticks: {
-							beginAtZero: true,
-							max: 100,
-							min: 0,
-							stepSize: 20,
-							padding: 5,
-							fontColor: '#ffffff',
-						},
-						gridLines: {
-							color: "rgba(255, 255, 255, 0.1)"
-						}
-					}],
-					xAxes: [{
-						ticks: {
-							padding: 5,
-							fontColor: '#ffffff',
-						},
-						gridLines: {
-							color: "rgba(255, 255, 255, 0.1)"
-						}
-					}]
-				}
-			}
+			options: { legend: false, scales: { yAxes: [{ ticks: { fontColor: '#ffffff', }, gridLines: { color: "rgba(255, 255, 255, 0.1)" } }], xAxes: [{ ticks: {fontColor: '#ffffff', }, gridLines: { color: "rgba(255, 255, 255, 0.1)" } }] } }
 		});
 		
 
@@ -271,9 +276,10 @@
 		new Chart(ctx, {
 			type: 'doughnut',
 			data: {
+				labels: simpleData[0].userAccount,
 				datasets: [{
 					label: 'My First Dataset',
-					data: [300, 50, 100],
+					data: arr1,
 					backgroundColor: [
 						'rgb(185, 91, 239)',
 						'rgb(54, 162, 235)',
@@ -284,7 +290,10 @@
 			},
 			options: {
 				responsive: true,
-				maintainAspectRatio: false
+				maintainAspectRatio: false,
+				legend: {
+					display: false
+				}
 			}
 		});
 
@@ -296,9 +305,10 @@
 		new Chart(ctx2, {
 			type: 'pie',
 			data: {
+				labels: simpleData[0].userUsers,
 				datasets: [{
 					label: 'My First Dataset',
-					data: [300, 50, 100],
+					data: arr2,
 					backgroundColor: [
 						'rgb(185, 91, 239)',
 						'rgb(54, 162, 235)',
@@ -309,7 +319,10 @@
 			},
 			options: {
 				responsive: true,
-				maintainAspectRatio: false
+				maintainAspectRatio: false,
+				legend: {
+					display: false
+				}
 			}
 		});
 

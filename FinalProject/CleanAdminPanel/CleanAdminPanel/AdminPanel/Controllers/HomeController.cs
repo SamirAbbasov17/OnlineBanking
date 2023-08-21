@@ -1,8 +1,10 @@
 ﻿using AdminPanel.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AdminPanel.Controllers
 {
@@ -27,8 +29,20 @@ namespace AdminPanel.Controllers
             var valuesVM = JsonConvert.DeserializeObject<List<ValuesVM>>(responseMessage);
             return View(valuesVM);
         }
+		public async Task<IActionResult> Chart()
+		{
+			var responseMessage = await client.GetStringAsync("https://localhost:51612/api/Values");
+			var valuesVM = JsonConvert.DeserializeObject<List<ValuesVM>>(responseMessage);
+            var balance = valuesVM
+			.Select(x => x.Balance).ToArray();
+			var users = valuesVM
+		   .Select(x => x.UserUserName).Distinct().ToArray();
+			var accounts = valuesVM
+		   .Select(x => x.Name).ToArray();
 
-        public IActionResult Privacy()
+			return new JsonResult(new { userBalance = balance, userUsers = users, userAccount = accounts  });
+		}
+		public IActionResult Privacy()
         {
             return View();
         }
